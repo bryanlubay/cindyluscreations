@@ -1,10 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './images/logo.JPG'
 import './App.css';
 
 function App() {
   return (
-        <div>
+        <div style={{ backgroundImage: `url(${logo})` }}>
         <h1>Welcome to Cindylu's Creations!</h1>
         <a> <h2>About me</h2 ></a>
         <a> <h2>Gallery</h2> </a>
