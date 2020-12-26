@@ -41,4 +41,9 @@
 
 .background {
   background-color: #89cff0;
+  text-align: center;
+}
+
+.menu {
+  text-align: center;
 }

@@ -5,7 +5,7 @@ function App() {
   return (
         <div className="background">
         <h1>Welcome to Cindylus Creations!</h1>
-        <p>Custom    Disney    Las Vegas Golden Knights    Las Vegas Raiders    Los Angeles Dodgers    Los Angeles Lakers    New Years 2021</p>
+        <p className="menu">Custom &nbsp   Disney &nbsp   Las Vegas Golden Knights &nbsp   Las Vegas Raiders &nbsp   Los Angeles Dodgers &nbsp   Los Angeles Lakers &nbsp   New Years 2021</p>
 
 
         </div>
