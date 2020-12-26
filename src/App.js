@@ -6,7 +6,7 @@ function App() {
   return (
         <div className="background">
         <h1>Welcome to Cindylu's Creations!</h1>
-
+        <p>Disney   Las Vegas Raiders   Las Vegas Golden Knights  Los Angeles Dodgers   Los Angeles Lakers    Custom</p>
 
 
         </div>
