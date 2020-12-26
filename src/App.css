@@ -39,3 +39,7 @@
   }
 }
 
+.background {
+  background-image: url(./images/logo.JPG);
+  height: 100%;
+}
