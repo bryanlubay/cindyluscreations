@@ -10,7 +10,7 @@ function App() {
 
         <InstagramEmbed
   url='https://www.instagr.am/p/CA3aDJ7HlTE/'
-  clientAccessToken='2773387559567711|7b92eca82ac6b6da7155723fb10018e2'
+  clientAccessToken='2773387559567711|9242a87ecc98fb887d655b0e5c7d912f'
   maxWidth={320}
   hideCaption={false}
   containerTagName='div'
