@@ -13,13 +13,6 @@ function App() {
   clientAccessToken='2773387559567711|9242a87ecc98fb887d655b0e5c7d912f'
   maxWidth={320}
   hideCaption={false}
-  containerTagName='div'
-  protocol=''
-  injectScript
-  onLoading={() => {}}
-  onSuccess={() => {}}
-  onAfterRender={() => {}}
-  onFailure={() => {}}
 />
         
      </div>
