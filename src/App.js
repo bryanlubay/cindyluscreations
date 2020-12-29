@@ -22,8 +22,8 @@ function App() {
         <NavDropdown.Item href="#action/3.2">Las Vegas Raiders</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.3">Los Angeles Dodgers</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.3">Los Angeles Lakers</NavDropdown.Item>
-        {/* <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item> */}
+        <NavDropdown.Divider />
+        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
       </NavDropdown>
     </Nav>
   </Navbar.Collapse>
