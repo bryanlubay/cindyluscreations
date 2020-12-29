@@ -1,5 +1,5 @@
 import InstagramEmbed from 'react-instagram-embed';
-import Navbar from 'react-bootstrap'
+import Navbar from 'react-bootstrap/Navbar'
 import React from 'react';
 import './App.css';
 
