@@ -1,8 +1,8 @@
 import InstagramEmbed from 'react-instagram-embed';
-import Navbar from 'react-bootstrap/Navbar'
+// import  from 'react-bootstrap/Navbar'
 import React from 'react';
 import './App.css';
-import {Nav, NavDropdown}  from 'react-bootstrap/Nav';
+import {Nav, NavDropdown, Navbar}  from 'react-bootstrap/Navbar';
 
 function App() {
   return (
