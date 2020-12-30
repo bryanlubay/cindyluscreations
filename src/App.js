@@ -2,14 +2,14 @@ import InstagramEmbed from 'react-instagram-embed';
 // import  from 'react-bootstrap/Navbar'
 import React from 'react';
 import './App.css';
-import {Nav, NavDropdown, Navbar}  from 'react-bootstrap';
+import {Nav, NavDropdown, Navbar, Container}  from 'react-bootstrap';
 
 function App() {
   return (
         <div className="background">
         <h1>Welcome to Cindylus Creations!</h1>
         {/* <p className="menu"><b className="menu-item">Custom</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b className="menu-item">Disney</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b className="menu-item">Movies</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b className="menu-item">Music</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b className="menu-item">New Years 2021</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b className="menu-item">Sports</b></p> */}
-
+<Container>
         <Navbar fixed="top" bg="light" expand="lg">
   <Navbar.Brand href="https://cindylus-creations.herokuapp.com/">Cindylus Creations</Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -28,7 +28,7 @@ function App() {
     </Nav>
   </Navbar.Collapse>
 </Navbar>
-
+</Container>
 
         <InstagramEmbed
   url='https://www.instagr.am/p/CA3aDJ7HlTE/'
