@@ -111,9 +111,12 @@ function App() {
   </Carousel.Item>
 </Carousel>
 
+    <Router>
     <Switch>
     {/* <Route exact path = '/' render = {renderLandingPage} /> */}
     </Switch>
+
+    </Router>
 
 
   {/* <InstagramEmbed
