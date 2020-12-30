@@ -7,6 +7,7 @@ import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 import Button from 'react-bootstrap/Button'
 import Carousel from 'react-bootstrap/Carousel'
+import logo from './images/logo.JPG'
 
 function App() {
   document.title = "Cindylus Creations"
@@ -53,7 +54,7 @@ function App() {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="../src/images/logo.JPG"
+      src={logo}
       alt="First slide"
     />
     <Carousel.Caption>
@@ -64,7 +65,7 @@ function App() {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="../src/images/logo.JPG"
+      src={logo}
       alt="Third slide"
     />
 
@@ -76,7 +77,7 @@ function App() {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="../src/images/logo.JPG"
+      src={logo}
       alt="Third slide"
     />
 
