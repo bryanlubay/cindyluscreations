@@ -53,7 +53,7 @@ function App() {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="'../src/images/logo.JPG"
+      src="../src/images/logo.JPG"
       alt="First slide"
     />
     <Carousel.Caption>
@@ -64,7 +64,7 @@ function App() {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="'../src/images/logo.JPG"
+      src="../src/images/logo.JPG"
       alt="Third slide"
     />
 
@@ -76,7 +76,7 @@ function App() {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="'../src/images/logo.JPG"
+      src="../src/images/logo.JPG"
       alt="Third slide"
     />
 
