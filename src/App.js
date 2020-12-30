@@ -21,51 +21,51 @@ function App() {
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="mr-auto">
         <Nav.Link href="https://cindylus-creations.herokuapp.com/">Home</Nav.Link>
-        <Nav.Link href="#link">About Me</Nav.Link>
-        <Nav.Link href="#link">Contact</Nav.Link>
-        <Nav.Link href="#link">Custom</Nav.Link>
+        <Nav.Link href="/about_me">About Me</Nav.Link>
+        <Nav.Link href="/contact">Contact</Nav.Link>
+        <Nav.Link href="/custom">Custom</Nav.Link>
         <NavDropdown title="Animals" id="basic-nav-dropdown">
-          <NavDropdown.Item href="#action/3.1">Birds</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.1">Dogs</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.1">Penguins</NavDropdown.Item>
+          <NavDropdown.Item href="/animals">Birds</NavDropdown.Item>
+          <NavDropdown.Item href="/animals">Dogs</NavDropdown.Item>
+          <NavDropdown.Item href="/animals">Penguins</NavDropdown.Item>
         </NavDropdown>
         <NavDropdown title="Disney" id="basic-nav-dropdown">
-          <NavDropdown.Item href="#action/3.1">Ariel</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.1">Belle</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.1">Cinderella</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.1">Coco</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.1">Dumbo</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.1">Grogu (Baby Yoda)</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.1">Groot</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.1">Jasmine</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.1">Micky Mouse</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.1">Minnie Mouse</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.1">Stitch</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.1">Winnie the Pooh</NavDropdown.Item>
+          <NavDropdown.Item href="/disney">Ariel</NavDropdown.Item>
+          <NavDropdown.Item href="/disney">Belle</NavDropdown.Item>
+          <NavDropdown.Item href="/disney">Cinderella</NavDropdown.Item>
+          <NavDropdown.Item href="/disney">Coco</NavDropdown.Item>
+          <NavDropdown.Item href="/disney">Dumbo</NavDropdown.Item>
+          <NavDropdown.Item href="/disney">Grogu (Baby Yoda)</NavDropdown.Item>
+          <NavDropdown.Item href="/disney">Groot</NavDropdown.Item>
+          <NavDropdown.Item href="/disney">Jasmine</NavDropdown.Item>
+          <NavDropdown.Item href="/disney">Micky Mouse</NavDropdown.Item>
+          <NavDropdown.Item href="/disney">Minnie Mouse</NavDropdown.Item>
+          <NavDropdown.Item href="/disney">Stitch</NavDropdown.Item>
+          <NavDropdown.Item href="/disney">Winnie the Pooh</NavDropdown.Item>
         </NavDropdown>
         <NavDropdown title="Movies" id="basic-nav-dropdown">
-          <NavDropdown.Item href="#action/3.1">Jurassic Park</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.1">Transformers</NavDropdown.Item>
+          <NavDropdown.Item href="/movies">Jurassic Park</NavDropdown.Item>
+          <NavDropdown.Item href="/movies">Transformers</NavDropdown.Item>
         </NavDropdown>
         <NavDropdown title="Music" id="basic-nav-dropdown">
-          <NavDropdown.Item href="#action/3.1">Bad Bunny</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.1">Billie Ellish</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.1">Ice Cube</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.1">Selena</NavDropdown.Item>
+          <NavDropdown.Item href="/music">Bad Bunny</NavDropdown.Item>
+          <NavDropdown.Item href="/music">Billie Ellish</NavDropdown.Item>
+          <NavDropdown.Item href="/music">Ice Cube</NavDropdown.Item>
+          <NavDropdown.Item href="/music">Selena</NavDropdown.Item>
         </NavDropdown>
         <NavDropdown title="Nature" id="basic-nav-dropdown">
-          <NavDropdown.Item href="#action/3.1">Flowers</NavDropdown.Item>
+          <NavDropdown.Item href="/flowers">Flowers</NavDropdown.Item>
         </NavDropdown>
         <NavDropdown title="TV" id="basic-nav-dropdown">
-          <NavDropdown.Item href="#action/3.1">Stranger Things</NavDropdown.Item>
+          <NavDropdown.Item href="/tv">Stranger Things</NavDropdown.Item>
         </NavDropdown>
 
         <Nav.Link href="#link">Valentine's Day</Nav.Link>
         <NavDropdown title="Sports" id="basic-nav-dropdown">
-          <NavDropdown.Item href="#action/3.1">Las Vegas Golden Knights</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">Las Vegas Raiders</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.3">Los Angeles Dodgers</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.3">Los Angeles Lakers</NavDropdown.Item>
+          <NavDropdown.Item href="/sports">Las Vegas Golden Knights</NavDropdown.Item>
+          <NavDropdown.Item href="/sports">Las Vegas Raiders</NavDropdown.Item>
+          <NavDropdown.Item href="/sports">Los Angeles Dodgers</NavDropdown.Item>
+          <NavDropdown.Item href="/sports">Los Angeles Lakers</NavDropdown.Item>
         </NavDropdown>
       </Nav>
     </Navbar.Collapse>
@@ -114,17 +114,17 @@ function App() {
     <Router>
       <Switch>
       {/* <Route exact path = '/' render = {renderLandingPage} /> */}
-      <Route exact path = '/about_me'  />
-      <Route exact path = '/contact'  />
-      <Route exact path = '/custom'  />
-      <Route exact path = '/animals'  />
-      <Route exact path = '/disney'  />
-      <Route exact path = '/movies'  />
-      <Route exact path = '/music'  />
-      <Route exact path = '/nature'  />
-      <Route exact path = '/tv'  />
-      <Route exact path = '/valentines_day'  />
-      <Route exact path = '/sports'  />
+      <Route path = '/about_me'  />
+      <Route path = '/contact'  />
+      <Route path = '/custom'  />
+      <Route path = '/animals'  />
+      <Route path = '/disney'  />
+      <Route path = '/movies'  />
+      <Route path = '/music'  />
+      <Route path = '/nature'  />
+      <Route path = '/tv'  />
+      <Route path = '/valentines_day'  />
+      <Route path = '/sports'  />
       </Switch>
 
     </Router>
