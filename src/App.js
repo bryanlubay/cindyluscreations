@@ -8,6 +8,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown'
 import Button from 'react-bootstrap/Button'
 
 function App() {
+  document.title = "Cindylus Creations"
   return (
         <div className="background">
   <Container>
