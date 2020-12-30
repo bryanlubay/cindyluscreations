@@ -14,6 +14,9 @@ function App() {
   document.title = "Cindylus Creations"
   return (
         <div className="background">
+          <body className="body">
+
+          </body>
   <Container>
           <Navbar fixed="top" bg="light" expand="lg">
     <Navbar.Brand href="https://cindylus-creations.herokuapp.com/">Cindylus Creations</Navbar.Brand>
