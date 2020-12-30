@@ -5,6 +5,7 @@ import InstagramEmbed from 'react-instagram-embed';
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown'
+import Button from 'react-bootstrap/Button'
 
 function App() {
   return (
@@ -29,7 +30,7 @@ function App() {
     </Navbar.Collapse>
   </Navbar>
   </Container>
-
+    <Button>WTF</Button>
   {/* <InstagramEmbed
   url='https://www.instagr.am/p/CA3aDJ7HlTE/'
   clientAccessToken='824595361729122|1e7b57740da098e528aa20e8ea739d21'
