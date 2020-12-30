@@ -1,8 +1,8 @@
-import InstagramEmbed from 'react-instagram-embed';
 import React from 'react';
 import './App.css';
-import Navbar from 'react-bootstrap/Navbar'
 import Container from 'react-bootstrap/Container'
+import InstagramEmbed from 'react-instagram-embed';
+import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 
@@ -30,7 +30,7 @@ function App() {
   </Navbar>
   </Container>
 
-  <InstagramEmbed
+  {/* <InstagramEmbed
   url='https://www.instagr.am/p/CA3aDJ7HlTE/'
   clientAccessToken='824595361729122|1e7b57740da098e528aa20e8ea739d21'
   maxWidth={320}
@@ -43,7 +43,7 @@ function App() {
   onAfterRender={() => {}}
   onFailure={() => {}}
 
-/>
+/> */}
         
      </div>
      
