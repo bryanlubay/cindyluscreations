@@ -25,9 +25,9 @@ function App() {
         <Nav.Link href="/contact">Contact</Nav.Link>
         <Nav.Link href="/custom">Custom</Nav.Link>
         <NavDropdown title="Animals" id="basic-nav-dropdown">
-          <NavDropdown.Item href="/animals">Birds</NavDropdown.Item>
-          <NavDropdown.Item href="/animals">Dogs</NavDropdown.Item>
-          <NavDropdown.Item href="/animals">Penguins</NavDropdown.Item>
+          <NavDropdown.Item href="/animals#birds">Birds</NavDropdown.Item>
+          <NavDropdown.Item href="/animals#dogs">Dogs</NavDropdown.Item>
+          <NavDropdown.Item href="/animals#penguins">Penguins</NavDropdown.Item>
         </NavDropdown>
         <NavDropdown title="Disney" id="basic-nav-dropdown">
           <NavDropdown.Item href="/disney#ariel">Ariel</NavDropdown.Item>
