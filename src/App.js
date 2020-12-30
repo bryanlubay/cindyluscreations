@@ -112,9 +112,20 @@ function App() {
 </Carousel>
 
     <Router>
-    <Switch>
-    {/* <Route exact path = '/' render = {renderLandingPage} /> */}
-    </Switch>
+      <Switch>
+      {/* <Route exact path = '/' render = {renderLandingPage} /> */}
+      <Route exact path = '/about_me'  />
+      <Route exact path = '/contact'  />
+      <Route exact path = '/custom'  />
+      <Route exact path = '/animals'  />
+      <Route exact path = '/disney'  />
+      <Route exact path = '/movies'  />
+      <Route exact path = '/music'  />
+      <Route exact path = '/nature'  />
+      <Route exact path = '/tv'  />
+      <Route exact path = '/valentines_day'  />
+      <Route exact path = '/sports'  />
+      </Switch>
 
     </Router>
 
