@@ -8,6 +8,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown'
 import Button from 'react-bootstrap/Button'
 import Carousel from 'react-bootstrap/Carousel'
 import logo from './images/logo.JPG'
+import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
 
 function App() {
   document.title = "Cindylus Creations"
@@ -110,7 +111,9 @@ function App() {
   </Carousel.Item>
 </Carousel>
 
-
+    <Switch>
+      
+    </Switch>
 
 
   {/* <InstagramEmbed
