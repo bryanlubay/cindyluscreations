@@ -112,7 +112,7 @@ function App() {
 </Carousel>
 
     <Switch>
-      
+    {/* <Route exact path = '/' render = {renderLandingPage} /> */}
     </Switch>
 
 
