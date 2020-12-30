@@ -23,21 +23,42 @@ function App() {
         <Nav.Link href="#link">About Me</Nav.Link>
         <Nav.Link href="#link">Contact</Nav.Link>
         <Nav.Link href="#link">Custom</Nav.Link>
+        <NavDropdown title="Animals" id="basic-nav-dropdown">
+          <NavDropdown.Item href="#action/3.1">Birds</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.1">Dogs</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.1">Penguins</NavDropdown.Item>
+        </NavDropdown>
         <NavDropdown title="Disney" id="basic-nav-dropdown">
-          <NavDropdown.Item href="#action/3.1">1</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.1">2</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.1">3</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.1">Ariel</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.1">Belle</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.1">Cinderella</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.1">Coco</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.1">Dumbo</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.1">Grogu (Baby Yoda)</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.1">Groot</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.1">Jasmine</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.1">Micky Mouse</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.1">Minnie Mouse</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.1">Stitch</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.1">Winnie the Pooh</NavDropdown.Item>
         </NavDropdown>
         <NavDropdown title="Movies" id="basic-nav-dropdown">
-          <NavDropdown.Item href="#action/3.1">1</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.1">2</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.1">3</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.1">Jurassic Park</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.1">Transformers</NavDropdown.Item>
         </NavDropdown>
         <NavDropdown title="Music" id="basic-nav-dropdown">
-          <NavDropdown.Item href="#action/3.1">1</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.1">2</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.1">3</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.1">Bad Bunny</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.1">Billie Ellish</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.1">Ice Cube</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.1">Selena</NavDropdown.Item>
         </NavDropdown>
+        <NavDropdown title="Nature" id="basic-nav-dropdown">
+          <NavDropdown.Item href="#action/3.1">Flowers</NavDropdown.Item>
+        </NavDropdown>
+        <NavDropdown title="TV" id="basic-nav-dropdown">
+          <NavDropdown.Item href="#action/3.1">Stranger Things</NavDropdown.Item>
+        </NavDropdown>
+
         <Nav.Link href="#link">Valentine's Day</Nav.Link>
         <NavDropdown title="Sports" id="basic-nav-dropdown">
           <NavDropdown.Item href="#action/3.1">Las Vegas Golden Knights</NavDropdown.Item>
