@@ -30,42 +30,42 @@ function App() {
           <NavDropdown.Item href="/animals">Penguins</NavDropdown.Item>
         </NavDropdown>
         <NavDropdown title="Disney" id="basic-nav-dropdown">
-          <NavDropdown.Item href="/disney">Ariel</NavDropdown.Item>
-          <NavDropdown.Item href="/disney">Belle</NavDropdown.Item>
-          <NavDropdown.Item href="/disney">Cinderella</NavDropdown.Item>
-          <NavDropdown.Item href="/disney">Coco</NavDropdown.Item>
-          <NavDropdown.Item href="/disney">Dumbo</NavDropdown.Item>
-          <NavDropdown.Item href="/disney">Grogu (Baby Yoda)</NavDropdown.Item>
-          <NavDropdown.Item href="/disney">Groot</NavDropdown.Item>
-          <NavDropdown.Item href="/disney">Jasmine</NavDropdown.Item>
-          <NavDropdown.Item href="/disney">Micky Mouse</NavDropdown.Item>
-          <NavDropdown.Item href="/disney">Minnie Mouse</NavDropdown.Item>
-          <NavDropdown.Item href="/disney">Stitch</NavDropdown.Item>
-          <NavDropdown.Item href="/disney">Winnie the Pooh</NavDropdown.Item>
+          <NavDropdown.Item href="/disney#ariel">Ariel</NavDropdown.Item>
+          <NavDropdown.Item href="/disney#belle">Belle</NavDropdown.Item>
+          <NavDropdown.Item href="/disney#cinderella">Cinderella</NavDropdown.Item>
+          <NavDropdown.Item href="/disney#coco">Coco</NavDropdown.Item>
+          <NavDropdown.Item href="/disney#dumbo">Dumbo</NavDropdown.Item>
+          <NavDropdown.Item href="/disney#grogu">Grogu (Baby Yoda)</NavDropdown.Item>
+          <NavDropdown.Item href="/disney#groot">Groot</NavDropdown.Item>
+          <NavDropdown.Item href="/disney#jasmine">Jasmine</NavDropdown.Item>
+          <NavDropdown.Item href="/disney#micky_mouse">Micky Mouse</NavDropdown.Item>
+          <NavDropdown.Item href="/disney#minnie_mouse">Minnie Mouse</NavDropdown.Item>
+          <NavDropdown.Item href="/disney#stitch">Stitch</NavDropdown.Item>
+          <NavDropdown.Item href="/disney#winnie_the_pooh">Winnie the Pooh</NavDropdown.Item>
         </NavDropdown>
         <NavDropdown title="Movies" id="basic-nav-dropdown">
-          <NavDropdown.Item href="/movies">Jurassic Park</NavDropdown.Item>
-          <NavDropdown.Item href="/movies">Transformers</NavDropdown.Item>
+          <NavDropdown.Item href="/movies#jurassic_park">Jurassic Park</NavDropdown.Item>
+          <NavDropdown.Item href="/movies#transformers">Transformers</NavDropdown.Item>
         </NavDropdown>
         <NavDropdown title="Music" id="basic-nav-dropdown">
-          <NavDropdown.Item href="/music">Bad Bunny</NavDropdown.Item>
-          <NavDropdown.Item href="/music">Billie Ellish</NavDropdown.Item>
-          <NavDropdown.Item href="/music">Ice Cube</NavDropdown.Item>
-          <NavDropdown.Item href="/music">Selena</NavDropdown.Item>
+          <NavDropdown.Item href="/music#bad_bunny">Bad Bunny</NavDropdown.Item>
+          <NavDropdown.Item href="/music#billie_ellish">Billie Ellish</NavDropdown.Item>
+          <NavDropdown.Item href="/music#ice_cube">Ice Cube</NavDropdown.Item>
+          <NavDropdown.Item href="/music#selena">Selena</NavDropdown.Item>
         </NavDropdown>
         <NavDropdown title="Nature" id="basic-nav-dropdown">
-          <NavDropdown.Item href="/flowers">Flowers</NavDropdown.Item>
+          <NavDropdown.Item href="/nature#flowers">Flowers</NavDropdown.Item>
         </NavDropdown>
         <NavDropdown title="TV" id="basic-nav-dropdown">
-          <NavDropdown.Item href="/tv">Stranger Things</NavDropdown.Item>
+          <NavDropdown.Item href="/tv#stranger_things">Stranger Things</NavDropdown.Item>
         </NavDropdown>
 
         <Nav.Link href="#link">Valentine's Day</Nav.Link>
         <NavDropdown title="Sports" id="basic-nav-dropdown">
-          <NavDropdown.Item href="/sports">Las Vegas Golden Knights</NavDropdown.Item>
-          <NavDropdown.Item href="/sports">Las Vegas Raiders</NavDropdown.Item>
-          <NavDropdown.Item href="/sports">Los Angeles Dodgers</NavDropdown.Item>
-          <NavDropdown.Item href="/sports">Los Angeles Lakers</NavDropdown.Item>
+          <NavDropdown.Item href="/sports#las_vegas_golden_knights">Las Vegas Golden Knights</NavDropdown.Item>
+          <NavDropdown.Item href="/sports#las_vegas_raiders">Las Vegas Raiders</NavDropdown.Item>
+          <NavDropdown.Item href="/sports#los_angeles_dodgers">Los Angeles Dodgers</NavDropdown.Item>
+          <NavDropdown.Item href="/sports#los_angeles_lakers">Los Angeles Lakers</NavDropdown.Item>
         </NavDropdown>
       </Nav>
     </Navbar.Collapse>
