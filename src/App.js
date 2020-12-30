@@ -21,6 +21,7 @@ function App() {
       <Nav className="mr-auto">
         <Nav.Link href="https://cindylus-creations.herokuapp.com/">Home</Nav.Link>
         <Nav.Link href="#link">About Me</Nav.Link>
+        <Nav.Link href="#link">Contact</Nav.Link>
         <Nav.Link href="#link">Custom</Nav.Link>
         <NavDropdown title="Disney" id="basic-nav-dropdown">
           <NavDropdown.Item href="#action/3.1">1</NavDropdown.Item>
