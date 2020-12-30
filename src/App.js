@@ -53,7 +53,7 @@ function App() {
   <Carousel>
   <Carousel.Item>
     <img
-      className="d-block w-100"
+      className="carousel-image"
       src={logo}
       alt="First slide"
     />
@@ -64,7 +64,7 @@ function App() {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-100"
+      className="carousel-image"
       src={logo}
       alt="Third slide"
     />
@@ -76,7 +76,7 @@ function App() {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-100"
+      className="carousel-image"
       src={logo}
       alt="Third slide"
     />
