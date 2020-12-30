@@ -82,7 +82,7 @@ function App() {
       className="carousel-image"
       src={logo}
       alt="First slide"
-    />
+    /><br></br>
     <Carousel.Caption>
       <h3>First slide label</h3>
       <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -93,7 +93,7 @@ function App() {
       className="carousel-image"
       src={logo}
       alt="Third slide"
-    />
+    /><br></br>
 
     <Carousel.Caption>
       <h3>Second slide label</h3>
@@ -105,7 +105,7 @@ function App() {
       className="carousel-image"
       src={logo}
       alt="Third slide"
-    />
+    /><br></br>
 
     <Carousel.Caption>
       <h3>Third slide label</h3>
