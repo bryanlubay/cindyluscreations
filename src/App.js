@@ -52,13 +52,15 @@ function App() {
         </NavDropdown> */}
 
         <NavDropdown title="Cups" id="basic-nav-dropdown">
-          <NavDropdown.Item href="/cups">Animals
-            <Popover>
-              <Popover.Content>
-                Dogs
-              </Popover.Content>
-            </Popover>
-          </NavDropdown.Item>
+          <Overlay>
+            <NavDropdown.Item href="/cups">Animals
+              {/* <Popover>
+                <Popover.Content>
+                  Dogs
+                </Popover.Content>
+              </Popover> */}
+            </NavDropdown.Item>
+          </Overlay>
           <NavDropdown.Item href="/cups">Anime</NavDropdown.Item>
           <NavDropdown.Item href="/cups">Disney</NavDropdown.Item>
           <NavDropdown.Item href="/cups">Movies</NavDropdown.Item>
