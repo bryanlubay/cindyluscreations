@@ -13,6 +13,7 @@ import Navbar from 'react-bootstrap/Navbar'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 import Overlay from 'react-bootstrap/Overlay'
 import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
+import { Popover } from 'bootstrap';
 
 function App() {
   document.title = "Cindylus Creations"
@@ -51,7 +52,13 @@ function App() {
         </NavDropdown> */}
 
         <NavDropdown title="Cups" id="basic-nav-dropdown">
-          <NavDropdown.Item href="/cups">Animals</NavDropdown.Item>
+          <NavDropdown.Item href="/cups">Animals
+            <Popover>
+              <Popover.Content>
+                Dogs
+              </Popover.Content>
+            </Popover>
+          </NavDropdown.Item>
           <NavDropdown.Item href="/cups">Anime</NavDropdown.Item>
           <NavDropdown.Item href="/cups">Disney</NavDropdown.Item>
           <NavDropdown.Item href="/cups">Movies</NavDropdown.Item>
