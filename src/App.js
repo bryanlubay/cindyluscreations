@@ -54,11 +54,11 @@ function App() {
         <NavDropdown title="Cups" id="basic-nav-dropdown">
           <Overlay>
             <NavDropdown.Item href="/cups">Animals
-              {/* <Popover>
+              <Popover>
                 <Popover.Content>
                   Dogs
                 </Popover.Content>
-              </Popover> */}
+              </Popover>
             </NavDropdown.Item>
           </Overlay>
           <NavDropdown.Item href="/cups">Anime</NavDropdown.Item>
