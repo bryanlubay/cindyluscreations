@@ -53,7 +53,9 @@ function App() {
         </NavDropdown> */}
 
         <NavDropdown title="Cups" id="basic-nav-dropdown">
-            <NavDropdown.Item href="/cups">Animals
+
+
+
               <OverlayTrigger trigger='click' placement='right'
               overlay={
               <Popover>
@@ -62,9 +64,12 @@ function App() {
                 </Popover.Content>
               </Popover>}
               >            
+            <NavDropdown.Item href="/cups">Animals</NavDropdown.Item>
+
+
+
               </OverlayTrigger> 
             
-            </NavDropdown.Item>
 
 
 
@@ -186,7 +191,7 @@ function App() {
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
-
+<h1>1</h1>
     <Router>
       <Switch>
       {/* <Route exact path = '/' render = {renderLandingPage} /> */}
