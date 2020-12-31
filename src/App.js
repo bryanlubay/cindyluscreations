@@ -54,7 +54,7 @@ function App() {
 
         <NavDropdown title="Cups" id="basic-nav-dropdown">
             <NavDropdown.Item href="/cups">Animals
-              <OverlayTrigger trigger='hover' 
+              <OverlayTrigger
               // overlay={
               // <Popover>
               //   <Popover.Content>
