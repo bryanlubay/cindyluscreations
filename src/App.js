@@ -56,7 +56,7 @@ function App() {
 
 
 
-              <OverlayTrigger trigger='click' placement='right'
+              <OverlayTrigger trigger='hover' placement='right'
               overlay={
               <Popover>
                 <Popover.Content>
