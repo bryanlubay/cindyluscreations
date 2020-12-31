@@ -39,21 +39,28 @@ function App() {
         </NavDropdown>
         <Nav.Link href="/contact">Contact</Nav.Link>
         <Nav.Link href="/custom">Custom</Nav.Link>
-        <NavDropdown title="Apparel" id="basic-nav-dropdown">
+        {/* <NavDropdown title="Apparel" id="basic-nav-dropdown">
           <NavDropdown.Item href="/apparel">1</NavDropdown.Item>
-        </NavDropdown>
+        </NavDropdown> */}
+        <Nav.Link href="/apparel">Apparel</Nav.Link>
+
         <NavDropdown title="Cups" id="basic-nav-dropdown">
           <NavDropdown.Item href="/cups">1</NavDropdown.Item>
         </NavDropdown>
-        <NavDropdown title="Flowers" id="basic-nav-dropdown">
+        {/* <NavDropdown title="Flowers" id="basic-nav-dropdown">
           <NavDropdown.Item href="/flowers">1</NavDropdown.Item>
-        </NavDropdown>
-        <NavDropdown title="Party Decorations" id="basic-nav-dropdown">
+        </NavDropdown> */}
+        <Nav.Link href="/flowers">Flowers</Nav.Link>
+
+        {/* <NavDropdown title="Party Decorations" id="basic-nav-dropdown">
           <NavDropdown.Item href="/party_decorations">1</NavDropdown.Item>
-        </NavDropdown>
-        <NavDropdown title="Vinyl" id="basic-nav-dropdown">
+        </NavDropdown> */}
+        <Nav.Link href="/party_decorations">Party Decorations</Nav.Link>
+
+        {/* <NavDropdown title="Vinyl" id="basic-nav-dropdown">
           <NavDropdown.Item href="/vinyl">1</NavDropdown.Item>
-        </NavDropdown>
+        </NavDropdown> */}
+        <Nav.Link href="/vinyl">Vinyl</Nav.Link>
 
 
 
@@ -101,7 +108,7 @@ function App() {
           <NavDropdown.Item href="/sports#los_angeles_dodgers">Los Angeles Dodgers</NavDropdown.Item>
           <NavDropdown.Item href="/sports#los_angeles_lakers">Los Angeles Lakers</NavDropdown.Item>
         </NavDropdown> */}
-        
+
       </Nav>
     </Navbar.Collapse>
   </Navbar>
