@@ -58,12 +58,13 @@ function App() {
 
               <OverlayTrigger trigger='hover' placement='right'
               overlay={
-                <h1>hello</h1>
-              // <Popover>
-              //   <Popover.Content>
-              //     Dogs
-              //   </Popover.Content>
-              // </Popover>
+                // <h1>hello</h1>
+              <Popover>
+                <Popover.Title>Title</Popover.Title>
+                <Popover.Content>
+                  Dogs
+                </Popover.Content>
+              </Popover>
               }
               >            
             <NavDropdown.Item href="/cups">Animals</NavDropdown.Item>
