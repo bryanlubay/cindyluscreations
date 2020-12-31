@@ -191,7 +191,7 @@ function App() {
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
-<h1>1</h1>
+<h1>2</h1>
     <Router>
       <Switch>
       {/* <Route exact path = '/' render = {renderLandingPage} /> */}
