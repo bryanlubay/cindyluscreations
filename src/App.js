@@ -1,5 +1,5 @@
 // Product type (Apparel / Cups / Flowers / Party Decorations / Vinyl)
-// -- Category (Animals / Disney / Movies / Music / Nature / TV / HOLIDAY)
+// -- Category (Animals / Anime / Disney / Movies / Music / Nature / TV / Video Games / HOLIDAY)
 // ---- Specific (Bad Bunny, Naruto, Grogu, etc) = Popover right
 
 import React from 'react';
@@ -30,22 +30,32 @@ function App() {
         <Nav.Link href="/about_me">About Me</Nav.Link>
         <NavDropdown title="Categories" id="basic-nav-dropdown">
           <NavDropdown.Item href="/categories">Animals</NavDropdown.Item>
+          <NavDropdown.Item href="/categories">Anime</NavDropdown.Item>
           <NavDropdown.Item href="/categories">Disney</NavDropdown.Item>
           <NavDropdown.Item href="/categories">Movies</NavDropdown.Item>
           <NavDropdown.Item href="/categories">Music</NavDropdown.Item>
           <NavDropdown.Item href="/categories">Nature</NavDropdown.Item>
           <NavDropdown.Item href="/categories">TV</NavDropdown.Item>
           <NavDropdown.Item href="/categories">Valentine's Day</NavDropdown.Item>
+          <NavDropdown.Item href="/categories">Video Game</NavDropdown.Item>
         </NavDropdown>
+        <Nav.Link href="/apparel">Apparel</Nav.Link>
         <Nav.Link href="/contact">Contact</Nav.Link>
         <Nav.Link href="/custom">Custom</Nav.Link>
         {/* <NavDropdown title="Apparel" id="basic-nav-dropdown">
           <NavDropdown.Item href="/apparel">1</NavDropdown.Item>
         </NavDropdown> */}
-        <Nav.Link href="/apparel">Apparel</Nav.Link>
 
         <NavDropdown title="Cups" id="basic-nav-dropdown">
-          <NavDropdown.Item href="/cups">1</NavDropdown.Item>
+          <NavDropdown.Item href="/cups">Animals</NavDropdown.Item>
+          <NavDropdown.Item href="/cups">Anime</NavDropdown.Item>
+          <NavDropdown.Item href="/cups">Disney</NavDropdown.Item>
+          <NavDropdown.Item href="/cups">Movies</NavDropdown.Item>
+          <NavDropdown.Item href="/cups">Music</NavDropdown.Item>
+          <NavDropdown.Item href="/cups">Nature</NavDropdown.Item>
+          <NavDropdown.Item href="/cups">TV</NavDropdown.Item>
+          <NavDropdown.Item href="/cups">Valentine's Day</NavDropdown.Item>
+          <NavDropdown.Item href="/cups">Video Game</NavDropdown.Item>
         </NavDropdown>
         {/* <NavDropdown title="Flowers" id="basic-nav-dropdown">
           <NavDropdown.Item href="/flowers">1</NavDropdown.Item>
@@ -57,6 +67,7 @@ function App() {
         </NavDropdown> */}
         <Nav.Link href="/party_decorations">Party Decorations</Nav.Link>
 
+        <Nav.Link href="/valentines_day">Valentine's Day</Nav.Link>
         {/* <NavDropdown title="Vinyl" id="basic-nav-dropdown">
           <NavDropdown.Item href="/vinyl">1</NavDropdown.Item>
         </NavDropdown> */}
