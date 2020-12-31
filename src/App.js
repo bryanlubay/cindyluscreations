@@ -11,6 +11,7 @@ import logo from './images/logo.JPG'
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import NavDropdown from 'react-bootstrap/NavDropdown'
+import Overlay from 'react-bootstrap/Overlay'
 import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
 
 function App() {
@@ -28,8 +29,12 @@ function App() {
       <Nav className="mr-auto">
         <Nav.Link href="https://cindylus-creations.herokuapp.com/">Home</Nav.Link>
         <Nav.Link href="/about_me">About Me</Nav.Link>
+        <NavDropdown title="Apparel" id="basic-nav-dropdown">
+          <NavDropdown.Item href="/apparel">Hats</NavDropdown.Item>
+          <NavDropdown.Item href="/apparel">Shirts</NavDropdown.Item>
+        </NavDropdown>
         <NavDropdown title="Categories" id="basic-nav-dropdown">
-          <NavDropdown.Item href="/categories">Animals</NavDropdown.Item>
+          <NavDropdown.Item href="/categories/#animals">Animals</NavDropdown.Item>
           <NavDropdown.Item href="/categories">Anime</NavDropdown.Item>
           <NavDropdown.Item href="/categories">Disney</NavDropdown.Item>
           <NavDropdown.Item href="/categories">Movies</NavDropdown.Item>
@@ -39,7 +44,6 @@ function App() {
           <NavDropdown.Item href="/categories">Valentine's Day</NavDropdown.Item>
           <NavDropdown.Item href="/categories">Video Game</NavDropdown.Item>
         </NavDropdown>
-        <Nav.Link href="/apparel">Apparel</Nav.Link>
         <Nav.Link href="/contact">Contact</Nav.Link>
         <Nav.Link href="/custom">Custom</Nav.Link>
         {/* <NavDropdown title="Apparel" id="basic-nav-dropdown">
@@ -65,7 +69,10 @@ function App() {
         {/* <NavDropdown title="Party Decorations" id="basic-nav-dropdown">
           <NavDropdown.Item href="/party_decorations">1</NavDropdown.Item>
         </NavDropdown> */}
-        <Nav.Link href="/party_decorations">Party Decorations</Nav.Link>
+        <NavDropdown title="Party Decorations" id="basic-nav-dropdown">
+          <NavDropdown.Item href="/apparel">Center Pieces</NavDropdown.Item>
+          <NavDropdown.Item href="/apparel">Coke Toppers</NavDropdown.Item>
+        </NavDropdown>
 
         <Nav.Link href="/valentines_day">Valentine's Day</Nav.Link>
         {/* <NavDropdown title="Vinyl" id="basic-nav-dropdown">
