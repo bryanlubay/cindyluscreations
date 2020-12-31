@@ -132,8 +132,8 @@ function App() {
 
     </Router>
 
-
-  {/* <InstagramEmbed
+<h1>1</h1>
+  <InstagramEmbed
   url='https://www.instagr.am/p/CA3aDJ7HlTE/'
   clientAccessToken='824595361729122|1e7b57740da098e528aa20e8ea739d21'
   maxWidth={320}
@@ -146,8 +146,8 @@ function App() {
   onAfterRender={() => {}}
   onFailure={() => {}}
 
-/> */}
-        
+/>
+        <h1>2</h1>
      </div>
      
   );
