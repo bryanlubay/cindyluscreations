@@ -1,13 +1,16 @@
+// Product type (Cups / Flowers/ Hats / Party Decorations / Vinyl)
+// -- Category (Animals / Disney / Movies / Music / Nature / TV / HOLIDAY)
+// ---- Specific (Bad Bunny, Naruto, Grogu, etc) = Popover right
+
 import React from 'react';
 import './App.css';
-import Container from 'react-bootstrap/Container'
-import InstagramEmbed from 'react-instagram-embed';
-import Navbar from 'react-bootstrap/Navbar'
-import Nav from 'react-bootstrap/Nav'
-import NavDropdown from 'react-bootstrap/NavDropdown'
-import Button from 'react-bootstrap/Button'
 import Carousel from 'react-bootstrap/Carousel'
+import Container from 'react-bootstrap/Container'
+// import InstagramEmbed from 'react-instagram-embed';
 import logo from './images/logo.JPG'
+import Nav from 'react-bootstrap/Nav'
+import Navbar from 'react-bootstrap/Navbar'
+import NavDropdown from 'react-bootstrap/NavDropdown'
 import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
 
 function App() {
@@ -132,7 +135,7 @@ function App() {
 
     </Router>
 
-<h1>1</h1>
+{/* <h1>1</h1>
   <InstagramEmbed
   url='https://www.instagr.am/p/CA3aDJ7HlTE/'
   clientAccessToken='413905563134913|1e7b57740da098e528aa20e8ea739d21'
@@ -147,7 +150,7 @@ function App() {
   onFailure={() => {}}
 
 />
-        <h1>2</h1>
+        <h1>2</h1> */}
      </div>
      
   );
