@@ -1,4 +1,4 @@
-// Product type (Cups / Flowers/ Hats / Party Decorations / Vinyl)
+// Product type (Apparel / Cups / Flowers / Party Decorations / Vinyl)
 // -- Category (Animals / Disney / Movies / Music / Nature / TV / HOLIDAY)
 // ---- Specific (Bad Bunny, Naruto, Grogu, etc) = Popover right
 
@@ -28,8 +28,36 @@ function App() {
       <Nav className="mr-auto">
         <Nav.Link href="https://cindylus-creations.herokuapp.com/">Home</Nav.Link>
         <Nav.Link href="/about_me">About Me</Nav.Link>
+        <NavDropdown title="Categories" id="basic-nav-dropdown">
+          <NavDropdown.Item href="/categories">Animals</NavDropdown.Item>
+          <NavDropdown.Item href="/categories">Disney</NavDropdown.Item>
+          <NavDropdown.Item href="/categories">Movies</NavDropdown.Item>
+          <NavDropdown.Item href="/categories">Music</NavDropdown.Item>
+          <NavDropdown.Item href="/categories">Nature</NavDropdown.Item>
+          <NavDropdown.Item href="/categories">TV</NavDropdown.Item>
+          <NavDropdown.Item href="/categories">Valentine's Day</NavDropdown.Item>
+        </NavDropdown>
         <Nav.Link href="/contact">Contact</Nav.Link>
         <Nav.Link href="/custom">Custom</Nav.Link>
+        <NavDropdown title="Apparel" id="basic-nav-dropdown">
+          <NavDropdown.Item href="/apparel">1</NavDropdown.Item>
+        </NavDropdown>
+        <NavDropdown title="Cups" id="basic-nav-dropdown">
+          <NavDropdown.Item href="/cups">1</NavDropdown.Item>
+        </NavDropdown>
+        <NavDropdown title="Flowers" id="basic-nav-dropdown">
+          <NavDropdown.Item href="/flowers">1</NavDropdown.Item>
+        </NavDropdown>
+        <NavDropdown title="Party Decorations" id="basic-nav-dropdown">
+          <NavDropdown.Item href="/party_decorations">1</NavDropdown.Item>
+        </NavDropdown>
+        <NavDropdown title="Vinyl" id="basic-nav-dropdown">
+          <NavDropdown.Item href="/vinyl">1</NavDropdown.Item>
+        </NavDropdown>
+
+
+
+{/* 
         <NavDropdown title="Animals" id="basic-nav-dropdown">
           <NavDropdown.Item href="/animals#birds">Birds</NavDropdown.Item>
           <NavDropdown.Item href="/animals#dogs">Dogs</NavDropdown.Item>
@@ -72,7 +100,8 @@ function App() {
           <NavDropdown.Item href="/sports#las_vegas_raiders">Las Vegas Raiders</NavDropdown.Item>
           <NavDropdown.Item href="/sports#los_angeles_dodgers">Los Angeles Dodgers</NavDropdown.Item>
           <NavDropdown.Item href="/sports#los_angeles_lakers">Los Angeles Lakers</NavDropdown.Item>
-        </NavDropdown>
+        </NavDropdown> */}
+        
       </Nav>
     </Navbar.Collapse>
   </Navbar>
