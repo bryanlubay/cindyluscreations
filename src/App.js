@@ -13,9 +13,7 @@ import Navbar from 'react-bootstrap/Navbar'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 import Overlay from 'react-bootstrap/Overlay'
 import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
-// import { Popover } from 'bootstrap';
 import { OverlayTrigger } from 'react-bootstrap';
-// import { Popover } from 'bootstrap';
 import Popover from 'react-bootstrap/Popover'
 
 function App() {
@@ -55,20 +53,19 @@ function App() {
         </NavDropdown> */}
 
 
-        <NavDropdown title="Cups12" id="basic-nav-dropdown">
+        <NavDropdown title="Cups" id="basic-nav-dropdown">
 
 
 
               <OverlayTrigger trigger='hover' placement='right'
               overlay={
-                // <Tooltip>Hi</Tooltip>
-
-                // <Popover></Popover>
-                // <h1>hello</h1>
               <Popover>
-                <Popover.Title>Title</Popover.Title>
                 <Popover.Content>
-                  Dogs
+                  <ul>
+                    <li>Birds</li>
+                    <li>Dogs</li>
+                    <li>Penguins</li>
+                  </ul>
                 </Popover.Content>
               </Popover>
               }
