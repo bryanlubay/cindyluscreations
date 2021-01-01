@@ -58,7 +58,7 @@ function App() {
 
               <OverlayTrigger trigger='hover' placement='right'
               overlay={
-                <Popover></Popover>
+                <Tooltip>Hi</Tooltip>
                 // <h1>hello</h1>
               // <Popover>
               //   <Popover.Title>Title</Popover.Title>
