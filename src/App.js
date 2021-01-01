@@ -36,7 +36,10 @@ function App() {
           <NavDropdown.Item href="/apparel">Hats</NavDropdown.Item>
           <NavDropdown.Item href="/apparel">Shirts</NavDropdown.Item>
         </NavDropdown>
-        <NavDropdown title="Categories" id="basic-nav-dropdown">
+
+
+
+        {/* <NavDropdown title="Categories" id="basic-nav-dropdown">
           <NavDropdown.Item href="/categories/#animals">Animals</NavDropdown.Item>
           <NavDropdown.Item href="/categories">Anime</NavDropdown.Item>
           <NavDropdown.Item href="/categories">Disney</NavDropdown.Item>
@@ -46,7 +49,10 @@ function App() {
           <NavDropdown.Item href="/categories">TV</NavDropdown.Item>
           <NavDropdown.Item href="/categories">Valentine's Day</NavDropdown.Item>
           <NavDropdown.Item href="/categories">Video Game</NavDropdown.Item>
-        </NavDropdown>
+        </NavDropdown> */}
+
+
+
         <Nav.Link href="/contact">Contact</Nav.Link>
         <Nav.Link href="/custom">Custom</Nav.Link>
         <NavDropdown title="Cups" id="basic-nav-dropdown">
