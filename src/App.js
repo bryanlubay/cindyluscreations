@@ -15,6 +15,7 @@ import Overlay from 'react-bootstrap/Overlay'
 import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
 import { OverlayTrigger } from 'react-bootstrap';
 import Popover from 'react-bootstrap/Popover'
+import ListGroup from 'react-bootstrap/ListGroup'
 
 function App() {
   document.title = "Cindylus Creations"
@@ -61,11 +62,11 @@ function App() {
               overlay={
               <Popover>
                 <Popover.Content>
-                  <ul>
-                    <li>Birds</li>
-                    <li>Dogs</li>
-                    <li>Penguins</li>
-                  </ul>
+                  <ListGroup>
+                    <ListGroup.Item>Birds</ListGroup.Item>
+                    <ListGroup.Item>Dogs</ListGroup.Item>
+                    <ListGroup.Item>Penguins</ListGroup.Item>
+                  </ListGroup>
                 </Popover.Content>
               </Popover>
               }
