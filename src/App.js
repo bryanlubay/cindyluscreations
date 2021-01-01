@@ -11,7 +11,7 @@ import logo from './images/logo.JPG'
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import NavDropdown from 'react-bootstrap/NavDropdown'
-import Overlay from 'react-bootstrap/Overlay'
+// import Overlay from 'react-bootstrap/Overlay'
 import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
 import { OverlayTrigger } from 'react-bootstrap';
 import Popover from 'react-bootstrap/Popover'
@@ -49,11 +49,6 @@ function App() {
         </NavDropdown>
         <Nav.Link href="/contact">Contact</Nav.Link>
         <Nav.Link href="/custom">Custom</Nav.Link>
-        {/* <NavDropdown title="Apparel" id="basic-nav-dropdown">
-          <NavDropdown.Item href="/apparel">1</NavDropdown.Item>
-        </NavDropdown> */}
-
-
         <NavDropdown title="Cups" id="basic-nav-dropdown">
           <OverlayTrigger trigger='hover' placement='right'
           overlay={
@@ -69,16 +64,126 @@ function App() {
           }>
           <NavDropdown.Item href="/cups">Animals</NavDropdown.Item>
           </OverlayTrigger> 
-            
-
+           
+          <OverlayTrigger trigger='hover' placement='right'
+          overlay={
+            <Popover>
+              <Popover.Content>
+                <ListGroup>
+                  <ListGroup.Item className="li">Naruto</ListGroup.Item>
+                </ListGroup>
+              </Popover.Content>
+            </Popover>
+          }>
           <NavDropdown.Item href="/cups">Anime</NavDropdown.Item>
+          </OverlayTrigger> 
+
+          <OverlayTrigger trigger='hover' placement='right'
+          overlay={
+            <Popover>
+              <Popover.Content>
+                <ListGroup>
+                  <ListGroup.Item className="li">Ariel</ListGroup.Item>
+                  <ListGroup.Item className="li">Belle</ListGroup.Item>
+                  <ListGroup.Item className="li">Cinderella</ListGroup.Item>
+                  <ListGroup.Item className="li">Coco</ListGroup.Item>
+                  <ListGroup.Item className="li">Dumbo</ListGroup.Item>
+                  <ListGroup.Item className="li">Grogu (Baby Yoda)</ListGroup.Item>
+                  <ListGroup.Item className="li">Groot</ListGroup.Item>
+                  <ListGroup.Item className="li">Jasmine</ListGroup.Item>
+                  <ListGroup.Item className="li">Micky Mouse</ListGroup.Item>
+                  <ListGroup.Item className="li">Minnie Mouse</ListGroup.Item>
+                  <ListGroup.Item className="li">Stitch</ListGroup.Item>
+                  <ListGroup.Item className="li">Winnie the Pooh</ListGroup.Item>
+                </ListGroup>
+              </Popover.Content>
+            </Popover>
+          }>
           <NavDropdown.Item href="/cups">Disney</NavDropdown.Item>
+          </OverlayTrigger> 
+
+
+
+
+          <OverlayTrigger trigger='hover' placement='right'
+          overlay={
+            <Popover>
+              <Popover.Content>
+                <ListGroup>
+                  <ListGroup.Item className="li">Jurassic Park</ListGroup.Item>
+                  <ListGroup.Item className="li">Transformers</ListGroup.Item>
+                </ListGroup>
+              </Popover.Content>
+            </Popover>
+          }>
           <NavDropdown.Item href="/cups">Movies</NavDropdown.Item>
+          </OverlayTrigger> 
+
+
+          <OverlayTrigger trigger='hover' placement='right'
+          overlay={
+            <Popover>
+              <Popover.Content>
+                <ListGroup>
+                  <ListGroup.Item className="li">Bad Bunny</ListGroup.Item>
+                  <ListGroup.Item className="li">Billie Ellish</ListGroup.Item>
+                  <ListGroup.Item className="li">Ice Cube</ListGroup.Item>
+                  <ListGroup.Item className="li">Selena</ListGroup.Item>
+                </ListGroup>
+              </Popover.Content>
+            </Popover>
+          }>
           <NavDropdown.Item href="/cups">Music</NavDropdown.Item>
+          </OverlayTrigger> 
+
+
+          <OverlayTrigger trigger='hover' placement='right'
+          overlay={
+            <Popover>
+              <Popover.Content>
+                <ListGroup>
+                  <ListGroup.Item className="li">Flowers</ListGroup.Item>
+                </ListGroup>
+              </Popover.Content>
+            </Popover>
+          }>
           <NavDropdown.Item href="/cups">Nature</NavDropdown.Item>
+          </OverlayTrigger> 
+
+          <OverlayTrigger trigger='hover' placement='right'
+          overlay={
+            <Popover>
+              <Popover.Content>
+                <ListGroup>
+                  <ListGroup.Item className="li">Las Vegas Golden Knights</ListGroup.Item>
+                  <ListGroup.Item className="li">Las Vegas Raiders</ListGroup.Item>
+                  <ListGroup.Item className="li">Los Angeles Dodgers</ListGroup.Item>
+                  <ListGroup.Item className="li">Los Angeles Lakers</ListGroup.Item>
+                </ListGroup>
+              </Popover.Content>
+            </Popover>
+          }>
+          <NavDropdown.Item href="/cups">Sports</NavDropdown.Item>
+          </OverlayTrigger> 
+
+
+          <OverlayTrigger trigger='hover' placement='right'
+          overlay={
+            <Popover>
+              <Popover.Content>
+                <ListGroup>
+                  <ListGroup.Item className="li">Stranger Things</ListGroup.Item>
+                </ListGroup>
+              </Popover.Content>
+            </Popover>
+          }>
           <NavDropdown.Item href="/cups">TV</NavDropdown.Item>
+          </OverlayTrigger> 
+          
+          
+          
           <NavDropdown.Item href="/cups">Valentine's Day</NavDropdown.Item>
-          <NavDropdown.Item href="/cups">Video Game</NavDropdown.Item>
+          {/* <NavDropdown.Item href="/cups">Video Games</NavDropdown.Item> */}
         </NavDropdown>
         {/* <NavDropdown title="Flowers" id="basic-nav-dropdown">
           <NavDropdown.Item href="/flowers">1</NavDropdown.Item>
@@ -185,3 +290,21 @@ function App() {
 }
 
 export default App;
+
+
+/**************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
