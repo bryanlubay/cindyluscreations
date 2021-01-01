@@ -60,7 +60,7 @@ function App() {
           overlay={
             <Popover>
               <Popover.Content>
-                <ListGroup variant="flush">
+                <ListGroup className="list-group" variant="flush">
                   <ListGroup.Item className="li">Birds</ListGroup.Item>
                   <ListGroup.Item className="li">Dogs</ListGroup.Item>
                   <ListGroup.Item className="li">Penguins</ListGroup.Item>
@@ -75,7 +75,7 @@ function App() {
           overlay={
             <Popover>
               <Popover.Content>
-                <ListGroup variant="flush">
+                <ListGroup className="list-group" variant="flush">
                   <ListGroup.Item className="li">Naruto</ListGroup.Item>
                 </ListGroup>
               </Popover.Content>
@@ -88,7 +88,7 @@ function App() {
           overlay={
             <Popover>
               <Popover.Content>
-                <ListGroup variant="flush">
+                <ListGroup className="list-group" variant="flush">
                   <ListGroup.Item className="li">Ariel</ListGroup.Item>
                   <ListGroup.Item className="li">Belle</ListGroup.Item>
                   <ListGroup.Item className="li">Cinderella</ListGroup.Item>
@@ -115,7 +115,7 @@ function App() {
           overlay={
             <Popover>
               <Popover.Content>
-                <ListGroup variant="flush">
+                <ListGroup className="list-group" variant="flush">
                   <ListGroup.Item className="li">Jurassic Park</ListGroup.Item>
                   <ListGroup.Item className="li">Transformers</ListGroup.Item>
                 </ListGroup>
@@ -130,7 +130,7 @@ function App() {
           overlay={
             <Popover>
               <Popover.Content>
-                <ListGroup variant="flush">
+                <ListGroup className="list-group" variant="flush">
                   <ListGroup.Item className="li">Bad Bunny</ListGroup.Item>
                   <ListGroup.Item className="li">Billie Ellish</ListGroup.Item>
                   <ListGroup.Item className="li">Ice Cube</ListGroup.Item>
@@ -147,7 +147,7 @@ function App() {
           overlay={
             <Popover>
               <Popover.Content>
-                <ListGroup variant="flush">
+                <ListGroup className="list-group" variant="flush">
                   <ListGroup.Item className="li">Flowers</ListGroup.Item>
                 </ListGroup>
               </Popover.Content>
@@ -160,7 +160,7 @@ function App() {
           overlay={
             <Popover>
               <Popover.Content>
-                <ListGroup variant="flush">
+                <ListGroup className="list-group" variant="flush">
                   <ListGroup.Item className="li">Las Vegas Golden Knights</ListGroup.Item>
                   <ListGroup.Item className="li">Las Vegas Raiders</ListGroup.Item>
                   <ListGroup.Item className="li">Los Angeles Dodgers</ListGroup.Item>
@@ -177,7 +177,7 @@ function App() {
           overlay={
             <Popover>
               <Popover.Content>
-                <ListGroup variant="flush">
+                <ListGroup className="list-group" variant="flush">
                   <ListGroup.Item className="li">Stranger Things</ListGroup.Item>
                 </ListGroup>
               </Popover.Content>
