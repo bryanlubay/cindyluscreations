@@ -55,30 +55,21 @@ function App() {
 
 
         <NavDropdown title="Cups" id="basic-nav-dropdown">
-
-
-
-              <OverlayTrigger trigger='hover' placement='right'
-              overlay={
-              <Popover>
-                <Popover.Content>
-                  <ListGroup>
-                    <ListGroup.Item>Birds</ListGroup.Item>
-                    <ListGroup.Item>Dogs</ListGroup.Item>
-                    <ListGroup.Item>Penguins</ListGroup.Item>
-                  </ListGroup>
-                </Popover.Content>
-              </Popover>
-              }
-              >            
-            <NavDropdown.Item href="/cups">Animals</NavDropdown.Item>
-
-
-
-              </OverlayTrigger> 
+          <OverlayTrigger trigger='hover' placement='right'
+          overlay={
+            <Popover>
+              <Popover.Content>
+                <ListGroup>
+                  <ListGroup.Item className="li">Birds</ListGroup.Item>
+                  <ListGroup.Item className="li">Dogs</ListGroup.Item>
+                  <ListGroup.Item className="li">Penguins</ListGroup.Item>
+                </ListGroup>
+              </Popover.Content>
+            </Popover>
+          }>
+          <NavDropdown.Item href="/cups">Animals</NavDropdown.Item>
+          </OverlayTrigger> 
             
-
-
 
           <NavDropdown.Item href="/cups">Anime</NavDropdown.Item>
           <NavDropdown.Item href="/cups">Disney</NavDropdown.Item>
