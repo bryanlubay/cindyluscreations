@@ -200,8 +200,10 @@ function App() {
           <NavDropdown.Item href="/party_decorations">1</NavDropdown.Item>
         </NavDropdown> */}
         <NavDropdown title="Party Decorations" id="basic-nav-dropdown">
+          <NavDropdown.Item href="/apparel">Banners</NavDropdown.Item>
           <NavDropdown.Item href="/apparel">Center Pieces</NavDropdown.Item>
           <NavDropdown.Item href="/apparel">Coke Toppers</NavDropdown.Item>
+          <NavDropdown.Item href="/apparel">Goodie Bags</NavDropdown.Item>
         </NavDropdown>
 
         <Nav.Link href="/valentines_day">Valentine's Day</Nav.Link>
