@@ -15,7 +15,8 @@ import Overlay from 'react-bootstrap/Overlay'
 import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
 // import { Popover } from 'bootstrap';
 import { OverlayTrigger } from 'react-bootstrap';
-import { Popover } from 'bootstrap';
+// import { Popover } from 'bootstrap';
+import Popover from 'react-bootstrap/Popover'
 
 function App() {
   document.title = "Cindylus Creations"
@@ -54,7 +55,7 @@ function App() {
         </NavDropdown> */}
 
 
-        <NavDropdown title="Cups1" id="basic-nav-dropdown">
+        <NavDropdown title="Cups12" id="basic-nav-dropdown">
 
 
 
@@ -62,14 +63,14 @@ function App() {
               overlay={
                 // <Tooltip>Hi</Tooltip>
 
-                <Popover></Popover>
+                // <Popover></Popover>
                 // <h1>hello</h1>
-              // <Popover>
-              //   <Popover.Title>Title</Popover.Title>
-              //   <Popover.Content>
-              //     Dogs
-              //   </Popover.Content>
-              // </Popover>
+              <Popover>
+                <Popover.Title>Title</Popover.Title>
+                <Popover.Content>
+                  Dogs
+                </Popover.Content>
+              </Popover>
               }
               >            
             <NavDropdown.Item href="/cups">Animals</NavDropdown.Item>
