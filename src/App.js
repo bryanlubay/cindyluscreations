@@ -13,8 +13,9 @@ import Navbar from 'react-bootstrap/Navbar'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 import Overlay from 'react-bootstrap/Overlay'
 import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
-import { Popover } from 'bootstrap';
+// import { Popover } from 'bootstrap';
 import { OverlayTrigger } from 'react-bootstrap';
+import { Popover } from 'bootstrap';
 
 function App() {
   document.title = "Cindylus Creations"
@@ -52,13 +53,16 @@ function App() {
           <NavDropdown.Item href="/apparel">1</NavDropdown.Item>
         </NavDropdown> */}
 
-        <NavDropdown title="Cups" id="basic-nav-dropdown">
+
+        <NavDropdown title="Cups1" id="basic-nav-dropdown">
 
 
 
               <OverlayTrigger trigger='hover' placement='right'
               overlay={
-                <Tooltip>Hi</Tooltip>
+                // <Tooltip>Hi</Tooltip>
+
+                <Popover></Popover>
                 // <h1>hello</h1>
               // <Popover>
               //   <Popover.Title>Title</Popover.Title>
