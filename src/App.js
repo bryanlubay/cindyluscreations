@@ -11,12 +11,12 @@ import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 // import Overlay from 'react-bootstrap/Overlay'
-import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, /*Redirect,*/ Switch } from 'react-router-dom';
 import { OverlayTrigger } from 'react-bootstrap';
 import Popover from 'react-bootstrap/Popover'
 import ListGroup from 'react-bootstrap/ListGroup'
 
-import logo from './images/logo.JPG'
+// import logo from './images/logo.JPG'
 import hats1 from './images/heat_press/hats1.jpg'
 import mylittlepony1 from './images/party_decorations/mylittlepony1.jpg'
 import flowers1 from './images/flowers/flowers1.jpg'
