@@ -7,7 +7,6 @@ import './App.css';
 import Carousel from 'react-bootstrap/Carousel'
 import Container from 'react-bootstrap/Container'
 // import InstagramEmbed from 'react-instagram-embed';
-import logo from './images/logo.JPG'
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import NavDropdown from 'react-bootstrap/NavDropdown'
@@ -16,6 +15,13 @@ import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-d
 import { OverlayTrigger } from 'react-bootstrap';
 import Popover from 'react-bootstrap/Popover'
 import ListGroup from 'react-bootstrap/ListGroup'
+
+import logo from './images/logo.JPG'
+import hats1 from './images/heat_press/hats1.jpg'
+import mylittlepony1 from './images/party_decorations/mylittlepony1.jpg'
+import flowers1 from './images/flowers/flowers1.jpg'
+import grogu1 from './images/cups/grogu1.jpg'
+import vinyl1 from './images/vinyl/vinyl1.jpg'
 
 function App() {
   document.title = "Cindylus Creations"
@@ -228,36 +234,60 @@ function App() {
   <Carousel.Item>
     <img
       className="carousel-image"
-      src={logo}
+      src={grogu1}
       alt="First slide"
     /><br></br>
     <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      {/* <h3>First slide label</h3> */}
+      {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
       className="carousel-image"
-      src={logo}
+      src={vinyl1}
       alt="Third slide"
     /><br></br>
 
     <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      {/* <h3>Second slide label</h3> */}
+      {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
       className="carousel-image"
-      src={logo}
+      src={flowers1}
       alt="Third slide"
     /><br></br>
 
     <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      {/* <h3>Third slide label</h3>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="carousel-image"
+      src={hats1}
+      alt="Third slide"
+    /><br></br>
+
+    <Carousel.Caption>
+      {/* <h3>Third slide label</h3>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="carousel-image"
+      src={mylittlepony1}
+      alt="Third slide"
+    /><br></br>
+
+    <Carousel.Caption>
+      {/* <h3>Third slide label</h3>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
