@@ -234,7 +234,7 @@ function App() {
   <Carousel.Item>
     <img
       className="carousel-image"
-      src={grogu1}
+      src=""
       alt="First slide"
     /><br></br>
     <Carousel.Caption>
