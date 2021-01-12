@@ -115,9 +115,11 @@ function App() {
               </Popover.Content>
             </Popover>
           }>
+            
           <NavDropdown.Item href="/cups">Disney</NavDropdown.Item>
           </OverlayTrigger> 
 
+          <Nav.Link href="/contact">Laser</Nav.Link>
 
 
 
@@ -134,6 +136,7 @@ function App() {
           }>
           <NavDropdown.Item href="/cups">Movies</NavDropdown.Item>
           </OverlayTrigger> 
+
 
 
           <OverlayTrigger trigger='hover' placement='right'
@@ -234,7 +237,7 @@ function App() {
   <Carousel.Item>
     <img
       className="carousel-image"
-      src=""
+      src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/grogu1.jpg"
       alt="First slide"
     /><br></br>
     <Carousel.Caption>
@@ -245,8 +248,8 @@ function App() {
   <Carousel.Item>
     <img
       className="carousel-image"
-      src={vinyl1}
-      alt="Third slide"
+      src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/vinyl/vinyl1.jpg"
+      alt="Second slide"
     /><br></br>
 
     <Carousel.Caption>
@@ -257,7 +260,7 @@ function App() {
   <Carousel.Item>
     <img
       className="carousel-image"
-      src={flowers1}
+      src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/flowers/flowers1.jpg"
       alt="Third slide"
     /><br></br>
 
@@ -266,7 +269,7 @@ function App() {
       <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
     </Carousel.Caption>
   </Carousel.Item>
-  <Carousel.Item>
+  {/* <Carousel.Item>
     <img
       className="carousel-image"
       src={hats1}
@@ -274,8 +277,8 @@ function App() {
     /><br></br>
 
     <Carousel.Caption>
-      {/* <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
+      <h3>Third slide label</h3>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -286,10 +289,10 @@ function App() {
     /><br></br>
 
     <Carousel.Caption>
-      {/* <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
+      <h3>Third slide label</h3>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
     </Carousel.Caption>
-  </Carousel.Item>
+  </Carousel.Item> */}
 </Carousel>
 {/* <h1>2</h1> */}
     <Router>
