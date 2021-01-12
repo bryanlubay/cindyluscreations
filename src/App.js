@@ -38,12 +38,6 @@ function App() {
             <Nav className="mr-auto">
               <Nav.Link href="https://cindylus-creations.herokuapp.com/">Home</Nav.Link>
               <Nav.Link href="/about_me">About Me</Nav.Link>
-              <NavDropdown title="Heat Press" id="basic-nav-dropdown">
-                <NavDropdown.Item href="/apparel">Hats</NavDropdown.Item>
-                <NavDropdown.Item href="/apparel">Make Up Bags</NavDropdown.Item>
-                <NavDropdown.Item href="/apparel">Pencil Bags</NavDropdown.Item>
-                <NavDropdown.Item href="/apparel">Shirts</NavDropdown.Item>
-              </NavDropdown>
 
               <Nav.Link href="/contact">Contact</Nav.Link>
               <Nav.Link href="/custom">Custom</Nav.Link>
@@ -176,6 +170,13 @@ function App() {
                 <NavDropdown.Item href="/cups">Valentine's Day</NavDropdown.Item>
                 {/* <NavDropdown.Item href="/cups">Video Games</NavDropdown.Item> */}
               </NavDropdown>
+              <NavDropdown title="Heat Press" id="basic-nav-dropdown">
+                <NavDropdown.Item href="/apparel">Hats</NavDropdown.Item>
+                <NavDropdown.Item href="/apparel">Make Up Bags</NavDropdown.Item>
+                <NavDropdown.Item href="/apparel">Pencil Bags</NavDropdown.Item>
+                <NavDropdown.Item href="/apparel">Shirts</NavDropdown.Item>
+              </NavDropdown>
+
               <Nav.Link href="/contact">Laser</Nav.Link>
               <Nav.Link href="/flowers">Flowers</Nav.Link>
 
