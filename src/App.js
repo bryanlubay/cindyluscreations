@@ -26,294 +26,232 @@ import ListGroup from 'react-bootstrap/ListGroup'
 function App() {
   document.title = "Cindylus Creations"
   return (
-        <div className="background">
-          <body className="body">
+    <div className="background">
+      <body className="body">
 
-          </body>
-  <Container>
-          <Navbar fixed="top" bg="light" expand="lg">
-    <Navbar.Brand href="https://cindylus-creations.herokuapp.com/">Cindylus Creations</Navbar.Brand>
-    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-    <Navbar.Collapse id="basic-navbar-nav">
-      <Nav className="mr-auto">
-        <Nav.Link href="https://cindylus-creations.herokuapp.com/">Home</Nav.Link>
-        <Nav.Link href="/about_me">About Me</Nav.Link>
-        <NavDropdown title="Heat Press" id="basic-nav-dropdown">
-          <NavDropdown.Item href="/apparel">Hats</NavDropdown.Item>
-          <NavDropdown.Item href="/apparel">Make Up Bags</NavDropdown.Item>
-          <NavDropdown.Item href="/apparel">Pencil Bags</NavDropdown.Item>
+      </body>
+      <Container>
+        <Navbar fixed="top" bg="light" expand="lg">
+          <Navbar.Brand href="https://cindylus-creations.herokuapp.com/">Cindylus Creations</Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="mr-auto">
+              <Nav.Link href="https://cindylus-creations.herokuapp.com/">Home</Nav.Link>
+              <Nav.Link href="/about_me">About Me</Nav.Link>
+              <NavDropdown title="Heat Press" id="basic-nav-dropdown">
+                <NavDropdown.Item href="/apparel">Hats</NavDropdown.Item>
+                <NavDropdown.Item href="/apparel">Make Up Bags</NavDropdown.Item>
+                <NavDropdown.Item href="/apparel">Pencil Bags</NavDropdown.Item>
+                <NavDropdown.Item href="/apparel">Shirts</NavDropdown.Item>
+              </NavDropdown>
 
-          <NavDropdown.Item href="/apparel">Shirts</NavDropdown.Item>
-    
-        </NavDropdown>
+              <Nav.Link href="/contact">Contact</Nav.Link>
+              <Nav.Link href="/custom">Custom</Nav.Link>
+              <NavDropdown title="Cups" id="basic-nav-dropdown">
+                <OverlayTrigger trigger='hover' placement='right'
+                  overlay={
+                    <Popover>
+                      <Popover.Content>
+                        <ListGroup className="list-group" variant="flush">
+                          <ListGroup.Item className="li">Birds</ListGroup.Item>
+                          <ListGroup.Item className="li">Dogs</ListGroup.Item>
+                          <ListGroup.Item className="li">Penguins</ListGroup.Item>
+                        </ListGroup>
+                      </Popover.Content>
+                    </Popover>
+                  }>
+                  <NavDropdown.Item href="/cups">Animals</NavDropdown.Item>
+                </OverlayTrigger>
 
+                <OverlayTrigger trigger='hover' placement='right'
+                  overlay={
+                    <Popover>
+                      <Popover.Content>
+                        <ListGroup className="list-group" variant="flush">
+                          <ListGroup.Item className="li">Naruto</ListGroup.Item>
+                        </ListGroup>
+                      </Popover.Content>
+                    </Popover>
+                  }>
+                  <NavDropdown.Item href="/cups">Anime</NavDropdown.Item>
+                </OverlayTrigger>
 
+                <OverlayTrigger trigger='hover' placement='right'
+                  overlay={
+                    <Popover>
+                      <Popover.Content>
+                        <ListGroup className="list-group" variant="flush">
+                          <ListGroup.Item className="li">Ariel</ListGroup.Item>
+                          <ListGroup.Item className="li">Belle</ListGroup.Item>
+                          <ListGroup.Item className="li">Cinderella</ListGroup.Item>
+                          <ListGroup.Item className="li">Coco</ListGroup.Item>
+                          <ListGroup.Item className="li">Dumbo</ListGroup.Item>
+                          <ListGroup.Item className="li">Grogu (Baby Yoda)</ListGroup.Item>
+                          <ListGroup.Item className="li">Groot</ListGroup.Item>
+                          <ListGroup.Item className="li">Jasmine</ListGroup.Item>
+                          <ListGroup.Item className="li">Micky Mouse</ListGroup.Item>
+                          <ListGroup.Item className="li">Minnie Mouse</ListGroup.Item>
+                          <ListGroup.Item className="li">Stitch</ListGroup.Item>
+                          <ListGroup.Item className="li">Winnie the Pooh</ListGroup.Item>
+                        </ListGroup>
+                      </Popover.Content>
+                    </Popover>
+                  }>
 
-        {/* <NavDropdown title="Categories" id="basic-nav-dropdown">
-          <NavDropdown.Item href="/categories/#animals">Animals</NavDropdown.Item>
-          <NavDropdown.Item href="/categories">Anime</NavDropdown.Item>
-          <NavDropdown.Item href="/categories">Disney</NavDropdown.Item>
-          <NavDropdown.Item href="/categories">Movies</NavDropdown.Item>
-          <NavDropdown.Item href="/categories">Music</NavDropdown.Item>
-          <NavDropdown.Item href="/categories">Nature</NavDropdown.Item>
-          <NavDropdown.Item href="/categories">TV</NavDropdown.Item>
-          <NavDropdown.Item href="/categories">Valentine's Day</NavDropdown.Item>
-          <NavDropdown.Item href="/categories">Video Game</NavDropdown.Item>
-        </NavDropdown> */}
+                  <NavDropdown.Item href="/cups">Disney</NavDropdown.Item>
+                </OverlayTrigger>
 
+                <OverlayTrigger trigger='hover' placement='right'
+                  overlay={
+                    <Popover>
+                      <Popover.Content>
+                        <ListGroup className="list-group" variant="flush">
+                          <ListGroup.Item className="li">Jurassic Park</ListGroup.Item>
+                          <ListGroup.Item className="li">Transformers</ListGroup.Item>
+                        </ListGroup>
+                      </Popover.Content>
+                    </Popover>
+                  }>
+                  <NavDropdown.Item href="/cups">Movies</NavDropdown.Item>
+                </OverlayTrigger>
 
+                <OverlayTrigger trigger='hover' placement='right'
+                  overlay={
+                    <Popover>
+                      <Popover.Content>
+                        <ListGroup className="list-group" variant="flush">
+                          <ListGroup.Item className="li">Bad Bunny</ListGroup.Item>
+                          <ListGroup.Item className="li">Billie Ellish</ListGroup.Item>
+                          <ListGroup.Item className="li">Ice Cube</ListGroup.Item>
+                          <ListGroup.Item className="li">Selena</ListGroup.Item>
+                        </ListGroup>
+                      </Popover.Content>
+                    </Popover>
+                  }>
+                  <NavDropdown.Item href="/cups">Music</NavDropdown.Item>
+                </OverlayTrigger>
 
-        <Nav.Link href="/contact">Contact</Nav.Link>
-        <Nav.Link href="/custom">Custom</Nav.Link>
-        <NavDropdown title="Cups" id="basic-nav-dropdown">
-          <OverlayTrigger trigger='hover' placement='right'
-          overlay={
-            <Popover>
-              <Popover.Content>
-                <ListGroup className="list-group" variant="flush">
-                  <ListGroup.Item className="li">Birds</ListGroup.Item>
-                  <ListGroup.Item className="li">Dogs</ListGroup.Item>
-                  <ListGroup.Item className="li">Penguins</ListGroup.Item>
-                </ListGroup>
-              </Popover.Content>
-            </Popover>
-          }>
-          <NavDropdown.Item href="/cups">Animals</NavDropdown.Item>
-          </OverlayTrigger> 
-           
-          <OverlayTrigger trigger='hover' placement='right'
-          overlay={
-            <Popover>
-              <Popover.Content>
-                <ListGroup className="list-group" variant="flush">
-                  <ListGroup.Item className="li">Naruto</ListGroup.Item>
-                </ListGroup>
-              </Popover.Content>
-            </Popover>
-          }>
-          <NavDropdown.Item href="/cups">Anime</NavDropdown.Item>
-          </OverlayTrigger> 
+                <OverlayTrigger trigger='hover' placement='right'
+                  overlay={
+                    <Popover>
+                      <Popover.Content>
+                        <ListGroup className="list-group" variant="flush">
+                          <ListGroup.Item className="li">Flowers</ListGroup.Item>
+                        </ListGroup>
+                      </Popover.Content>
+                    </Popover>
+                  }>
+                  <NavDropdown.Item href="/cups">Nature</NavDropdown.Item>
+                </OverlayTrigger>
 
-          <OverlayTrigger trigger='hover' placement='right'
-          overlay={
-            <Popover>
-              <Popover.Content>
-                <ListGroup className="list-group" variant="flush">
-                  <ListGroup.Item className="li">Ariel</ListGroup.Item>
-                  <ListGroup.Item className="li">Belle</ListGroup.Item>
-                  <ListGroup.Item className="li">Cinderella</ListGroup.Item>
-                  <ListGroup.Item className="li">Coco</ListGroup.Item>
-                  <ListGroup.Item className="li">Dumbo</ListGroup.Item>
-                  <ListGroup.Item className="li">Grogu (Baby Yoda)</ListGroup.Item>
-                  <ListGroup.Item className="li">Groot</ListGroup.Item>
-                  <ListGroup.Item className="li">Jasmine</ListGroup.Item>
-                  <ListGroup.Item className="li">Micky Mouse</ListGroup.Item>
-                  <ListGroup.Item className="li">Minnie Mouse</ListGroup.Item>
-                  <ListGroup.Item className="li">Stitch</ListGroup.Item>
-                  <ListGroup.Item className="li">Winnie the Pooh</ListGroup.Item>
-                </ListGroup>
-              </Popover.Content>
-            </Popover>
-          }>
-            
-          <NavDropdown.Item href="/cups">Disney</NavDropdown.Item>
-          </OverlayTrigger> 
+                <OverlayTrigger trigger='hover' placement='right'
+                  overlay={
+                    <Popover>
+                      <Popover.Content>
+                        <ListGroup className="list-group" variant="flush">
+                          <ListGroup.Item className="li">Las Vegas Golden Knights</ListGroup.Item>
+                          <ListGroup.Item className="li">Las Vegas Raiders</ListGroup.Item>
+                          <ListGroup.Item className="li">Los Angeles Dodgers</ListGroup.Item>
+                          <ListGroup.Item className="li">Los Angeles Lakers</ListGroup.Item>
+                        </ListGroup>
+                      </Popover.Content>
+                    </Popover>
+                  }>
+                  <NavDropdown.Item href="/cups">Sports</NavDropdown.Item>
+                </OverlayTrigger>
 
-          <Nav.Link href="/contact">Laser</Nav.Link>
+                <OverlayTrigger trigger='hover' placement='right'
+                  overlay={
+                    <Popover>
+                      <Popover.Content>
+                        <ListGroup className="list-group" variant="flush">
+                          <ListGroup.Item className="li">Stranger Things</ListGroup.Item>
+                        </ListGroup>
+                      </Popover.Content>
+                    </Popover>
+                  }>
+                  <NavDropdown.Item href="/cups">TV</NavDropdown.Item>
+                </OverlayTrigger>
 
+                <NavDropdown.Item href="/cups">Valentine's Day</NavDropdown.Item>
+                {/* <NavDropdown.Item href="/cups">Video Games</NavDropdown.Item> */}
+              </NavDropdown>
+              <Nav.Link href="/contact">Laser</Nav.Link>
+              <Nav.Link href="/flowers">Flowers</Nav.Link>
 
+              <NavDropdown title="Party Decorations" id="basic-nav-dropdown">
+                <NavDropdown.Item href="/apparel">Banners</NavDropdown.Item>
+                <NavDropdown.Item href="/apparel">Center Pieces</NavDropdown.Item>
+                <NavDropdown.Item href="/apparel">Cake Toppers</NavDropdown.Item>
+                <NavDropdown.Item href="/apparel">Goodie Bags</NavDropdown.Item>
+              </NavDropdown>
 
-          <OverlayTrigger trigger='hover' placement='right'
-          overlay={
-            <Popover>
-              <Popover.Content>
-                <ListGroup className="list-group" variant="flush">
-                  <ListGroup.Item className="li">Jurassic Park</ListGroup.Item>
-                  <ListGroup.Item className="li">Transformers</ListGroup.Item>
-                </ListGroup>
-              </Popover.Content>
-            </Popover>
-          }>
-          <NavDropdown.Item href="/cups">Movies</NavDropdown.Item>
-          </OverlayTrigger> 
+              <Nav.Link href="/valentines_day">Valentine's Day</Nav.Link>
+              <Nav.Link href="/vinyl">Vinyl</Nav.Link>
 
-
-
-          <OverlayTrigger trigger='hover' placement='right'
-          overlay={
-            <Popover>
-              <Popover.Content>
-                <ListGroup className="list-group" variant="flush">
-                  <ListGroup.Item className="li">Bad Bunny</ListGroup.Item>
-                  <ListGroup.Item className="li">Billie Ellish</ListGroup.Item>
-                  <ListGroup.Item className="li">Ice Cube</ListGroup.Item>
-                  <ListGroup.Item className="li">Selena</ListGroup.Item>
-                </ListGroup>
-              </Popover.Content>
-            </Popover>
-          }>
-          <NavDropdown.Item href="/cups">Music</NavDropdown.Item>
-          </OverlayTrigger> 
-
-
-          <OverlayTrigger trigger='hover' placement='right'
-          overlay={
-            <Popover>
-              <Popover.Content>
-                <ListGroup className="list-group" variant="flush">
-                  <ListGroup.Item className="li">Flowers</ListGroup.Item>
-                </ListGroup>
-              </Popover.Content>
-            </Popover>
-          }>
-          <NavDropdown.Item href="/cups">Nature</NavDropdown.Item>
-          </OverlayTrigger> 
-
-          <OverlayTrigger trigger='hover' placement='right'
-          overlay={
-            <Popover>
-              <Popover.Content>
-                <ListGroup className="list-group" variant="flush">
-                  <ListGroup.Item className="li">Las Vegas Golden Knights</ListGroup.Item>
-                  <ListGroup.Item className="li">Las Vegas Raiders</ListGroup.Item>
-                  <ListGroup.Item className="li">Los Angeles Dodgers</ListGroup.Item>
-                  <ListGroup.Item className="li">Los Angeles Lakers</ListGroup.Item>
-                </ListGroup>
-              </Popover.Content>
-            </Popover>
-          }>
-          <NavDropdown.Item href="/cups">Sports</NavDropdown.Item>
-          </OverlayTrigger> 
-
-
-          <OverlayTrigger trigger='hover' placement='right'
-          overlay={
-            <Popover>
-              <Popover.Content>
-                <ListGroup className="list-group" variant="flush">
-                  <ListGroup.Item className="li">Stranger Things</ListGroup.Item>
-                </ListGroup>
-              </Popover.Content>
-            </Popover>
-          }>
-          <NavDropdown.Item href="/cups">TV</NavDropdown.Item>
-          </OverlayTrigger> 
-          
-          
-          
-          <NavDropdown.Item href="/cups">Valentine's Day</NavDropdown.Item>
-          {/* <NavDropdown.Item href="/cups">Video Games</NavDropdown.Item> */}
-        </NavDropdown>
-        {/* <NavDropdown title="Flowers" id="basic-nav-dropdown">
-          <NavDropdown.Item href="/flowers">1</NavDropdown.Item>
-        </NavDropdown> */}
-        <Nav.Link href="/flowers">Flowers</Nav.Link>
-
-        {/* <NavDropdown title="Party Decorations" id="basic-nav-dropdown">
-          <NavDropdown.Item href="/party_decorations">1</NavDropdown.Item>
-        </NavDropdown> */}
-        <NavDropdown title="Party Decorations" id="basic-nav-dropdown">
-          <NavDropdown.Item href="/apparel">Banners</NavDropdown.Item>
-          <NavDropdown.Item href="/apparel">Center Pieces</NavDropdown.Item>
-          <NavDropdown.Item href="/apparel">Cake Toppers</NavDropdown.Item>
-          <NavDropdown.Item href="/apparel">Goodie Bags</NavDropdown.Item>
-        </NavDropdown>
-
-        <Nav.Link href="/valentines_day">Valentine's Day</Nav.Link>
-        {/* <NavDropdown title="Vinyl" id="basic-nav-dropdown">
-          <NavDropdown.Item href="/vinyl">1</NavDropdown.Item>
-        </NavDropdown> */}
-        <Nav.Link href="/vinyl">Vinyl</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Navbar>
+      </Container>
 
 
+      <Carousel>
+        <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/grogu1.jpg"
+            alt="First slide"
+          /><br></br>
+          <Carousel.Caption>
+            {/* <h3>First slide label</h3> */}
+            {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/vinyl/vinyl1.jpg"
+            alt="Second slide"
+          /><br></br>
 
-      </Nav>
-    </Navbar.Collapse>
-  </Navbar>
-  </Container>
+          <Carousel.Caption>
+            {/* <h3>Second slide label</h3> */}
+            {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/flowers/flowers1.jpg"
+            alt="Third slide"
+          /><br></br>
 
-
-  <Carousel>
-  <Carousel.Item>
-    <img
-      className="carousel-image"
-      src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/grogu1.jpg"
-      alt="First slide"
-    /><br></br>
-    <Carousel.Caption>
-      {/* <h3>First slide label</h3> */}
-      {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="carousel-image"
-      src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/vinyl/vinyl1.jpg"
-      alt="Second slide"
-    /><br></br>
-
-    <Carousel.Caption>
-      {/* <h3>Second slide label</h3> */}
-      {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="carousel-image"
-      src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/flowers/flowers1.jpg"
-      alt="Third slide"
-    /><br></br>
-
-    <Carousel.Caption>
-      {/* <h3>Third slide label</h3>
+          <Carousel.Caption>
+            {/* <h3>Third slide label</h3>
       <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
-    </Carousel.Caption>
-  </Carousel.Item>
-  {/* <Carousel.Item>
-    <img
-      className="carousel-image"
-      src={hats1}
-      alt="Third slide"
-    /><br></br>
+          </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
+      
+      <Router>
+        <Switch>
+          {/* <Route exact path = '/' render = {renderLandingPage} /> */}
+          <Route path='/about_me' />
+          <Route path='/contact' />
+          <Route path='/custom' />
+          <Route path='/animals' />
+          <Route path='/disney' />
+          <Route path='/movies' />
+          <Route path='/music' />
+          <Route path='/nature' />
+          <Route path='/tv' />
+          <Route path='/valentines_day' />
+          <Route path='/sports' />
+        </Switch>
 
-    <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="carousel-image"
-      src={mylittlepony1}
-      alt="Third slide"
-    /><br></br>
+      </Router>
 
-    <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-    </Carousel.Caption>
-  </Carousel.Item> */}
-</Carousel>
-{/* <h1>2</h1> */}
-    <Router>
-      <Switch>
-      {/* <Route exact path = '/' render = {renderLandingPage} /> */}
-      <Route path = '/about_me'  />
-      <Route path = '/contact'  />
-      <Route path = '/custom'  />
-      <Route path = '/animals'  />
-      <Route path = '/disney'  />
-      <Route path = '/movies'  />
-      <Route path = '/music'  />
-      <Route path = '/nature'  />
-      <Route path = '/tv'  />
-      <Route path = '/valentines_day'  />
-      <Route path = '/sports'  />
-      </Switch>
-
-    </Router>
-
-{/* <h1>1</h1>
+      {/* <h1>1</h1>
   <InstagramEmbed
   url='https://www.instagr.am/p/CA3aDJ7HlTE/'
   clientAccessToken='413905563134913|1e7b57740da098e528aa20e8ea739d21'
@@ -329,8 +267,8 @@ function App() {
 
 />
         <h1>2</h1> */}
-     </div>
-     
+    </div>
+
   );
 }
 
