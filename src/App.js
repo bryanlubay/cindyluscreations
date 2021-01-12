@@ -60,7 +60,7 @@ function App() {
                       </Popover.Content>
                     </Popover>
                   }>
-                  <NavDropdown.Item href="/cups">Animals</NavDropdown.Item>
+                  <NavDropdown.Item >Animals</NavDropdown.Item>
                 </OverlayTrigger>
 
                 <OverlayTrigger trigger='click' placement='right'
@@ -73,7 +73,7 @@ function App() {
                       </Popover.Content>
                     </Popover>
                   }>
-                  <NavDropdown.Item href="/cups">Anime</NavDropdown.Item>
+                  <NavDropdown.Item >Anime</NavDropdown.Item>
                 </OverlayTrigger>
 
                 <OverlayTrigger trigger='click' placement='right'
@@ -98,7 +98,7 @@ function App() {
                     </Popover>
                   }>
 
-                  <NavDropdown.Item href="/cups">Disney</NavDropdown.Item>
+                  <NavDropdown.Item >Disney</NavDropdown.Item>
                 </OverlayTrigger>
 
                 <OverlayTrigger trigger='click' placement='right'
@@ -112,7 +112,7 @@ function App() {
                       </Popover.Content>
                     </Popover>
                   }>
-                  <NavDropdown.Item href="/cups">Movies</NavDropdown.Item>
+                  <NavDropdown.Item >Movies</NavDropdown.Item>
                 </OverlayTrigger>
 
                 <OverlayTrigger trigger='click' placement='right'
@@ -128,7 +128,7 @@ function App() {
                       </Popover.Content>
                     </Popover>
                   }>
-                  <NavDropdown.Item href="/cups">Music</NavDropdown.Item>
+                  <NavDropdown.Item >Music</NavDropdown.Item>
                 </OverlayTrigger>
 
                 <OverlayTrigger trigger='click' placement='right'
@@ -141,7 +141,7 @@ function App() {
                       </Popover.Content>
                     </Popover>
                   }>
-                  <NavDropdown.Item href="/cups">Nature</NavDropdown.Item>
+                  <NavDropdown.Item >Nature</NavDropdown.Item>
                 </OverlayTrigger>
 
                 <OverlayTrigger trigger='click' placement='right'
@@ -157,7 +157,7 @@ function App() {
                       </Popover.Content>
                     </Popover>
                   }>
-                  <NavDropdown.Item href="/cups">Sports</NavDropdown.Item>
+                  <NavDropdown.Item>Sports</NavDropdown.Item>
                 </OverlayTrigger>
 
                 <OverlayTrigger trigger='click' placement='right'
@@ -170,7 +170,7 @@ function App() {
                       </Popover.Content>
                     </Popover>
                   }>
-                  <NavDropdown.Item href="/cups">TV</NavDropdown.Item>
+                  <NavDropdown.Item >TV</NavDropdown.Item>
                 </OverlayTrigger>
 
                 <NavDropdown.Item href="/cups">Valentine's Day</NavDropdown.Item>
