@@ -48,7 +48,7 @@ function App() {
               <Nav.Link href="/contact">Contact</Nav.Link>
               <Nav.Link href="/custom">Custom</Nav.Link>
               <NavDropdown title="Cups" id="basic-nav-dropdown">
-                <OverlayTrigger trigger='hover' placement='right'
+                <OverlayTrigger trigger='click' placement='right'
                   overlay={
                     <Popover>
                       <Popover.Content>
@@ -63,7 +63,7 @@ function App() {
                   <NavDropdown.Item href="/cups">Animals</NavDropdown.Item>
                 </OverlayTrigger>
 
-                <OverlayTrigger trigger='hover' placement='right'
+                <OverlayTrigger trigger='click' placement='right'
                   overlay={
                     <Popover>
                       <Popover.Content>
@@ -76,7 +76,7 @@ function App() {
                   <NavDropdown.Item href="/cups">Anime</NavDropdown.Item>
                 </OverlayTrigger>
 
-                <OverlayTrigger trigger='hover' placement='right'
+                <OverlayTrigger trigger='click' placement='right'
                   overlay={
                     <Popover>
                       <Popover.Content>
@@ -101,7 +101,7 @@ function App() {
                   <NavDropdown.Item href="/cups">Disney</NavDropdown.Item>
                 </OverlayTrigger>
 
-                <OverlayTrigger trigger='hover' placement='right'
+                <OverlayTrigger trigger='click' placement='right'
                   overlay={
                     <Popover>
                       <Popover.Content>
@@ -115,7 +115,7 @@ function App() {
                   <NavDropdown.Item href="/cups">Movies</NavDropdown.Item>
                 </OverlayTrigger>
 
-                <OverlayTrigger trigger='hover' placement='right'
+                <OverlayTrigger trigger='click' placement='right'
                   overlay={
                     <Popover>
                       <Popover.Content>
@@ -131,7 +131,7 @@ function App() {
                   <NavDropdown.Item href="/cups">Music</NavDropdown.Item>
                 </OverlayTrigger>
 
-                <OverlayTrigger trigger='hover' placement='right'
+                <OverlayTrigger trigger='click' placement='right'
                   overlay={
                     <Popover>
                       <Popover.Content>
@@ -144,7 +144,7 @@ function App() {
                   <NavDropdown.Item href="/cups">Nature</NavDropdown.Item>
                 </OverlayTrigger>
 
-                <OverlayTrigger trigger='hover' placement='right'
+                <OverlayTrigger trigger='click' placement='right'
                   overlay={
                     <Popover>
                       <Popover.Content>
@@ -160,7 +160,7 @@ function App() {
                   <NavDropdown.Item href="/cups">Sports</NavDropdown.Item>
                 </OverlayTrigger>
 
-                <OverlayTrigger trigger='hover' placement='right'
+                <OverlayTrigger trigger='click' placement='right'
                   overlay={
                     <Popover>
                       <Popover.Content>
@@ -232,7 +232,7 @@ function App() {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-      
+
       <Router>
         <Switch>
           {/* <Route exact path = '/' render = {renderLandingPage} /> */}
