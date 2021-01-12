@@ -17,11 +17,11 @@ import Popover from 'react-bootstrap/Popover'
 import ListGroup from 'react-bootstrap/ListGroup'
 
 // import logo from './images/logo.JPG'
-import hats1 from './images/heat_press/hats1.jpg'
-import mylittlepony1 from './images/party_decorations/mylittlepony1.jpg'
-import flowers1 from './images/flowers/flowers1.jpg'
-import grogu1 from './images/cups/grogu1.jpg'
-import vinyl1 from './images/vinyl/vinyl1.jpg'
+// import hats1 from './images/heat_press/hats1.jpg'
+// import mylittlepony1 from './images/party_decorations/mylittlepony1.jpg'
+// import flowers1 from './images/flowers/flowers1.jpg'
+// import grogu1 from './images/cups/grogu1.jpg'
+// import vinyl1 from './images/vinyl/vinyl1.jpg'
 
 function App() {
   document.title = "Cindylus Creations"
