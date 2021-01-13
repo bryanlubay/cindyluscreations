@@ -54,6 +54,7 @@
   /* height: 25%; 
   width: 25%; */
   height: 400px;
+  max-width: -webkit-fill-available;
 }
 
 .body {
