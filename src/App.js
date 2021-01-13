@@ -200,7 +200,7 @@ function App() {
         <Carousel.Item>
           <img
             className="carousel-image"
-            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/grogu1.jpg"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/400.jpg"
             alt="First slide"
           /><br></br>
           <Carousel.Caption>
@@ -211,7 +211,7 @@ function App() {
         <Carousel.Item>
           <img
             className="carousel-image"
-            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/vinyl/vinyl1.jpg"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/500.jpeg"
             alt="Second slide"
           /><br></br>
 
@@ -223,7 +223,7 @@ function App() {
         <Carousel.Item>
           <img
             className="carousel-image"
-            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/flowers/flowers1.jpg"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/600.jpg"
             alt="Third slide"
           /><br></br>
 
