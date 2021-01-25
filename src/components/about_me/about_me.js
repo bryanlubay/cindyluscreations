@@ -11,6 +11,3 @@ function about_me() {
 }
 
 export default about_me
-
-
-// WTF

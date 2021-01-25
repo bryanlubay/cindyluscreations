@@ -25,6 +25,13 @@ import ListGroup from 'react-bootstrap/ListGroup'
 
 import About_me from './components/about_me/about_me' // fix to capitals later
 import Contact from './components/Contact/Contact'
+import Cups from './components/Cups/Cups'
+import Custom from './components/Custom/Custom'
+import Flowers from './components/Flowers/Flowers'
+import Heat_Press from './components/Heat_Press/Heat_Press'
+import Laser from './components/Laser/Laser'
+import Party_Decorations from './components/Party_Decorations/Party_Decorations'
+import Vinyl from './components/Vinyl/Vinyl'
 
 function App() {
   document.title = "Cindylus Creations"
@@ -280,15 +287,15 @@ function App() {
         <Switch>
           {/* <Route exact path = '/' render = {renderLandingPage} /> */}
           <Route path='/about_me' component={About_me}/> 
-          <Route path='/contact' render={Contact} />
-          <Route path='/custom' />
-          <Route path='/cups' />
-          <Route path='/heat_press' />
-          <Route path='/laser' />
-          <Route path='/flowers' />
-          <Route path='/party_decorations' />
-          <Route path='/valentines_day' />
-          <Route path='/vinyl' />
+          <Route path='/contact' component={Contact} />
+          <Route path='/custom' component={Custom}/>
+          <Route path='/cups' component={Cups}/>
+          <Route path='/heat_press' component={Heat_Press}/>
+          <Route path='/laser' component={Laser}/>
+          <Route path='/flowers' component={Flowers}/>
+          <Route path='/party_decorations' component={Party_Decorations}/>
+          <Route path='/valentines_day' component={}/>
+          <Route path='/vinyl' component={Vinyl}/>
         </Switch>
       </Router>
       {/* <h1>1</h1>

@@ -1,13 +1,13 @@
 import React, {useState, useEffect, Component} from 'react';
 
-function Contact() {
+function Flowers() {
   return (
     <div>
       {
-        <h1>Contact</h1>
+        <h1>Flowers</h1>
       }
     </div>
   )
 }
 
-export default Contact
+export default Flowers

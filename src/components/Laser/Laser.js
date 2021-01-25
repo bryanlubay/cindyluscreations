@@ -1,13 +1,13 @@
 import React, {useState, useEffect, Component} from 'react';
 
-function Contact() {
+function Laser() {
   return (
     <div>
       {
-        <h1>Contact</h1>
+        <h1>Laser</h1>
       }
     </div>
   )
 }
 
-export default Contact
+export default Laser
