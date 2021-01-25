@@ -280,7 +280,7 @@ function App() {
       <Router>
         <Switch>
           {/* <Route exact path = '/' render = {renderLandingPage} /> */}
-          <Route path='/' render={Landing_Page}/> 
+          {/* <Route path='/' render={Landing_Page}/>  */}
           <Route path='/about_me' component={About_me}/> 
           <Route path='/contact' component={Contact} />
           <Route path='/custom' component={Custom}/>
