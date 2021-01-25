@@ -286,7 +286,7 @@ function App() {
       <Router>
         <Switch>
           {/* <Route exact path = '/' render = {renderLandingPage} /> */}
-          <Route path='/'> 
+          {/* <Route path='/' render={}/>  */}
           <Route path='/about_me' component={About_me}/> 
           <Route path='/contact' component={Contact} />
           <Route path='/custom' component={Custom}/>
