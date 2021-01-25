@@ -274,6 +274,8 @@ function App() {
       </Carousel>
 
       {/* component = add to bottom, render =  */}
+
+      <h1>Home</h1>
       <Router>
         <Switch>
           {/* <Route exact path = '/' render = {renderLandingPage} /> */}
@@ -288,9 +290,7 @@ function App() {
           <Route path='/valentines_day' />
           <Route path='/vinyl' />
         </Switch>
-
       </Router>
-      <h1>11:14</h1>
       {/* <h1>1</h1>
   <InstagramEmbed
   url='https://www.instagr.am/p/CA3aDJ7HlTE/'
