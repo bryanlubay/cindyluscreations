@@ -25,6 +25,7 @@ import Heat_Press from './components/Heat_Press/Heat_Press'
 import Laser from './components/Laser/Laser'
 import Party_Decorations from './components/Party_Decorations/Party_Decorations'
 import Vinyl from './components/Vinyl/Vinyl'
+import Landing_Page from './components/Landing_Page/Landing_Page'
 
 function App() {
   document.title = "Cindylus Creations"
@@ -279,7 +280,7 @@ function App() {
       <Router>
         <Switch>
           {/* <Route exact path = '/' render = {renderLandingPage} /> */}
-          <Route path='/' render={Landing_page}/> 
+          <Route path='/' render={Landing_Page}/> 
           <Route path='/about_me' component={About_me}/> 
           <Route path='/contact' component={Contact} />
           <Route path='/custom' component={Custom}/>
