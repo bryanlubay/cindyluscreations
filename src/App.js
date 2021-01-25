@@ -23,6 +23,8 @@ import ListGroup from 'react-bootstrap/ListGroup'
 // import grogu1 from './images/cups/grogu1.jpg'
 // import vinyl1 from './images/vinyl/vinyl1.jpg'
 
+import About_me from './components/About_me/About_me'
+
 function App() {
   document.title = "Cindylus Creations"
   return (
@@ -237,17 +239,16 @@ function App() {
       <Router>
         <Switch>
           {/* <Route exact path = '/' render = {renderLandingPage} /> */}
-          <Route path='/about_me' />
+          <Route path='/about_me' component={About_me}/>
           <Route path='/contact' />
           <Route path='/custom' />
-          <Route path='/animals' />
-          <Route path='/disney' />
-          <Route path='/movies' />
-          <Route path='/music' />
-          <Route path='/nature' />
-          <Route path='/tv' />
+          <Route path='/cups' />
+          <Route path='/heat_press' />
+          <Route path='/laser' />
+          <Route path='/flowers' />
+          <Route path='/party_decorations' />
           <Route path='/valentines_day' />
-          <Route path='/sports' />
+          <Route path='/vinyl' />
         </Switch>
 
       </Router>
