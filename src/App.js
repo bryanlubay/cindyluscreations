@@ -16,13 +16,6 @@ import { OverlayTrigger } from 'react-bootstrap';
 import Popover from 'react-bootstrap/Popover'
 import ListGroup from 'react-bootstrap/ListGroup'
 
-// import logo from './images/logo.JPG'
-// import hats1 from './images/heat_press/hats1.jpg'
-// import mylittlepony1 from './images/party_decorations/mylittlepony1.jpg'
-// import flowers1 from './images/flowers/flowers1.jpg'
-// import grogu1 from './images/cups/grogu1.jpg'
-// import vinyl1 from './images/vinyl/vinyl1.jpg'
-
 import About_me from './components/about_me/about_me' // fix to capitals later
 import Contact from './components/Contact/Contact'
 import Cups from './components/Cups/Cups'
@@ -77,7 +70,7 @@ function App() {
                       </Popover.Content>
                     </Popover>
                   }>
-                  <NavDropdown.Item >Anime</NavDropdown.Item>
+                  <NavDropdown.Item href="/cups/anime">Anime</NavDropdown.Item>
                 </OverlayTrigger>
 
                 <OverlayTrigger trigger='hover' placement='right'
@@ -102,7 +95,7 @@ function App() {
                     </Popover>
                   }>
 
-                  <NavDropdown.Item >Disney</NavDropdown.Item>
+                  <NavDropdown.Item href="/cups/disney">Disney</NavDropdown.Item>
                 </OverlayTrigger>
 
                 <OverlayTrigger trigger='hover' placement='right'
@@ -116,7 +109,7 @@ function App() {
                       </Popover.Content>
                     </Popover>
                   }>
-                  <NavDropdown.Item >Movies</NavDropdown.Item>
+                  <NavDropdown.Item href="/cups/movies">Movies</NavDropdown.Item>
                 </OverlayTrigger>
 
                 <OverlayTrigger trigger='hover' placement='right'
@@ -132,7 +125,7 @@ function App() {
                       </Popover.Content>
                     </Popover>
                   }>
-                  <NavDropdown.Item >Music</NavDropdown.Item>
+                  <NavDropdown.Item href="/cups/music">Music</NavDropdown.Item>
                 </OverlayTrigger>
 
                 <OverlayTrigger trigger='hover' placement='right'
@@ -145,7 +138,7 @@ function App() {
                       </Popover.Content>
                     </Popover>
                   }>
-                  <NavDropdown.Item >Nature</NavDropdown.Item>
+                  <NavDropdown.Item href="/cups/nature">Nature</NavDropdown.Item>
                 </OverlayTrigger>
 
                 <OverlayTrigger trigger='hover' placement='right'
@@ -161,7 +154,7 @@ function App() {
                       </Popover.Content>
                     </Popover>
                   }>
-                  <NavDropdown.Item>Sports</NavDropdown.Item>
+                  <NavDropdown.Item href="/cups/sports">Sports</NavDropdown.Item>
                 </OverlayTrigger>
 
                 <OverlayTrigger trigger='hover' placement='right'
@@ -174,27 +167,27 @@ function App() {
                       </Popover.Content>
                     </Popover>
                   }>
-                  <NavDropdown.Item >TV</NavDropdown.Item>
+                  <NavDropdown.Item href="/cups/tv">TV</NavDropdown.Item>
                 </OverlayTrigger>
 
                 <NavDropdown.Item href="/cups">Valentine's Day</NavDropdown.Item>
                 {/* <NavDropdown.Item href="/cups">Video Games</NavDropdown.Item> */}
               </NavDropdown>
               <NavDropdown title="Heat Press" id="basic-nav-dropdown">
-                <NavDropdown.Item href="/apparel">Hats</NavDropdown.Item>
-                <NavDropdown.Item href="/apparel">Make Up Bags</NavDropdown.Item>
-                <NavDropdown.Item href="/apparel">Pencil Bags</NavDropdown.Item>
-                <NavDropdown.Item href="/apparel">Shirts</NavDropdown.Item>
+                <NavDropdown.Item href="/heat_press/hats">Hats</NavDropdown.Item>
+                <NavDropdown.Item href="/heat_press/make_up_bags">Make Up Bags</NavDropdown.Item>
+                <NavDropdown.Item href="/heat_press/pencil_bags">Pencil Bags</NavDropdown.Item>
+                <NavDropdown.Item href="/heat_press/shirts">Shirts</NavDropdown.Item>
               </NavDropdown>
 
               <Nav.Link href="/laser">Laser</Nav.Link>
               <Nav.Link href="/flowers">Flowers</Nav.Link>
 
               <NavDropdown title="Party Decorations" id="basic-nav-dropdown">
-                <NavDropdown.Item href="/apparel">Banners</NavDropdown.Item>
-                <NavDropdown.Item href="/apparel">Center Pieces</NavDropdown.Item>
-                <NavDropdown.Item href="/apparel">Cake Toppers</NavDropdown.Item>
-                <NavDropdown.Item href="/apparel">Goodie Bags</NavDropdown.Item>
+                <NavDropdown.Item href="/party_decorations/banners">Banners</NavDropdown.Item>
+                <NavDropdown.Item href="/party_decorations/center_pieces">Center Pieces</NavDropdown.Item>
+                <NavDropdown.Item href="/party_decorations/cake_toppers">Cake Toppers</NavDropdown.Item>
+                <NavDropdown.Item href="/party_decorations/goodie_bags">Goodie Bags</NavDropdown.Item>
               </NavDropdown>
 
               <Nav.Link href="/valentines_day">Valentine's Day</Nav.Link>
@@ -291,6 +284,16 @@ function App() {
           <Route path='/contact' component={Contact} />
           <Route path='/custom' component={Custom}/>
           <Route path='/cups' component={Cups}/>
+          <Route path='/cups/animals' component={Cups}/>
+          <Route path='/cups/anime' component={Cups}/>
+          <Route path='/cups/disney' component={Cups}/>
+          <Route path='/cups/movies' component={Cups}/>
+          <Route path='/cups/music' component={Cups}/>
+          <Route path='/cups/flowers' component={Cups}/>
+          <Route path='/cups/sports' component={Cups}/>
+          <Route path='/cups/tv' component={Cups}/>
+          <Route path='/cups/valentines_day' component={Cups}/>
+
           <Route path='/heat_press' component={Heat_Press}/>
           <Route path='/laser' component={Laser}/>
           <Route path='/flowers' component={Flowers}/>
