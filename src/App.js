@@ -23,7 +23,8 @@ import ListGroup from 'react-bootstrap/ListGroup'
 // import grogu1 from './images/cups/grogu1.jpg'
 // import vinyl1 from './images/vinyl/vinyl1.jpg'
 
-import About_me from './components/about_me/about_me'
+import About_me from './components/about_me/about_me' // fix to capitals later
+import Contact from './components/Contact/Contact'
 
 function App() {
   document.title = "Cindylus Creations"
@@ -272,11 +273,12 @@ function App() {
 
       </Carousel>
 
+      {/* component = add to bottom, render =  */}
       <Router>
         <Switch>
           {/* <Route exact path = '/' render = {renderLandingPage} /> */}
-          <Route path='/about_me' component={About_me}/>
-          <Route path='/contact' />
+          <Route path='/about_me' component={About_me}/> 
+          <Route path='/contact' render={Contact} />
           <Route path='/custom' />
           <Route path='/cups' />
           <Route path='/heat_press' />
