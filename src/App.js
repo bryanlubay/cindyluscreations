@@ -282,7 +282,7 @@ function App() {
 
       {/* component = add to bottom, render =  */}
 
-      <h1>Home</h1>
+      <h1>Home 12:23</h1>
       <Router>
         <Switch>
           {/* <Route exact path = '/' render = {renderLandingPage} /> */}
