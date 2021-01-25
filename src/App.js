@@ -286,6 +286,7 @@ function App() {
       <Router>
         <Switch>
           {/* <Route exact path = '/' render = {renderLandingPage} /> */}
+          <Route path='/'> 
           <Route path='/about_me' component={About_me}/> 
           <Route path='/contact' component={Contact} />
           <Route path='/custom' component={Custom}/>
@@ -294,7 +295,7 @@ function App() {
           <Route path='/laser' component={Laser}/>
           <Route path='/flowers' component={Flowers}/>
           <Route path='/party_decorations' component={Party_Decorations}/>
-          <Route path='/valentines_day' component={}/>
+          <Route path='/valentines_day'/>
           <Route path='/vinyl' component={Vinyl}/>
         </Switch>
       </Router>
