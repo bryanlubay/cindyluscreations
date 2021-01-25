@@ -23,7 +23,7 @@ import ListGroup from 'react-bootstrap/ListGroup'
 // import grogu1 from './images/cups/grogu1.jpg'
 // import vinyl1 from './images/vinyl/vinyl1.jpg'
 
-import About_me from './components/about_me/About_me'
+import About_me from './components/about_me/about_me'
 
 function App() {
   document.title = "Cindylus Creations"

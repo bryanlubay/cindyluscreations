@@ -1,6 +1,6 @@
 import React, {useState, useEffect, Component} from 'react';
 
-function About_me() {
+function about_me() {
   return (
     <div>
       {
@@ -10,7 +10,7 @@ function About_me() {
   )
 }
 
-export default About_me
+export default about_me
 
 
 // WTF
