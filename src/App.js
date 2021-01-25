@@ -64,7 +64,7 @@ function App() {
                       </Popover.Content>
                     </Popover>
                   }>
-                  <NavDropdown.Item >Animals</NavDropdown.Item>
+                  <NavDropdown.Item href="/cups/animals">Animals</NavDropdown.Item>
                 </OverlayTrigger>
 
                 <OverlayTrigger trigger='hover' placement='right'
@@ -187,7 +187,7 @@ function App() {
                 <NavDropdown.Item href="/apparel">Shirts</NavDropdown.Item>
               </NavDropdown>
 
-              <Nav.Link href="/contact">Laser</Nav.Link>
+              <Nav.Link href="/laser">Laser</Nav.Link>
               <Nav.Link href="/flowers">Flowers</Nav.Link>
 
               <NavDropdown title="Party Decorations" id="basic-nav-dropdown">
