@@ -55,20 +55,20 @@ function App() {
   document.title = "Cindylus Creations"
   return (
     <div className="background">
-      <body className="body">
-
-      </body>
+      <html className="html"></html>
+      <body className="body"></body>
       <Container>
         <Navbar fixed="top" bg="light" expand="lg">
           <Navbar.Brand href="https://cindylus-creations.herokuapp.com/">Cindylus Creations</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
+
               <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="/about_me">About Me</Nav.Link>
-
               <Nav.Link href="/contact">Contact</Nav.Link>
               <Nav.Link href="/custom">Custom</Nav.Link>
+
               <NavDropdown title="Cups" id="basic-nav-dropdown">
                 <OverlayTrigger trigger='hover' placement='right'
                   overlay={
@@ -80,8 +80,7 @@ function App() {
                           <ListGroup.Item className="li">Penguins</ListGroup.Item>
                         </ListGroup>
                       </Popover.Content>
-                    </Popover>
-                  }>
+                    </Popover>}>
                   <NavDropdown.Item href="/cups/animals">Animals</NavDropdown.Item>
                 </OverlayTrigger>
 
@@ -93,8 +92,7 @@ function App() {
                           <ListGroup.Item className="li">Naruto</ListGroup.Item>
                         </ListGroup>
                       </Popover.Content>
-                    </Popover>
-                  }>
+                    </Popover>}>
                   <NavDropdown.Item href="/cups/anime">Anime</NavDropdown.Item>
                 </OverlayTrigger>
 
@@ -117,9 +115,7 @@ function App() {
                           <ListGroup.Item className="li">Winnie the Pooh</ListGroup.Item>
                         </ListGroup>
                       </Popover.Content>
-                    </Popover>
-                  }>
-
+                    </Popover>}>
                   <NavDropdown.Item href="/cups/disney">Disney</NavDropdown.Item>
                 </OverlayTrigger>
 
@@ -132,8 +128,7 @@ function App() {
                           <ListGroup.Item className="li">Transformers</ListGroup.Item>
                         </ListGroup>
                       </Popover.Content>
-                    </Popover>
-                  }>
+                    </Popover>}>
                   <NavDropdown.Item href="/cups/movies">Movies</NavDropdown.Item>
                 </OverlayTrigger>
 
