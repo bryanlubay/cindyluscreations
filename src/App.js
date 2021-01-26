@@ -267,7 +267,7 @@ function App() {
         </Switch>
       </Router>
 
-        <h1>9:15</h1>
+        <h1>9:30</h1>
     </div>
 
   );
