@@ -239,7 +239,7 @@ function App() {
           <Route path='/contact' component={Contact} />
           <Route path='/custom' component={Custom}/>
           <Route path='/cups' component={Cups}/>
-          <Route path='/cups/animals' component={Animals}/>
+          <Route path='/cups/animals' component={Contact}/>
           <Route path='/cups/anime' component={Anime}/>
           <Route path='/cups/disney' component={Disney}/>
           <Route path='/cups/movies' component={Movies}/>
