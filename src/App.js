@@ -69,7 +69,7 @@ function App() {
 
               <Nav.Link href="/contact">Contact</Nav.Link>
               <Nav.Link href="/custom">Custom</Nav.Link>
-              <Nav.Link href="/custom">wtf</Nav.Link>
+              <Nav.Link href="/animals">wtf</Nav.Link>
               <Nav.Link href="/cups/anime">wtf2</Nav.Link>
               <NavDropdown title="Cups" id="basic-nav-dropdown">
                 <OverlayTrigger trigger='hover' placement='right'
@@ -240,7 +240,7 @@ function App() {
           <Route path='/contact' component={Contact} />
           <Route path='/custom' component={Custom}/>
           <Route path='/cups' component={Cups}/>
-          <Route path='/cups/animals' component={Animals}/>
+          <Route path='/animals' component={Animals}/>
           <Route path='/cups/anime' component={Anime}/>
           <Route path='/cups/disney' component={Disney}/>
           <Route path='/cups/movies' component={Movies}/>
