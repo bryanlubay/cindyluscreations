@@ -82,7 +82,7 @@ function App() {
                       </Popover.Content>
                     </Popover>
                   }>
-                  <NavDropdown.Item href="/cups/animals">Animals</NavDropdown.Item>
+                  <NavDropdown.Item ><Nav.Link href="/cups/animals">Animals</Nav.Link></NavDropdown.Item>
                 </OverlayTrigger>
 
                 <OverlayTrigger trigger='hover' placement='right'
