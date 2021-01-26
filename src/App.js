@@ -69,6 +69,7 @@ function App() {
 
               <Nav.Link href="/contact">Contact</Nav.Link>
               <Nav.Link href="/custom">Custom</Nav.Link>
+              <Nav.Link href="/cups/animals">wtf</Nav.Link>
               <NavDropdown title="Cups" id="basic-nav-dropdown">
                 <OverlayTrigger trigger='hover' placement='right'
                   overlay={
@@ -82,7 +83,7 @@ function App() {
                       </Popover.Content>
                     </Popover>
                   }>
-                  <Nav.Link href="/cups/animals"><NavDropdown.Item >Animals</NavDropdown.Item></Nav.Link>
+                  <NavDropdown.Item >Animals</NavDropdown.Item>
                 </OverlayTrigger>
 
                 <OverlayTrigger trigger='hover' placement='right'
@@ -265,19 +266,8 @@ function App() {
           <Route path='/vinyl' component={Vinyl}/>
         </Switch>
       </Router>
-      {/*<InstagramEmbed
-        url='https://www.instagr.am/p/CA3aDJ7HlTE/'
-        clientAccessToken='413905563134913|1e7b57740da098e528aa20e8ea739d21'
-        maxWidth={320}
-        hideCaption={false}
-        containerTagName='div'
-        protocol=''
-        injectScript
-        onLoading={() => {}}
-        onSuccess={() => {}}
-        onAfterRender={() => {}}
-        onFailure={() => {}}/>*/}
-        <h1>8:04</h1>
+
+        <h1>8:28</h1>
     </div>
 
   );
@@ -286,13 +276,19 @@ function App() {
 export default App;
 
 
-/**************************************/
 
-
-
-
-
-
+/*<InstagramEmbed
+  url='https://www.instagr.am/p/CA3aDJ7HlTE/'
+  clientAccessToken='413905563134913|1e7b57740da098e528aa20e8ea739d21'
+  maxWidth={320}
+  hideCaption={false}
+  containerTagName='div'
+  protocol=''
+  injectScript
+  onLoading={() => {}}
+  onSuccess={() => {}}
+  onAfterRender={() => {}}
+  onFailure={() => {}}/>*/
 
 
 
