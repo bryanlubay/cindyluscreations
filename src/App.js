@@ -54,7 +54,7 @@ import Center_Pieces from './components/Party_Decorations/Center_Pieces';
 function App() {
   document.title = "Cindylus Creations"
   return (
-    <div >
+    <div className="background">
       <html className="html"></html>
       <body className="body"></body>
       <Container>
