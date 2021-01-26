@@ -69,7 +69,7 @@ function App() {
 
               <Nav.Link href="/contact">Contact</Nav.Link>
               <Nav.Link href="/custom">Custom</Nav.Link>
-              <Nav.Link href="/cups/animals">wtf</Nav.Link>
+              <Nav.Link href="/custom">wtf</Nav.Link>
               <NavDropdown title="Cups" id="basic-nav-dropdown">
                 <OverlayTrigger trigger='hover' placement='right'
                   overlay={
@@ -267,7 +267,7 @@ function App() {
         </Switch>
       </Router>
 
-        <h1>9:30</h1>
+        <h1>9:34</h1>
     </div>
 
   );
