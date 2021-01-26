@@ -32,19 +32,19 @@ import Flowers from './components/Flowers/Flowers'
 
 
 // import {Hats, Heat_Press, Make_Up_Bags, Pencil_Bags, Shirts} from './components/Heat_Press/Heat_Press'
-import Hats from './components/Heat_Press/Heat_Press/Hats'
-import Heat_Press from './components/Heat_Press/Heat_Press/Heat_Press'
-import Make_Up_Bags from './components/Heat_Press/Heat_Press/Make_Up_Bags'
-import Pencil_Bags from './components/Heat_Press/Heat_Press/Pencil_Bags'
-import Shirts from './components/Heat_Press/Heat_Press/Shirts'
+import Hats from './components/Heat_Press/Hats'
+import Heat_Press from './components/Heat_Press/Heat_Press'
+import Make_Up_Bags from './components/Heat_Press/Make_Up_Bags'
+import Pencil_Bags from './components/Heat_Press/Pencil_Bags'
+import Shirts from './components/Heat_Press/Shirts'
 
 
 import Laser from './components/Laser/Laser'
 // import {Banners, Cake_Toppers, Goodie_Bags, Party_Decorations} from './components/Party_Decorations/Party_Decorations'
-import Banners from './components/Party_Decorations/Party_Decorations/Banners'
-import Cake_Toppers from './components/Party_Decorations/Party_Decorations/Cake_Toppers'
-import Goodie_Bags from './components/Party_Decorations/Party_Decorations/Goodie_Bags'
-import Party_Decorations from './components/Party_Decorations/Party_Decorations/Party_Decorations'
+import Banners from './components/Party_Decorations/Banners'
+import Cake_Toppers from './components/Party_Decorations/Cake_Toppers'
+import Goodie_Bags from './components/Party_Decorations/Goodie_Bags'
+import Party_Decorations from './components/Party_Decorations/Party_Decorations'
 
 import Vinyl from './components/Vinyl/Vinyl'
 import Landing_Page from './components/Landing_Page/Landing_Page'
