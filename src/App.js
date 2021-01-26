@@ -18,12 +18,34 @@ import ListGroup from 'react-bootstrap/ListGroup'
 
 import About_me from './components/about_me/about_me' // fix to capitals later
 import Contact from './components/Contact/Contact'
-import {Anime, Cups, Disney, Movies, Music, Nature, Sports, TV}  from './components/Cups/Cups'
+// import {Animals, Anime, Cups, Disney, Movies, Music, Nature, Sports, TV}  from './components/Cups/'
+import Anime from './components/Cups/Anime'
+import Cups from './components/Cups/Cups'
+import Disney from './components/Cups/Disney'
+import Movies from './components/Cups/Movies'
+import Music from './components/Cups/Music'
+import Nature from './components/Cups/Nature'
+import Sports from './components/Cups/Sports'
+import TV from './components/Cups/TV'
 import Custom from './components/Custom/Custom'
 import Flowers from './components/Flowers/Flowers'
-import {Hats, Heat_Press, Make_Up_Bags, Pencil_Bags, Shirts} from './components/Heat_Press/Heat_Press'
+
+
+// import {Hats, Heat_Press, Make_Up_Bags, Pencil_Bags, Shirts} from './components/Heat_Press/Heat_Press'
+import Hats from './components/Heat_Press/Heat_Press/Hats'
+import Heat_Press from './components/Heat_Press/Heat_Press/Heat_Press'
+import Make_Up_Bags from './components/Heat_Press/Heat_Press/Make_Up_Bags'
+import Pencil_Bags from './components/Heat_Press/Heat_Press/Pencil_Bags'
+import Shirts from './components/Heat_Press/Heat_Press/Shirts'
+
+
 import Laser from './components/Laser/Laser'
-import {Banners, Cake_Toppers, Goodie_Bags, Party_Decorations} from './components/Party_Decorations/Party_Decorations'
+// import {Banners, Cake_Toppers, Goodie_Bags, Party_Decorations} from './components/Party_Decorations/Party_Decorations'
+import Banners from './components/Party_Decorations/Party_Decorations/Banners'
+import Cake_Toppers from './components/Party_Decorations/Party_Decorations/Cake_Toppers'
+import Goodie_Bags from './components/Party_Decorations/Party_Decorations/Goodie_Bags'
+import Party_Decorations from './components/Party_Decorations/Party_Decorations/Party_Decorations'
+
 import Vinyl from './components/Vinyl/Vinyl'
 import Landing_Page from './components/Landing_Page/Landing_Page'
 import Animals from './components/Cups/Animals';
