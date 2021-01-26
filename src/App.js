@@ -82,7 +82,7 @@ function App() {
                       </Popover.Content>
                     </Popover>
                   }>
-                  <NavDropdown.Item ><Nav.Link href="/cups/animals">Animals</Nav.Link></NavDropdown.Item>
+                  <Nav.Link href="/cups/animals"><NavDropdown.Item >Animals</NavDropdown.Item></Nav.Link>
                 </OverlayTrigger>
 
                 <OverlayTrigger trigger='hover' placement='right'
@@ -265,22 +265,19 @@ function App() {
           <Route path='/vinyl' component={Vinyl}/>
         </Switch>
       </Router>
-      {/* <h1>1</h1>
-  <InstagramEmbed
-  url='https://www.instagr.am/p/CA3aDJ7HlTE/'
-  clientAccessToken='413905563134913|1e7b57740da098e528aa20e8ea739d21'
-  maxWidth={320}
-  hideCaption={false}
-  containerTagName='div'
-  protocol=''
-  injectScript
-  onLoading={() => {}}
-  onSuccess={() => {}}
-  onAfterRender={() => {}}
-  onFailure={() => {}}
-
-/>
-        <h1>2</h1> */}
+      {/*<InstagramEmbed
+        url='https://www.instagr.am/p/CA3aDJ7HlTE/'
+        clientAccessToken='413905563134913|1e7b57740da098e528aa20e8ea739d21'
+        maxWidth={320}
+        hideCaption={false}
+        containerTagName='div'
+        protocol=''
+        injectScript
+        onLoading={() => {}}
+        onSuccess={() => {}}
+        onAfterRender={() => {}}
+        onFailure={() => {}}/>*/}
+        <h1>8:04</h1>
     </div>
 
   );
