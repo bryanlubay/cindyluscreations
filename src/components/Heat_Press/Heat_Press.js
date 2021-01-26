@@ -4,6 +4,7 @@ import Carousel from 'react-bootstrap/Carousel'
 function Heat_Press() {
   return (
     <div>
+      <h1>Heat Press</h1>
         <h1>Hats</h1>
         <Carousel>
         <Carousel.Item>

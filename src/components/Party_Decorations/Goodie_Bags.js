@@ -1,10 +1,10 @@
 import React, {useState, useEffect, Component} from 'react';
 import Carousel from 'react-bootstrap/Carousel'
 
-function Party_Decorations() {
+function Goodie_Bags() {
   return (
     <div>
-        <h1>Party Decorations</h1>
+        <h1>Goodie Bags</h1>
                 <Carousel>
         <Carousel.Item>
           <img
@@ -17,9 +17,9 @@ function Party_Decorations() {
             {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
           </Carousel.Caption>
         </Carousel.Item>
-        </Carousel>      
+        </Carousel>   
     </div>
   )
 }
 
-export default Party_Decorations
+export default Goodie_Bags

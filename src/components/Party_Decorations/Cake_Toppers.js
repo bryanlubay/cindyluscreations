@@ -1,10 +1,10 @@
 import React, {useState, useEffect, Component} from 'react';
 import Carousel from 'react-bootstrap/Carousel'
 
-function Party_Decorations() {
+function Cake_Toppers() {
   return (
     <div>
-        <h1>Party Decorations</h1>
+        <h1>Cake Toppers</h1>
                 <Carousel>
         <Carousel.Item>
           <img
@@ -22,4 +22,4 @@ function Party_Decorations() {
   )
 }
 
-export default Party_Decorations
+export default Cake_Toppers

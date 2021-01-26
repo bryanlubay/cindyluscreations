@@ -194,7 +194,7 @@ function App() {
                 <NavDropdown.Item href="/party_decorations/cake_toppers">Cake Toppers</NavDropdown.Item>
                 <NavDropdown.Item href="/party_decorations/goodie_bags">Goodie Bags</NavDropdown.Item>
                 <NavDropdown.Divider></NavDropdown.Divider>
-                <NavDropdown.Item href="/party_decorations/">See alls</NavDropdown.Item>
+                <NavDropdown.Item href="/party_decorations/">See all</NavDropdown.Item>
               </NavDropdown>
 
               <Nav.Link href="/valentines_day">Valentine's Day</Nav.Link>

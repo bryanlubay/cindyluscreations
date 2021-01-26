@@ -6,6 +6,7 @@ function Cups() {
   return (
     <div>
         {/* anchor these */}
+        <h1>Cups</h1>
         <h1>Ariel</h1>
         <Carousel>
         <Carousel.Item>
