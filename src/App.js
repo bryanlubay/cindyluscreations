@@ -234,37 +234,37 @@ function App() {
 
       <Router>
         <Switch>
-          {/* <Route exact path = '/' render = {renderLandingPage} /> */}
-          {/* <Route path='/' render={Landing_Page}/>  */}
-          <Route path='/about_me' component={About_me}/> 
-          <Route path='/contact' component={Contact} />
-          <Route path='/custom' component={Custom}/>
-          <Route path='/cups' component={Cups}/>
-          <Route path='/animals' component={Animals}/>
-          <Route path="/cups/anime" component={Anime}/>
-          <Route path='/cups/disney' component={Disney}/>
-          <Route path='/cups/movies' component={Movies}/>
-          <Route path='/cups/music' component={Music}/>
-          <Route path='/cups/nature' component={Nature}/>
-          <Route path='/cups/sports' component={Sports}/>
-          <Route path='/cups/tv' component={TV}/>
-          {/* <Route path='/cups/valentines_day' component={Cups}/> */}
+          {/* <Route exact exact path = '/' render = {renderLandingPage} /> */}
+          {/* <Route exact path='/' render={Landing_Page}/>  */}
+          <Route exact path='/about_me' component={About_me}/> 
+          <Route exact path='/contact' component={Contact} />
+          <Route exact path='/custom' component={Custom}/>
+          <Route exact path='/cups' component={Cups}/>
+          <Route exact path='/animals' component={Animals}/>
+          <Route exact path="/cups/anime" component={Anime}/>
+          <Route exact path='/cups/disney' component={Disney}/>
+          <Route exact path='/cups/movies' component={Movies}/>
+          <Route exact path='/cups/music' component={Music}/>
+          <Route exact path='/cups/nature' component={Nature}/>
+          <Route exact path='/cups/sports' component={Sports}/>
+          <Route exact path='/cups/tv' component={TV}/>
+          {/* <Route exact path='/cups/valentines_day' component={Cups}/> */}
 
-          <Route path='/heat_press' component={Heat_Press}/>
-          <Route path='/heat_press/hats' component={Hats}/>
-          <Route path='/heat_press/make_up_bags' component={Make_Up_Bags}/>
-          <Route path='/heat_press/pencil_bags' component={Pencil_Bags}/>
-          <Route path='/heat_press/shirts' component={Shirts}/>
+          <Route exact path='/heat_press' component={Heat_Press}/>
+          <Route exact path='/heat_press/hats' component={Hats}/>
+          <Route exact path='/heat_press/make_up_bags' component={Make_Up_Bags}/>
+          <Route exact path='/heat_press/pencil_bags' component={Pencil_Bags}/>
+          <Route exact path='/heat_press/shirts' component={Shirts}/>
 
-          <Route path='/laser' component={Laser}/>
-          <Route path='/flowers' component={Flowers}/>
-          <Route path='/party_decorations/banners' component={Banners}/>
-          <Route path='/party_decorations/cake_toppers' component={Cake_Toppers}/>
-          <Route path='/party_decorations/center_pieces' component={Center_Pieces}/>
-          <Route path='/party_decorations/goodie_bags' component={Goodie_Bags}/>
-          <Route path='/party_decorations' component={Party_Decorations}/>
-          <Route path='/valentines_day'/>
-          <Route path='/vinyl' component={Vinyl}/>
+          <Route exact path='/laser' component={Laser}/>
+          <Route exact path='/flowers' component={Flowers}/>
+          <Route exact path='/party_decorations/banners' component={Banners}/>
+          <Route exact path='/party_decorations/cake_toppers' component={Cake_Toppers}/>
+          <Route exact path='/party_decorations/center_pieces' component={Center_Pieces}/>
+          <Route exact path='/party_decorations/goodie_bags' component={Goodie_Bags}/>
+          <Route exact path='/party_decorations' component={Party_Decorations}/>
+          <Route exact path='/valentines_day'/>
+          <Route exact path='/vinyl' component={Vinyl}/>
         </Switch>
       </Router>
 
