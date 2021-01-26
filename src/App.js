@@ -241,7 +241,7 @@ function App() {
           <Route path='/custom' component={Custom}/>
           <Route path='/cups' component={Cups}/>
           <Route path='/animals' component={Animals}/>
-          <Route path='/cups/anime' component={Anime}/>
+          <Route path="/cups/anime" component={Anime}/>
           <Route path='/cups/disney' component={Disney}/>
           <Route path='/cups/movies' component={Movies}/>
           <Route path='/cups/music' component={Music}/>
