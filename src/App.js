@@ -243,7 +243,7 @@ function App() {
           <Route path='/cups/disney' component={Disney}/>
           <Route path='/cups/movies' component={Movies}/>
           <Route path='/cups/music' component={Music}/>
-          {/* <Route path='/cups/flowers' component={Flowers}/> */}
+          <Route path='/cups/nature' component={Nature}/>
           <Route path='/cups/sports' component={Sports}/>
           <Route path='/cups/tv' component={TV}/>
           {/* <Route path='/cups/valentines_day' component={Cups}/> */}
