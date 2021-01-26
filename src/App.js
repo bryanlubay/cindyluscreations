@@ -19,6 +19,7 @@ import ListGroup from 'react-bootstrap/ListGroup'
 import About_me from './components/about_me/about_me' // fix to capitals later
 import Contact from './components/Contact/Contact'
 // import {Animals, Anime, Cups, Disney, Movies, Music, Nature, Sports, TV}  from './components/Cups/'
+import Animals from './components/Cups/Animals';
 import Anime from './components/Cups/Anime'
 import Cups from './components/Cups/Cups'
 import Disney from './components/Cups/Disney'
@@ -48,7 +49,6 @@ import Party_Decorations from './components/Party_Decorations/Party_Decorations'
 
 import Vinyl from './components/Vinyl/Vinyl'
 import Landing_Page from './components/Landing_Page/Landing_Page'
-import Animals from './components/Cups/Animals';
 import Center_Pieces from './components/Party_Decorations/Center_Pieces';
 
 function App() {
@@ -239,7 +239,7 @@ function App() {
           <Route path='/contact' component={Contact} />
           <Route path='/custom' component={Custom}/>
           <Route path='/cups' component={Cups}/>
-          <Route path='/cups/animals' component={Contact}/>
+          <Route path='/cups/animals' component={Animals}/>
           <Route path='/cups/anime' component={Anime}/>
           <Route path='/cups/disney' component={Disney}/>
           <Route path='/cups/movies' component={Movies}/>
