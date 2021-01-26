@@ -26,7 +26,7 @@ import Laser from './components/Laser/Laser'
 import {Banners, Cake_Toppers, Goodie_Bags, Party_Decorations} from './components/Party_Decorations/Party_Decorations'
 import Vinyl from './components/Vinyl/Vinyl'
 import Landing_Page from './components/Landing_Page/Landing_Page'
-import Animals from './components/Cups/Animals';
+// import Animals from './components/Cups/Animals';
 import Center_Pieces from './components/Party_Decorations/Center_Pieces';
 
 function App() {
