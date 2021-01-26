@@ -19,7 +19,7 @@ import ListGroup from 'react-bootstrap/ListGroup'
 import About_me from './components/about_me/about_me' // fix to capitals later
 import Contact from './components/Contact/Contact'
 // import {Animals, Anime, Cups, Disney, Movies, Music, Nature, Sports, TV}  from './components/Cups/'
-import Animals from './components/Cups/Animals/'
+import Animals from './components/Cups/Animals'
 import Anime from './components/Cups/Anime'
 import Cups from './components/Cups/Cups'
 import Disney from './components/Cups/Disney'
