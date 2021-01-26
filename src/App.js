@@ -171,7 +171,9 @@ function App() {
                   <NavDropdown.Item href="/cups/tv">TV</NavDropdown.Item>
                 </OverlayTrigger>
 
-                <NavDropdown.Item href="/cups">Valentine's Day</NavDropdown.Item>
+                {/* <NavDropdown.Item href="/cups">Valentine's Day</NavDropdown.Item> */}
+                <NavDropdown.Divider></NavDropdown.Divider>
+                <NavDropdown.Item href="/cups/">See all</NavDropdown.Item>
                 {/* <NavDropdown.Item href="/cups">Video Games</NavDropdown.Item> */}
               </NavDropdown>
               <NavDropdown title="Heat Press" id="basic-nav-dropdown">
@@ -179,6 +181,8 @@ function App() {
                 <NavDropdown.Item href="/heat_press/make_up_bags">Make Up Bags</NavDropdown.Item>
                 <NavDropdown.Item href="/heat_press/pencil_bags">Pencil Bags</NavDropdown.Item>
                 <NavDropdown.Item href="/heat_press/shirts">Shirts</NavDropdown.Item>
+                <NavDropdown.Divider></NavDropdown.Divider>
+                <NavDropdown.Item href="/heat_press/">See all</NavDropdown.Item>
               </NavDropdown>
 
               <Nav.Link href="/laser">Laser</Nav.Link>
@@ -189,6 +193,8 @@ function App() {
                 <NavDropdown.Item href="/party_decorations/center_pieces">Center Pieces</NavDropdown.Item>
                 <NavDropdown.Item href="/party_decorations/cake_toppers">Cake Toppers</NavDropdown.Item>
                 <NavDropdown.Item href="/party_decorations/goodie_bags">Goodie Bags</NavDropdown.Item>
+                <NavDropdown.Divider></NavDropdown.Divider>
+                <NavDropdown.Item href="/party_decorations/">See alls</NavDropdown.Item>
               </NavDropdown>
 
               <Nav.Link href="/valentines_day">Valentine's Day</Nav.Link>
