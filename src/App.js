@@ -69,8 +69,6 @@ function App() {
 
               <Nav.Link href="/contact">Contact</Nav.Link>
               <Nav.Link href="/custom">Custom</Nav.Link>
-              <Nav.Link href="/animals">wtf</Nav.Link>
-              <Nav.Link href="/cups/anime">wtf2</Nav.Link>
               <NavDropdown title="Cups" id="basic-nav-dropdown">
                 <OverlayTrigger trigger='hover' placement='right'
                   overlay={
@@ -240,7 +238,7 @@ function App() {
           <Route exact path='/contact' component={Contact} />
           <Route exact path='/custom' component={Custom}/>
           <Route exact path='/cups' component={Cups}/>
-          <Route exact path='/animals' component={Animals}/>
+          <Route exact path='/cups/animals' component={Animals}/>
           <Route exact path="/cups/anime" component={Anime}/>
           <Route exact path='/cups/disney' component={Disney}/>
           <Route exact path='/cups/movies' component={Movies}/>
@@ -268,15 +266,13 @@ function App() {
         </Switch>
       </Router>
 
-        <h1>10:39</h1>
+        <h1>11:15</h1>
     </div>
 
   );
 }
 
 export default App;
-
-
 
 /*<InstagramEmbed
   url='https://www.instagr.am/p/CA3aDJ7HlTE/'
