@@ -21,6 +21,7 @@ function Animals() {
         </Carousel.Item>
         </Carousel>
     </div>
+    
   )
 }
 

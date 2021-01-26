@@ -19,7 +19,7 @@ import ListGroup from 'react-bootstrap/ListGroup'
 import About_me from './components/about_me/about_me' // fix to capitals later
 import Contact from './components/Contact/Contact'
 // import {Animals, Anime, Cups, Disney, Movies, Music, Nature, Sports, TV}  from './components/Cups/'
-import Animals from './components/Cups/Animals';
+import Animals from './components/Cups/Animals/'
 import Anime from './components/Cups/Anime'
 import Cups from './components/Cups/Cups'
 import Disney from './components/Cups/Disney'
@@ -70,6 +70,7 @@ function App() {
               <Nav.Link href="/contact">Contact</Nav.Link>
               <Nav.Link href="/custom">Custom</Nav.Link>
               <Nav.Link href="/custom">wtf</Nav.Link>
+              <Nav.Link href="/cups/anime">wtf2</Nav.Link>
               <NavDropdown title="Cups" id="basic-nav-dropdown">
                 <OverlayTrigger trigger='hover' placement='right'
                   overlay={
@@ -267,7 +268,7 @@ function App() {
         </Switch>
       </Router>
 
-        <h1>9:34</h1>
+        <h1>10:39</h1>
     </div>
 
   );
