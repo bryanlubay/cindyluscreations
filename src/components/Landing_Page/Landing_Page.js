@@ -4,7 +4,6 @@ import Carousel from 'react-bootstrap/Carousel'
 function Landing_Page() {
   return (
     <div>
-            <h1>Landing Page</h1>
       <Carousel>
         <Carousel.Item>
           <img
@@ -80,8 +79,6 @@ function Landing_Page() {
       </Carousel>
 
       {/* component = add to bottom, render =  */}
-
-      <h1>Home 1:53</h1>
 
     </div>
   )
