@@ -7,18 +7,46 @@ function Animals() {
     <div>
         {/* anchor these */}
         <h1>Animals</h1>
+        <h2>Dogs</h2>
         <Carousel>
-        <Carousel.Item>
+          <Carousel.Item>
           <img
             className="carousel-image"
-            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/grogu1.jpg"
-            alt="First slide"
-          /><br></br>
-          <Carousel.Caption>
-            {/* <h3>First slide label</h3> */}
-            {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
-          </Carousel.Caption>
-        </Carousel.Item>
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/dogs1.jpg"
+            alt="First slide"/>
+          </Carousel.Item>
+          <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/dogs2.jpg"
+            alt="First slide"/>
+          </Carousel.Item>
+        </Carousel>
+
+        <h2>Penguins</h2>
+        <Carousel>
+          <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/penguins1.jpg"
+            alt="First slide"/>
+          </Carousel.Item>
+          <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/penguins2.jpg"
+            alt="First slide"/>
+          </Carousel.Item>
+        </Carousel>
+
+        <h2>Unicorns</h2>
+        <Carousel>
+          <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/unicorn1.jpg"
+            alt="First slide"/>
+          </Carousel.Item>
         </Carousel>
     </div>
   )
