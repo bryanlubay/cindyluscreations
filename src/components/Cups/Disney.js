@@ -34,6 +34,26 @@ function Disney() {
             alt="First slide"/>
         </Carousel.Item>
         </Carousel>
+
+        <h2>Baby Groot</h2>
+        <Carousel>
+          <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/baby_groot1.jpg"
+            alt="First slide"/>
+          </Carousel.Item>
+        </Carousel>
+
+        <h2>Beast</h2>
+        <Carousel>
+          <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/beast1.jpg"
+            alt="First slide"/>
+          </Carousel.Item>
+        </Carousel>
     </div>
   )
 }
