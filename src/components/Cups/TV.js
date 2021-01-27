@@ -7,18 +7,46 @@ function TV() {
     <div>
         {/* anchor these */}
         <h1>TV</h1>
+        <h2>Game of Thrones</h2>
         <Carousel>
-        <Carousel.Item>
+          <Carousel.Item>
           <img
             className="carousel-image"
-            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/grogu1.jpg"
-            alt="First slide"
-          /><br></br>
-          <Carousel.Caption>
-            {/* <h3>First slide label</h3> */}
-            {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
-          </Carousel.Caption>
-        </Carousel.Item>
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/game_of_thrones1.jpg"
+            alt="First slide"/>
+          </Carousel.Item>
+        </Carousel>
+
+        <h2>SpongeBob SquarePants</h2>
+        <Carousel>
+          <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/spongebob1.jpg"
+            alt="First slide"/>
+          </Carousel.Item>
+          <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/spongebob2.jpg"
+            alt="First slide"/>
+          </Carousel.Item>
+          <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/spongebob3.jpg"
+            alt="First slide"/>
+          </Carousel.Item>
+        </Carousel>
+
+        <h2>Stranger Things</h2>
+        <Carousel>
+          <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/stranger_things1.jpg"
+            alt="First slide"/>
+          </Carousel.Item>
         </Carousel>
     </div>
   )
