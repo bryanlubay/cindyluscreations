@@ -60,43 +60,43 @@ function Disney() {
           <Carousel.Item>
           <img
             className="carousel-image"
-            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/castle1.jpg"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/disney1.jpg"
             alt="First slide"/>
           </Carousel.Item>
           <Carousel.Item>
           <img
             className="carousel-image"
-            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/castle2.jpg"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/disney2.jpg"
             alt="First slide"/>
           </Carousel.Item>
           <Carousel.Item>
           <img
             className="carousel-image"
-            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/castle3.jpg"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/disney3.jpg"
             alt="First slide"/>
           </Carousel.Item>
           <Carousel.Item>
           <img
             className="carousel-image"
-            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/castle4.jpg"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/disney4.jpg"
             alt="First slide"/>
           </Carousel.Item>
           <Carousel.Item>
           <img
             className="carousel-image"
-            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/castle5.jpg"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/disney5.jpg"
             alt="First slide"/>
           </Carousel.Item>
           <Carousel.Item>
           <img
             className="carousel-image"
-            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/castle6.jpg"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/disney6.jpg"
             alt="First slide"/>
           </Carousel.Item>
         </Carousel>
 
 
-        <h2>Daisy Duck</h2>
+        <h2>Daisy</h2>
         <Carousel>
           <Carousel.Item>
           <img
@@ -105,6 +105,123 @@ function Disney() {
             alt="First slide"/>
           </Carousel.Item>
         </Carousel>
+
+        <h2>Dumbo</h2>
+        <Carousel>
+          <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/dumbo1.jpg"
+            alt="First slide"/>
+          </Carousel.Item>
+        </Carousel>
+
+        <h2>Grogu</h2>
+        <Carousel>
+          <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/grogu1.jpg"
+            alt="First slide"/>
+          </Carousel.Item>
+        </Carousel>
+
+        <h2>Hades</h2>
+        <Carousel>
+          <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/hades1.jpg"
+            alt="First slide"/>
+          </Carousel.Item>
+        </Carousel>
+
+        <h2>Mandalorian</h2>
+        <Carousel>
+          <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/mandalorian1.jpg"
+            alt="First slide"/>
+          </Carousel.Item>
+        </Carousel>
+
+        <h2>Micky</h2>
+        <Carousel>
+          <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/micky1.jpg"
+            alt="First slide"/>
+          </Carousel.Item>
+          <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/micky2.jpg"
+            alt="First slide"/>
+          </Carousel.Item>
+        </Carousel>
+
+        <h2>Minnie</h2>
+        <Carousel>
+          <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/minnie1.jpg"
+            alt="First slide"/>
+          </Carousel.Item>
+          <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/minnie2.jpg"
+            alt="First slide"/>
+          </Carousel.Item>
+          <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/minnie3.jpg"
+            alt="First slide"/>
+          </Carousel.Item>
+          <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/minnie4.jpg"
+            alt="First slide"/>
+          </Carousel.Item>
+        </Carousel>
+
+        <h2>Winnie the Pooh</h2>
+        <Carousel>
+          <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/pooh2.jpg"
+            alt="First slide"/>
+          </Carousel.Item>
+          <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/pooh3.jpg"
+            alt="First slide"/>
+          </Carousel.Item>
+        </Carousel>
+
+        <h2>Stitch</h2>
+        <Carousel>
+          <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/stitch1.jpg"
+            alt="First slide"/>
+          </Carousel.Item>
+          <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/stitch2.jpg"
+            alt="First slide"/>
+          </Carousel.Item>
+        </Carousel>
+
 
 
     </div>
