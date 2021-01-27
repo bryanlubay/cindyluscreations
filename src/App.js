@@ -59,7 +59,7 @@ function App() {
       <body className="body"></body>
       <Container>
         <Navbar fixed="top" bg="light" expand="lg">
-          <Navbar.Brand href="https://cindylus-creations.herokuapp.com/">Cindylus Creations</Navbar.Brand>
+          <Navbar.Brand href="https://cindylus-creations.herokuapp.com/">Cindylu's Creations</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
