@@ -54,6 +54,59 @@ function Disney() {
             alt="First slide"/>
           </Carousel.Item>
         </Carousel>
+
+        <h2>Castle</h2>
+        <Carousel>
+          <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/castle1.jpg"
+            alt="First slide"/>
+          </Carousel.Item>
+          <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/castle2.jpg"
+            alt="First slide"/>
+          </Carousel.Item>
+          <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/castle3.jpg"
+            alt="First slide"/>
+          </Carousel.Item>
+          <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/castle4.jpg"
+            alt="First slide"/>
+          </Carousel.Item>
+          <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/castle5.jpg"
+            alt="First slide"/>
+          </Carousel.Item>
+          <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/castle6.jpg"
+            alt="First slide"/>
+          </Carousel.Item>
+        </Carousel>
+
+
+        <h2>Daisy Duck</h2>
+        <Carousel>
+          <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/daisy_duck1.jpg"
+            alt="First slide"/>
+          </Carousel.Item>
+        </Carousel>
+
+
     </div>
   )
 }
