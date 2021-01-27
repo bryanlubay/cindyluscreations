@@ -7,19 +7,93 @@ function Music() {
     <div>
         {/* anchor these */}
         <h1>Music</h1>
+        <h2>Bad Bunny</h2>
         <Carousel>
         <Carousel.Item>
           <img
             className="carousel-image"
-            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/grogu1.jpg"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/bad_bunny1.jpg"
+            alt="First slide"/>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/bad_bunny2.jpg"
+            alt="First slide"/>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/bad_bunny3.jpg"
+            alt="First slide"/>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/bad_bunny4.jpg"
+            alt="First slide"/>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/bad_bunny5.jpg"
+            alt="First slide"/>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/bad_bunny6.jpg"
+            alt="First slide"/>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/bad_bunny7.jpg"
+            alt="First slide"/>
+        </Carousel.Item>
+
+        </Carousel>
+        
+        <h2>Billie Ellish</h2>
+        <Carousel>
+        <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/billie_ellish1.jpg"
             alt="First slide"
-          /><br></br>
-          <Carousel.Caption>
-            {/* <h3>First slide label</h3> */}
-            {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
-          </Carousel.Caption>
+          />
         </Carousel.Item>
         </Carousel>
+        
+        <h2>Ice Cube</h2>
+        <Carousel>
+        <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/icecube1.jpg"
+            alt="First slide"
+          />
+        </Carousel.Item>
+        </Carousel>
+        
+        <h2>Selena</h2>
+        <Carousel>
+        <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/selena1.jpg"
+            alt="First slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/selena2.jpg"
+            alt="First slide"
+          />
+        </Carousel.Item>
+        </Carousel>
+
     </div>
   )
 }
