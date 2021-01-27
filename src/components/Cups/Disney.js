@@ -12,25 +12,25 @@ function Disney() {
         <Carousel.Item>
           <img
             className="carousel-image"
-            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/areil1.jpg"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/ariel1.jpg"
             alt="First slide"/>
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="carousel-image"
-            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/areil3.jpg"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/ariel3.jpg"
             alt="First slide"/>
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="carousel-image"
-            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/areil5.jpg"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/ariel5.jpg"
             alt="First slide"/>
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="carousel-image"
-            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/areil6.jpg"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/ariel6.jpg"
             alt="First slide"/>
         </Carousel.Item>
         </Carousel>
