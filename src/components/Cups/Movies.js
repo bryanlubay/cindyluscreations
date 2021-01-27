@@ -6,7 +6,7 @@ function Movies() {
   return (
     <div>
         <h1>Movies</h1>
-        <h2>Friday the 13th</h2>
+        {/* <h2>Friday the 13th</h2>
         <Carousel>
           <Carousel.Item>
           <img
@@ -14,7 +14,7 @@ function Movies() {
             src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/jason1.mp4"
             alt="First slide"/>
           </Carousel.Item>
-        </Carousel>    
+        </Carousel>     */}
 
         <h2>Halloween</h2>
         <Carousel>
