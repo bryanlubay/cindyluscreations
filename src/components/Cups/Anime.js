@@ -7,18 +7,20 @@ function Anime() {
     <div>
         {/* anchor these */}
         <h1>Anime</h1>
+        <h2>Naruto</h2>
         <Carousel>
-        <Carousel.Item>
+          <Carousel.Item>
           <img
             className="carousel-image"
-            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/grogu1.jpg"
-            alt="First slide"
-          /><br></br>
-          <Carousel.Caption>
-            {/* <h3>First slide label</h3> */}
-            {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
-          </Carousel.Caption>
-        </Carousel.Item>
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/naruto1.jpg"
+            alt="First slide"/>
+          </Carousel.Item>
+          <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/naruto2.jpg"
+            alt="First slide"/>
+          </Carousel.Item>
         </Carousel>
     </div>
   )

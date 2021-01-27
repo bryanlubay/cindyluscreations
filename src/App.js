@@ -148,7 +148,7 @@ function App() {
                   <NavDropdown.Item href="/cups/music">Music</NavDropdown.Item>
                 </OverlayTrigger>
 
-                <OverlayTrigger trigger='hover' placement='right'
+                {/* <OverlayTrigger trigger='hover' placement='right'
                   overlay={
                     <Popover>
                       <Popover.Content>
@@ -159,7 +159,7 @@ function App() {
                     </Popover>
                   }>
                   <NavDropdown.Item href="/cups/nature">Nature</NavDropdown.Item>
-                </OverlayTrigger>
+                </OverlayTrigger> */}
 
                 <OverlayTrigger trigger='hover' placement='right'
                   overlay={
