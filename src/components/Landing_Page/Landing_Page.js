@@ -42,7 +42,7 @@ function Landing_Page() {
         <Carousel.Item>
           <img
             className="carousel-image"
-            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/flowers/flowers1.jpg"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/flowers/flowers9.jpg"
             alt="Third slide"
           />
 
