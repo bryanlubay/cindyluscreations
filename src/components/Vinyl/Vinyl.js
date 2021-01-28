@@ -1,4 +1,5 @@
 import React, {useState, useEffect, Component} from 'react';
+import Carousel from 'react-bootstrap/Carousel'
 
 function Vinyl() {
   return (
