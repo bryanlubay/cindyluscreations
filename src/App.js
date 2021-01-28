@@ -197,9 +197,9 @@ function App() {
               </NavDropdown>
               <NavDropdown title="Heat Press" id="basic-nav-dropdown">
                 <NavDropdown.Item href="/heat_press/hats">Hats</NavDropdown.Item>
-                <NavDropdown.Item href="/heat_press/make_up_bags">Make Up Bags</NavDropdown.Item>
+                {/* <NavDropdown.Item href="/heat_press/make_up_bags">Make Up Bags</NavDropdown.Item>
                 <NavDropdown.Item href="/heat_press/pencil_bags">Pencil Bags</NavDropdown.Item>
-                <NavDropdown.Item href="/heat_press/shirts">Shirts</NavDropdown.Item>
+                <NavDropdown.Item href="/heat_press/shirts">Shirts</NavDropdown.Item> */}
                 <NavDropdown.Divider></NavDropdown.Divider>
                 <NavDropdown.Item href="/heat_press/">See all</NavDropdown.Item>
               </NavDropdown>

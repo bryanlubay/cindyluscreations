@@ -5,19 +5,25 @@ function Banners() {
   return (
     <div>
         <h1>Banners</h1>
-                <Carousel>
-        <Carousel.Item>
+        <h2>Betty Boop</h2>
+        <Carousel>
+          <Carousel.Item>
           <img
             className="carousel-image"
-            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/grogu1.jpg"
-            alt="First slide"
-          /><br></br>
-          <Carousel.Caption>
-            {/* <h3>First slide label</h3> */}
-            {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
-          </Carousel.Caption>
-        </Carousel.Item>
-        </Carousel>  
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/party_decorations/bettyboop2.jpg"
+            alt="First slide"/>
+          </Carousel.Item>
+        </Carousel>    
+
+        <h2>Micky Mouse</h2>
+        <Carousel>
+          <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/party_decorations/micky2.jpg"
+            alt="First slide"/>
+          </Carousel.Item>
+        </Carousel>    
     </div>
   )
 }

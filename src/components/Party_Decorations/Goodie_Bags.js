@@ -5,19 +5,45 @@ function Goodie_Bags() {
   return (
     <div>
         <h1>Goodie Bags</h1>
-                <Carousel>
-        <Carousel.Item>
+        <h2>Betty Boop</h2>
+        <Carousel>
+          <Carousel.Item>
           <img
             className="carousel-image"
-            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/grogu1.jpg"
-            alt="First slide"
-          /><br></br>
-          <Carousel.Caption>
-            {/* <h3>First slide label</h3> */}
-            {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
-          </Carousel.Caption>
-        </Carousel.Item>
-        </Carousel>   
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/party_decorations/bettyboop1.jpg"
+            alt="First slide"/>
+          </Carousel.Item>
+        </Carousel>    
+
+        <h2>Disney</h2>
+        <Carousel>
+          <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/party_decorations/disney1.jpg"
+            alt="First slide"/>
+          </Carousel.Item>
+        </Carousel>    
+
+        <h2>Moana</h2>
+        <Carousel>
+          <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/party_decorations/moana2.jpg"
+            alt="First slide"/>
+          </Carousel.Item>
+        </Carousel>    
+
+        <h2>My Little Pony</h2>
+        <Carousel>
+          <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/party_decorations/mylittlepony1.jpg"
+            alt="First slide"/>
+          </Carousel.Item>
+        </Carousel>    
     </div>
   )
 }
