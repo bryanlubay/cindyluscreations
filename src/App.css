@@ -50,6 +50,14 @@ html, body, #app, #app>div {
   background-color: #89cff0;
 }
 
+h1, h2, p {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+Nav.Link, Nav.Brand {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
 .html{
   margin: 0;
   height: 100%;

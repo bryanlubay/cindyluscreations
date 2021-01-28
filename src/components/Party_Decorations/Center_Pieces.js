@@ -10,7 +10,7 @@ function Center_Pieces() {
           <Carousel.Item>
           <img
             className="carousel-image"
-            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/party_decorations/micky1.jpg"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/party_decorations/mickey1.jpg"
             alt="First slide"/>
           </Carousel.Item>
         </Carousel>    
