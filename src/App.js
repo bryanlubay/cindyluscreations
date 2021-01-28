@@ -59,15 +59,15 @@ function App() {
       <body className="body"></body>
       <Container>
         <Navbar fixed="top" bg="light" expand="lg">
-          <Navbar.Brand href="https://cindylus-creations.herokuapp.com/">Cindylu's Creations</Navbar.Brand>
+          <Navbar.Brand className="nav-font" href="https://cindylus-creations.herokuapp.com/">Cindylu's Creations</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
 
-              <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/about_me">About Me</Nav.Link>
-              <Nav.Link href="/contact">Contact</Nav.Link>
-              <Nav.Link href="/custom">Custom</Nav.Link>
+              <Nav.Link className="nav-font" href="/">Home</Nav.Link>
+              <Nav.Link className="nav-font" href="/about_me">About Me</Nav.Link>
+              <Nav.Link className="nav-font" href="/contact">Contact</Nav.Link>
+              <Nav.Link className="nav-font" href="/custom">Custom</Nav.Link>
 
               <NavDropdown title="Cups" id="basic-nav-dropdown">
                 <OverlayTrigger trigger='hover' placement='right'
@@ -81,7 +81,7 @@ function App() {
                         </ListGroup>
                       </Popover.Content>
                     </Popover>}>
-                  <NavDropdown.Item href="/cups/animals">Animals</NavDropdown.Item>
+                  <NavDropdown.Item className="nav-font" href="/cups/animals">Animals</NavDropdown.Item>
                 </OverlayTrigger>
 
                 <OverlayTrigger trigger='hover' placement='right'
@@ -93,7 +93,7 @@ function App() {
                         </ListGroup>
                       </Popover.Content>
                     </Popover>}>
-                  <NavDropdown.Item href="/cups/anime">Anime</NavDropdown.Item>
+                  <NavDropdown.Item className="nav-font" href="/cups/anime">Anime</NavDropdown.Item>
                 </OverlayTrigger>
 
                 <OverlayTrigger trigger='hover' placement='right'
@@ -116,7 +116,7 @@ function App() {
                         </ListGroup>
                       </Popover.Content>
                     </Popover>}>
-                  <NavDropdown.Item href="/cups/disney">Disney</NavDropdown.Item>
+                  <NavDropdown.Item className="nav-font" href="/cups/disney">Disney</NavDropdown.Item>
                 </OverlayTrigger>
 
                 <OverlayTrigger trigger='hover' placement='right'
@@ -129,7 +129,7 @@ function App() {
                         </ListGroup>
                       </Popover.Content>
                     </Popover>}>
-                  <NavDropdown.Item href="/cups/movies">Movies</NavDropdown.Item>
+                  <NavDropdown.Item className="nav-font" href="/cups/movies">Movies</NavDropdown.Item>
                 </OverlayTrigger>
 
                 <OverlayTrigger trigger='hover' placement='right'
@@ -145,7 +145,7 @@ function App() {
                       </Popover.Content>
                     </Popover>
                   }>
-                  <NavDropdown.Item href="/cups/music">Music</NavDropdown.Item>
+                  <NavDropdown.Item className="nav-font" href="/cups/music">Music</NavDropdown.Item>
                 </OverlayTrigger>
 
                 {/* <OverlayTrigger trigger='hover' placement='right'
@@ -158,7 +158,7 @@ function App() {
                       </Popover.Content>
                     </Popover>
                   }>
-                  <NavDropdown.Item href="/cups/nature">Nature</NavDropdown.Item>
+                  <NavDropdown.Item className="nav-font" href="/cups/nature">Nature</NavDropdown.Item>
                 </OverlayTrigger> */}
 
                 <OverlayTrigger trigger='hover' placement='right'
@@ -174,7 +174,7 @@ function App() {
                       </Popover.Content>
                     </Popover>
                   }>
-                  <NavDropdown.Item href="/cups/sports">Sports</NavDropdown.Item>
+                  <NavDropdown.Item className="nav-font" href="/cups/sports">Sports</NavDropdown.Item>
                 </OverlayTrigger>
 
                 <OverlayTrigger trigger='hover' placement='right'
@@ -187,37 +187,37 @@ function App() {
                       </Popover.Content>
                     </Popover>
                   }>
-                  <NavDropdown.Item href="/cups/tv">TV</NavDropdown.Item>
+                  <NavDropdown.Item className="nav-font" href="/cups/tv">TV</NavDropdown.Item>
                 </OverlayTrigger>
 
-                {/* <NavDropdown.Item href="/cups">Valentine's Day</NavDropdown.Item> */}
+                {/* <NavDropdown.Item className="nav-font" href="/cups">Valentine's Day</NavDropdown.Item> */}
                 <NavDropdown.Divider></NavDropdown.Divider>
-                <NavDropdown.Item href="/cups/">See all</NavDropdown.Item>
-                {/* <NavDropdown.Item href="/cups">Video Games</NavDropdown.Item> */}
+                <NavDropdown.Item className="nav-font" href="/cups/">See all</NavDropdown.Item>
+                {/* <NavDropdown.Item className="nav-font" href="/cups">Video Games</NavDropdown.Item> */}
               </NavDropdown>
               <NavDropdown title="Heat Press" id="basic-nav-dropdown">
-                <NavDropdown.Item href="/heat_press/hats">Hats</NavDropdown.Item>
-                {/* <NavDropdown.Item href="/heat_press/make_up_bags">Make Up Bags</NavDropdown.Item>
-                <NavDropdown.Item href="/heat_press/pencil_bags">Pencil Bags</NavDropdown.Item>
-                <NavDropdown.Item href="/heat_press/shirts">Shirts</NavDropdown.Item> */}
+                <NavDropdown.Item className="nav-font" href="/heat_press/hats">Hats</NavDropdown.Item>
+                {/* <NavDropdown.Item className="nav-font" href="/heat_press/make_up_bags">Make Up Bags</NavDropdown.Item>
+                <NavDropdown.Item className="nav-font" href="/heat_press/pencil_bags">Pencil Bags</NavDropdown.Item>
+                <NavDropdown.Item className="nav-font" href="/heat_press/shirts">Shirts</NavDropdown.Item> */}
                 <NavDropdown.Divider></NavDropdown.Divider>
-                <NavDropdown.Item href="/heat_press/">See all</NavDropdown.Item>
+                <NavDropdown.Item className="nav-font" href="/heat_press/">See all</NavDropdown.Item>
               </NavDropdown>
 
-              <Nav.Link href="/laser">Laser</Nav.Link>
-              <Nav.Link href="/flowers">Flowers</Nav.Link>
+              <Nav.Link className="nav-font" href="/laser">Laser</Nav.Link>
+              <Nav.Link className="nav-font" href="/flowers">Flowers</Nav.Link>
 
               <NavDropdown title="Party Decorations" id="basic-nav-dropdown">
-                <NavDropdown.Item href="/party_decorations/banners">Banners</NavDropdown.Item>
-                <NavDropdown.Item href="/party_decorations/center_pieces">Center Pieces</NavDropdown.Item>
-                <NavDropdown.Item href="/party_decorations/cake_toppers">Cake Toppers</NavDropdown.Item>
-                <NavDropdown.Item href="/party_decorations/goodie_bags">Goodie Bags</NavDropdown.Item>
+                <NavDropdown.Item className="nav-font" href="/party_decorations/banners">Banners</NavDropdown.Item>
+                <NavDropdown.Item className="nav-font" href="/party_decorations/center_pieces">Center Pieces</NavDropdown.Item>
+                <NavDropdown.Item className="nav-font" href="/party_decorations/cake_toppers">Cake Toppers</NavDropdown.Item>
+                <NavDropdown.Item className="nav-font" href="/party_decorations/goodie_bags">Goodie Bags</NavDropdown.Item>
                 <NavDropdown.Divider></NavDropdown.Divider>
-                <NavDropdown.Item href="/party_decorations/">See all</NavDropdown.Item>
+                <NavDropdown.Item className="nav-font" href="/party_decorations/">See all</NavDropdown.Item>
               </NavDropdown>
 
-              <Nav.Link href="/valentines_day">Valentine's Day</Nav.Link>
-              <Nav.Link href="/vinyl">Vinyl</Nav.Link>
+              <Nav.Link className="nav-font" href="/valentines_day">Valentine's Day</Nav.Link>
+              <Nav.Link className="nav-font" href="/vinyl">Vinyl</Nav.Link>
 
             </Nav>
           </Navbar.Collapse>

@@ -54,7 +54,7 @@ h1, h2, p {
   font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-Nav.Link, Nav.Brand {
+.nav-font {
   font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -83,6 +83,7 @@ Nav.Link, Nav.Brand {
 }
 
 .li{
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 .list-group {
