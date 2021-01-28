@@ -14,7 +14,7 @@ function Vinyl() {
             src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/vinyl/frame1.jpg"
             alt="First slide"/>
           </Carousel.Item>
-        </Carousel>    
+        </Carousel><br></br>
 
         <h2>Portraits</h2>
         <Carousel>
@@ -30,7 +30,7 @@ function Vinyl() {
             src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/vinyl/vinyl1.jpg"
             alt="First slide"/>
           </Carousel.Item>
-        </Carousel>    
+        </Carousel><br></br>    
 
     </div>
   )

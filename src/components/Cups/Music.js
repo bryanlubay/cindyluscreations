@@ -52,7 +52,7 @@ function Music() {
             alt="First slide"/>
         </Carousel.Item>
 
-        </Carousel>
+        </Carousel><br></br>
         
         <h2>Billie Ellish</h2>
         <Carousel>
@@ -63,7 +63,7 @@ function Music() {
             alt="First slide"
           />
         </Carousel.Item>
-        </Carousel>
+        </Carousel><br></br>
         
         <h2>Ice Cube</h2>
         <Carousel>
@@ -74,7 +74,7 @@ function Music() {
             alt="First slide"
           />
         </Carousel.Item>
-        </Carousel>
+        </Carousel><br></br>
         
         <h2>Selena</h2>
         <Carousel>
@@ -92,7 +92,7 @@ function Music() {
             alt="First slide"
           />
         </Carousel.Item>
-        </Carousel>
+        </Carousel><br></br>
 
     </div>
   )

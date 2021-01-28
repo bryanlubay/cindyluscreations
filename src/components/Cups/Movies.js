@@ -14,7 +14,7 @@ function Movies() {
             src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/jason1.mp4"
             alt="First slide"/>
           </Carousel.Item>
-        </Carousel>     */}
+        </Carousel><br>     */}
 
         <h2>Halloween</h2>
         <Carousel>
@@ -24,7 +24,7 @@ function Movies() {
             src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/michael_meyers1.jpg"
             alt="First slide"/>
           </Carousel.Item>
-        </Carousel>    
+        </Carousel><br></br>    
 
         <h2>Transformers</h2>
         <Carousel>
@@ -34,7 +34,7 @@ function Movies() {
             src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/bumblebee1.jpg"
             alt="First slide"/>
           </Carousel.Item>
-        </Carousel>    
+        </Carousel><br></br>    
     
     </div>
   )

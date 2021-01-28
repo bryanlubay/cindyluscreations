@@ -21,7 +21,7 @@ function Anime() {
             src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/naruto2.jpg"
             alt="First slide"/>
           </Carousel.Item>
-        </Carousel>
+        </Carousel><br></br>
     </div>
   )
 }

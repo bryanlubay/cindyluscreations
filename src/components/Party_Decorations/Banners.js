@@ -13,7 +13,7 @@ function Banners() {
             src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/party_decorations/bettyboop2.jpg"
             alt="First slide"/>
           </Carousel.Item>
-        </Carousel>    
+        </Carousel><br></br>
 
         <h2>Micky Mouse</h2>
         <Carousel>
@@ -23,7 +23,7 @@ function Banners() {
             src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/party_decorations/micky2.jpg"
             alt="First slide"/>
           </Carousel.Item>
-        </Carousel>    
+        </Carousel><br></br>
     </div>
   )
 }

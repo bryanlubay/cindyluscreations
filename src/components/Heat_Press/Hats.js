@@ -12,7 +12,7 @@ function Hats() {
             src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/heat_press/hats1.jpg"
             alt="First slide"/>
           </Carousel.Item>
-        </Carousel>    
+        </Carousel><br></br>
     </div>
   )
 }

@@ -20,7 +20,7 @@ function Cups() {
             {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
           </Carousel.Caption>
         </Carousel.Item>
-        </Carousel>
+        </Carousel><br></br>
         <h1>Belle</h1>
         <Carousel>
         <Carousel.Item>
@@ -34,7 +34,7 @@ function Cups() {
             {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
           </Carousel.Caption>
         </Carousel.Item>
-        </Carousel>
+        </Carousel><br></br>
         <h1>Cinderella</h1>
         <Carousel>
         <Carousel.Item>
@@ -48,7 +48,7 @@ function Cups() {
             {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
           </Carousel.Caption>
         </Carousel.Item>
-        </Carousel>
+        </Carousel><br></br>
         <h1>Coco</h1>
         <Carousel>
         <Carousel.Item>
@@ -62,7 +62,7 @@ function Cups() {
             {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
           </Carousel.Caption>
         </Carousel.Item>
-        </Carousel>
+        </Carousel><br></br>
         <h1>Dumbo</h1>
         <Carousel>
         <Carousel.Item>
@@ -76,7 +76,7 @@ function Cups() {
             {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
           </Carousel.Caption>
         </Carousel.Item>
-        </Carousel>
+        </Carousel><br></br>
         <h1>Grogu (Baby Yoda)</h1>
                 <Carousel>
         <Carousel.Item>
@@ -90,7 +90,7 @@ function Cups() {
             {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
           </Carousel.Caption>
         </Carousel.Item>
-        </Carousel>
+        </Carousel><br></br>
         <h1>Groot</h1>
                 <Carousel>
         <Carousel.Item>
@@ -104,7 +104,7 @@ function Cups() {
             {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
           </Carousel.Caption>
         </Carousel.Item>
-        </Carousel>
+        </Carousel><br></br>
         <h1>Jasmine</h1>
                 <Carousel>
         <Carousel.Item>
@@ -118,7 +118,7 @@ function Cups() {
             {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
           </Carousel.Caption>
         </Carousel.Item>
-        </Carousel>
+        </Carousel><br></br>
         <h1>Micky Mouse</h1>
                 <Carousel>
         <Carousel.Item>
@@ -132,7 +132,7 @@ function Cups() {
             {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
           </Carousel.Caption>
         </Carousel.Item>
-        </Carousel>
+        </Carousel><br></br>
         <h1>Minnie Mouse</h1>
                 <Carousel>
         <Carousel.Item>
@@ -146,7 +146,7 @@ function Cups() {
             {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
           </Carousel.Caption>
         </Carousel.Item>
-        </Carousel>
+        </Carousel><br></br>
         <h1>Stitch</h1>
                 <Carousel>
         <Carousel.Item>
@@ -160,7 +160,7 @@ function Cups() {
             {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
           </Carousel.Caption>
         </Carousel.Item>
-        </Carousel>
+        </Carousel><br></br>
         <h1>Winnie the Pooh</h1>
                 <Carousel>
         <Carousel.Item>
@@ -174,7 +174,7 @@ function Cups() {
             {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
           </Carousel.Caption>
         </Carousel.Item>
-        </Carousel>  
+        </Carousel><br></br>  
     </div>
   )
 }

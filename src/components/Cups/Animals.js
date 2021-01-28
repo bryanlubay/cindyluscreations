@@ -21,7 +21,7 @@ function Animals() {
             src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/dogs2.jpg"
             alt="First slide"/>
           </Carousel.Item>
-        </Carousel>
+        </Carousel><br></br>
 
         <h2>Penguins</h2>
         <Carousel>
@@ -37,7 +37,7 @@ function Animals() {
             src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/penguins2.jpg"
             alt="First slide"/>
           </Carousel.Item>
-        </Carousel>
+        </Carousel><br></br>
 
         <h2>Unicorns</h2>
         <Carousel>
@@ -47,7 +47,7 @@ function Animals() {
             src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/unicorn1.jpg"
             alt="First slide"/>
           </Carousel.Item>
-        </Carousel>
+        </Carousel><br></br>
     </div>
   )
 }

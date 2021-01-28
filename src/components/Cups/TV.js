@@ -15,7 +15,7 @@ function TV() {
             src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/game_of_thrones1.jpg"
             alt="First slide"/>
           </Carousel.Item>
-        </Carousel>
+        </Carousel><br></br>
 
         <h2>SpongeBob SquarePants</h2>
         <Carousel>
@@ -37,7 +37,7 @@ function TV() {
             src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/spongebob3.jpg"
             alt="First slide"/>
           </Carousel.Item>
-        </Carousel>
+        </Carousel><br></br>
 
         <h2>Stranger Things</h2>
         <Carousel>
@@ -47,7 +47,7 @@ function TV() {
             src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/stranger_things1.jpg"
             alt="First slide"/>
           </Carousel.Item>
-        </Carousel>
+        </Carousel><br></br>
     </div>
   )
 }

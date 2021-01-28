@@ -18,7 +18,7 @@ function Heat_Press() {
             {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
           </Carousel.Caption>
         </Carousel.Item>
-        </Carousel>
+        </Carousel><br></br>
         <h1>Make Up Bags</h1>
                 <Carousel>
         <Carousel.Item>
@@ -32,7 +32,7 @@ function Heat_Press() {
             {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
           </Carousel.Caption>
         </Carousel.Item>
-        </Carousel>
+        </Carousel><br></br>
         <h1>Pencil Bags</h1>
                 <Carousel>
         <Carousel.Item>
@@ -46,7 +46,7 @@ function Heat_Press() {
             {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
           </Carousel.Caption>
         </Carousel.Item>
-        </Carousel>
+        </Carousel><br></br>
         <h1>Shirts</h1>
                 <Carousel>
         <Carousel.Item>
@@ -60,7 +60,7 @@ function Heat_Press() {
             {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
           </Carousel.Caption>
         </Carousel.Item>
-        </Carousel>
+        </Carousel><br></br>
     </div>
   )
 }

@@ -17,7 +17,7 @@ function Shirts() {
             {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
           </Carousel.Caption>
         </Carousel.Item>
-        </Carousel>
+        </Carousel><br></br>
     </div>
   )
 }

@@ -21,7 +21,7 @@ function Sports() {
             src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/golden_knights2.jpg"
             alt="First slide"/>
           </Carousel.Item>
-        </Carousel>
+        </Carousel><br></br>
         
         <h2>Las Vegas Raiders</h2>
         <Carousel>
@@ -31,7 +31,7 @@ function Sports() {
             src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/raiders1.jpg"
             alt="First slide"/>
           </Carousel.Item>
-        </Carousel>
+        </Carousel><br></br>
 
         <h2>Los Angeles Dodgers</h2>
         <Carousel>
@@ -47,7 +47,7 @@ function Sports() {
             src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/dodgers2.jpg"
             alt="First slide"/>
           </Carousel.Item>
-        </Carousel>  
+        </Carousel><br></br>  
       </div>
   )
 }

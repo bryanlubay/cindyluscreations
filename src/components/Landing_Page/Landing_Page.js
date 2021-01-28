@@ -10,7 +10,7 @@ function Landing_Page() {
             className="carousel-image"
             src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/grogu1.jpg"
             alt="First slide"
-          /><br></br>
+          />
           <Carousel.Caption>
             {/* <h3>First slide label</h3> */}
             {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
@@ -21,7 +21,7 @@ function Landing_Page() {
             className="carousel-image"
             src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/laser/backpack1.jpg"
             alt="First slide"
-          /><br></br>
+          />
           <Carousel.Caption>
             {/* <h3>First slide label</h3> */}
             {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
@@ -32,7 +32,7 @@ function Landing_Page() {
             className="carousel-image"
             src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/heat_press/hats1.jpg"
             alt="Second slide"
-          /><br></br>
+          />
 
           <Carousel.Caption>
             {/* <h3>Second slide label</h3> */}
@@ -44,7 +44,7 @@ function Landing_Page() {
             className="carousel-image"
             src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/flowers/flowers1.jpg"
             alt="Third slide"
-          /><br></br>
+          />
 
           <Carousel.Caption>
             {/* <h3>Third slide label</h3>
@@ -56,7 +56,7 @@ function Landing_Page() {
             className="carousel-image"
             src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/vinyl/vinyl1.jpg"
             alt="Third slide"
-          /><br></br>
+          />
 
           <Carousel.Caption>
             {/* <h3>Third slide label</h3>
@@ -68,7 +68,7 @@ function Landing_Page() {
             className="carousel-image"
             src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/party_decorations/mylittlepony1.jpg"
             alt="Third slide"
-          /><br></br>
+          />
 
           <Carousel.Caption>
             {/* <h3>Third slide label</h3>
@@ -96,7 +96,7 @@ export default Landing_Page
   //             className="carousel-image"
   //             src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/grogu1.jpg"
   //             alt="First slide"
-  //           /><br></br>
+  //           />
   //           <Carousel.Caption>
   //             {/* <h3>First slide label</h3> */}
   //             {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
@@ -107,7 +107,7 @@ export default Landing_Page
   //             className="carousel-image"
   //             src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/laser/backpack1.jpg"
   //             alt="First slide"
-  //           /><br></br>
+  //           />
   //           <Carousel.Caption>
   //             {/* <h3>First slide label</h3> */}
   //             {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
@@ -118,7 +118,7 @@ export default Landing_Page
   //             className="carousel-image"
   //             src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/heat_press/hats1.jpg"
   //             alt="Second slide"
-  //           /><br></br>
+  //           />
   
   //           <Carousel.Caption>
   //             {/* <h3>Second slide label</h3> */}
@@ -130,7 +130,7 @@ export default Landing_Page
   //             className="carousel-image"
   //             src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/flowers/flowers1.jpg"
   //             alt="Third slide"
-  //           /><br></br>
+  //           />
   
   //           <Carousel.Caption>
   //             {/* <h3>Third slide label</h3>
@@ -142,7 +142,7 @@ export default Landing_Page
   //             className="carousel-image"
   //             src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/vinyl/vinyl1.jpg"
   //             alt="Third slide"
-  //           /><br></br>
+  //           />
   
   //           <Carousel.Caption>
   //             {/* <h3>Third slide label</h3>
@@ -154,7 +154,7 @@ export default Landing_Page
   //             className="carousel-image"
   //             src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/party_decorations/mylittlepony1.jpg"
   //             alt="Third slide"
-  //           /><br></br>
+  //           />
   
   //           <Carousel.Caption>
   //             {/* <h3>Third slide label</h3>
