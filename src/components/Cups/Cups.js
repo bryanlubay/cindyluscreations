@@ -7,7 +7,7 @@ function Cups() {
     <div>
         {/* anchor these */}
         <h1>Cups</h1>
-        <h1>Ariel</h1>
+        <h1>Animals</h1>
         <Carousel>
         <Carousel.Item>
           <img
@@ -21,7 +21,7 @@ function Cups() {
           </Carousel.Caption>
         </Carousel.Item>
         </Carousel><br></br>
-        <h1>Belle</h1>
+        <h1>Anime</h1>
         <Carousel>
         <Carousel.Item>
           <img
@@ -35,7 +35,7 @@ function Cups() {
           </Carousel.Caption>
         </Carousel.Item>
         </Carousel><br></br>
-        <h1>Cinderella</h1>
+        <h1>Disney</h1>
         <Carousel>
         <Carousel.Item>
           <img
@@ -49,7 +49,7 @@ function Cups() {
           </Carousel.Caption>
         </Carousel.Item>
         </Carousel><br></br>
-        <h1>Coco</h1>
+        <h1>Movies</h1>
         <Carousel>
         <Carousel.Item>
           <img
@@ -63,7 +63,7 @@ function Cups() {
           </Carousel.Caption>
         </Carousel.Item>
         </Carousel><br></br>
-        <h1>Dumbo</h1>
+        <h1>Music</h1>
         <Carousel>
         <Carousel.Item>
           <img
@@ -77,7 +77,7 @@ function Cups() {
           </Carousel.Caption>
         </Carousel.Item>
         </Carousel><br></br>
-        <h1>Grogu (Baby Yoda)</h1>
+        <h1>Sports</h1>
                 <Carousel>
         <Carousel.Item>
           <img
@@ -91,7 +91,7 @@ function Cups() {
           </Carousel.Caption>
         </Carousel.Item>
         </Carousel><br></br>
-        <h1>Groot</h1>
+        <h1>TV</h1>
                 <Carousel>
         <Carousel.Item>
           <img
@@ -105,76 +105,7 @@ function Cups() {
           </Carousel.Caption>
         </Carousel.Item>
         </Carousel><br></br>
-        <h1>Jasmine</h1>
-                <Carousel>
-        <Carousel.Item>
-          <img
-            className="carousel-image"
-            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/grogu1.jpg"
-            alt="First slide"
-          /><br></br>
-          <Carousel.Caption>
-            {/* <h3>First slide label</h3> */}
-            {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
-          </Carousel.Caption>
-        </Carousel.Item>
-        </Carousel><br></br>
-        <h1>Micky Mouse</h1>
-                <Carousel>
-        <Carousel.Item>
-          <img
-            className="carousel-image"
-            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/grogu1.jpg"
-            alt="First slide"
-          /><br></br>
-          <Carousel.Caption>
-            {/* <h3>First slide label</h3> */}
-            {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
-          </Carousel.Caption>
-        </Carousel.Item>
-        </Carousel><br></br>
-        <h1>Minnie Mouse</h1>
-                <Carousel>
-        <Carousel.Item>
-          <img
-            className="carousel-image"
-            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/grogu1.jpg"
-            alt="First slide"
-          /><br></br>
-          <Carousel.Caption>
-            {/* <h3>First slide label</h3> */}
-            {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
-          </Carousel.Caption>
-        </Carousel.Item>
-        </Carousel><br></br>
-        <h1>Stitch</h1>
-                <Carousel>
-        <Carousel.Item>
-          <img
-            className="carousel-image"
-            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/grogu1.jpg"
-            alt="First slide"
-          /><br></br>
-          <Carousel.Caption>
-            {/* <h3>First slide label</h3> */}
-            {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
-          </Carousel.Caption>
-        </Carousel.Item>
-        </Carousel><br></br>
-        <h1>Winnie the Pooh</h1>
-                <Carousel>
-        <Carousel.Item>
-          <img
-            className="carousel-image"
-            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/grogu1.jpg"
-            alt="First slide"
-          /><br></br>
-          <Carousel.Caption>
-            {/* <h3>First slide label</h3> */}
-            {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
-          </Carousel.Caption>
-        </Carousel.Item>
-        </Carousel><br></br>  
+       
     </div>
   )
 }

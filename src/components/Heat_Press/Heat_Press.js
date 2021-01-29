@@ -13,13 +13,10 @@ function Heat_Press() {
             src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/grogu1.jpg"
             alt="First slide"
           /><br></br>
-          <Carousel.Caption>
-            {/* <h3>First slide label</h3> */}
-            {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
-          </Carousel.Caption>
+
         </Carousel.Item>
         </Carousel><br></br>
-        <h1>Make Up Bags</h1>
+        {/* <h1>Make Up Bags</h1>
                 <Carousel>
         <Carousel.Item>
           <img
@@ -27,10 +24,7 @@ function Heat_Press() {
             src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/grogu1.jpg"
             alt="First slide"
           /><br></br>
-          <Carousel.Caption>
-            {/* <h3>First slide label</h3> */}
-            {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
-          </Carousel.Caption>
+
         </Carousel.Item>
         </Carousel><br></br>
         <h1>Pencil Bags</h1>
@@ -41,10 +35,7 @@ function Heat_Press() {
             src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/grogu1.jpg"
             alt="First slide"
           /><br></br>
-          <Carousel.Caption>
-            {/* <h3>First slide label</h3> */}
-            {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
-          </Carousel.Caption>
+
         </Carousel.Item>
         </Carousel><br></br>
         <h1>Shirts</h1>
@@ -55,12 +46,9 @@ function Heat_Press() {
             src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/grogu1.jpg"
             alt="First slide"
           /><br></br>
-          <Carousel.Caption>
-            {/* <h3>First slide label</h3> */}
-            {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
-          </Carousel.Caption>
+
         </Carousel.Item>
-        </Carousel><br></br>
+        </Carousel><br></br> */}
     </div>
   )
 }
