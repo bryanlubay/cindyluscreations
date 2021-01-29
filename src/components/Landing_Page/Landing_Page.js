@@ -4,6 +4,7 @@ import Carousel from 'react-bootstrap/Carousel'
 function Landing_Page() {
   return (
     <div>
+      <p>Hello</p>
       <Carousel>
         <Carousel.Item>
           <img
