@@ -51,13 +51,13 @@ html, body, #app, #app>div {
 }
 
 h1, h2, p {
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family:Georgia, 'Papyrus', fantasy;
   text-align: center;
 
 }
 
 .nav-font {
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family:Georgia, 'Papyrus', fantasy;
   text-align: center;
 }
 
@@ -87,7 +87,7 @@ h1, h2, p {
 }
 
 .li{
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family:Georgia, 'Papyrus', fantasy;
   text-align: center;
   border-top: 0 none;
   border-bottom: 0 none;
