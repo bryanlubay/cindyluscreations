@@ -69,7 +69,7 @@ function App() {
               <Nav.Link className="nav-font" href="/contact">Contact</Nav.Link>
               <Nav.Link className="nav-font" href="/custom">Custom</Nav.Link>
 
-              <NavDropdown title="Cups" id="basic-nav-dropdown">
+              <NavDropdown className="nav-font" title="Cups" id="basic-nav-dropdown">
                 <OverlayTrigger trigger='hover' placement='right'
                   overlay={
                     <Popover>
@@ -195,7 +195,7 @@ function App() {
                 <NavDropdown.Item className="nav-font" href="/cups/">See all</NavDropdown.Item>
                 {/* <NavDropdown.Item className="nav-font" href="/cups">Video Games</NavDropdown.Item> */}
               </NavDropdown>
-              <NavDropdown title="Heat Press" id="basic-nav-dropdown">
+              <NavDropdown className="nav-font" title="Heat Press" id="basic-nav-dropdown">
                 <NavDropdown.Item className="nav-font" href="/heat_press/hats">Hats</NavDropdown.Item>
                 {/* <NavDropdown.Item className="nav-font" href="/heat_press/make_up_bags">Make Up Bags</NavDropdown.Item>
                 <NavDropdown.Item className="nav-font" href="/heat_press/pencil_bags">Pencil Bags</NavDropdown.Item>
@@ -207,7 +207,7 @@ function App() {
               <Nav.Link className="nav-font" href="/laser">Laser</Nav.Link>
               <Nav.Link className="nav-font" href="/flowers">Flowers</Nav.Link>
 
-              <NavDropdown title="Party Decorations" id="basic-nav-dropdown">
+              <NavDropdown className="nav-font" title="Party Decorations" id="basic-nav-dropdown">
                 <NavDropdown.Item className="nav-font" href="/party_decorations/banners">Banners</NavDropdown.Item>
                 <NavDropdown.Item className="nav-font" href="/party_decorations/center_pieces">Center Pieces</NavDropdown.Item>
                 <NavDropdown.Item className="nav-font" href="/party_decorations/cake_toppers">Cake Toppers</NavDropdown.Item>
@@ -216,7 +216,7 @@ function App() {
                 <NavDropdown.Item className="nav-font" href="/party_decorations/">See all</NavDropdown.Item>
               </NavDropdown>
 
-              <Nav.Link className="nav-font" href="/valentines_day">Valentine's Day</Nav.Link>
+              {/* <Nav.Link className="nav-font" href="/valentines_day">Valentine's Day</Nav.Link> */}
               <Nav.Link className="nav-font" href="/vinyl">Vinyl</Nav.Link>
 
             </Nav>
