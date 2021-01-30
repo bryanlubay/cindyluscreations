@@ -7,7 +7,7 @@ function Cups() {
     <div>
         {/* anchor these */}
         <h1>Cups</h1>
-        <h1>Animals</h1>
+        <h2>Animals</h2>
         <Carousel>
         <Carousel.Item>
           <img
@@ -21,7 +21,7 @@ function Cups() {
           </Carousel.Caption>
         </Carousel.Item>
         </Carousel><br></br>
-        <h1>Anime</h1>
+        <h2>Anime</h2>
         <Carousel>
         <Carousel.Item>
           <img
@@ -35,7 +35,7 @@ function Cups() {
           </Carousel.Caption>
         </Carousel.Item>
         </Carousel><br></br>
-        <h1>Disney</h1>
+        <h2>Disney</h2>
         <Carousel>
         <Carousel.Item>
           <img
@@ -49,7 +49,7 @@ function Cups() {
           </Carousel.Caption>
         </Carousel.Item>
         </Carousel><br></br>
-        <h1>Movies</h1>
+        <h2>Movies</h2>
         <Carousel>
         <Carousel.Item>
           <img
@@ -63,7 +63,7 @@ function Cups() {
           </Carousel.Caption>
         </Carousel.Item>
         </Carousel><br></br>
-        <h1>Music</h1>
+        <h2>Music</h2>
         <Carousel>
         <Carousel.Item>
           <img
@@ -77,7 +77,7 @@ function Cups() {
           </Carousel.Caption>
         </Carousel.Item>
         </Carousel><br></br>
-        <h1>Sports</h1>
+        <h2>Sports</h2>
                 <Carousel>
         <Carousel.Item>
           <img
@@ -91,7 +91,7 @@ function Cups() {
           </Carousel.Caption>
         </Carousel.Item>
         </Carousel><br></br>
-        <h1>TV</h1>
+        <h2>TV</h2>
                 <Carousel>
         <Carousel.Item>
           <img
