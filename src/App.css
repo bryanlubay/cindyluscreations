@@ -52,26 +52,26 @@ html, body, #app, #app>div {
 
 h1, p {
   font-size: 75px;
-  font-family:Papyrus, fantasy;
+  font-family:"lucida handwriting", cursive;
   text-align: center;
 
 }
 
 h2 {
   font-size: 60px;
-  font-family:Papyrus, fantasy;
+  font-family:"lucida handwriting", cursive;
   text-align: center;
 
 }
 
 p {
   font-size: 50px;
-  font-family:Papyrus, fantasy;
+  font-family:"lucida handwriting", cursive;
   text-align: center;
 
 }
 .nav-font {
-  font-family:Papyrus, fantasy;
+  font-family:"lucida handwriting", cursive;
   text-align: center;
 }
 
@@ -101,7 +101,7 @@ p {
 }
 
 .li{
-  font-family:Papyrus, fantasy;
+  font-family:"lucida handwriting", cursive;
   text-align: center;
   border-top: 0 none;
   border-bottom: 0 none;
