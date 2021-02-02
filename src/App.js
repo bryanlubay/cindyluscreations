@@ -228,7 +228,7 @@ function App() {
       <Container className="footer" >
         <Navbar className="footer" fixed="bottom"  bg="light" expand="lg">
                 <Navbar.Brand className="footer"></Navbar.Brand>
-                <img className="footer-image" href="https://www.instagram.com/cindylus_creations/" src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/instagram_logo.png"></img>
+                <a href="https://www.instagram.com/cindylus_creations/"><img className="footer-image" src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/instagram_logo.png"></img></a>
         </Navbar>
       </Container>
 
