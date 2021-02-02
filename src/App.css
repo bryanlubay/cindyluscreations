@@ -70,8 +70,13 @@ p {
   text-align: center;
 
 }
-.nav-font {
+.nav-main-font {
   font-family:"lucida handwriting", cursive;
+  text-align: center;
+}
+
+.nav-font {
+  font-family: papyrus;
   text-align: center;
 }
 
