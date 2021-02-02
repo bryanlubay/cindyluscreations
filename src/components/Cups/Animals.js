@@ -1,12 +1,16 @@
 import React, {useState, useEffect, Component} from 'react';
 import Carousel from 'react-bootstrap/Carousel'
-
+import Breadcrumb from 'react-bootstrap/Breadcrumb'
 
 function Animals() {
   return (
     <div>
         {/* anchor these */}
         <h1>Animals</h1>
+          <Breadcrumb>
+            <Breadcrumb.Item href="/cups">Cups</Breadcrumb.Item>
+            <Breadcrumb.Item active>Animals</Breadcrumb.Item>
+          </Breadcrumb>
         <h2>Dogs</h2>
         <Carousel>
           <Carousel.Item>
