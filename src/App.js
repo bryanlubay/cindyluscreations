@@ -225,6 +225,12 @@ function App() {
       </Container>
 
 
+      <Container>
+        <Navbar fixed="bottom" bg="light" expand="lg">
+
+        </Navbar>
+      </Container>
+
       <Router>
         <Switch>
           {/* <Route exact exact path = '/' render = {renderLandingPage} /> */}
