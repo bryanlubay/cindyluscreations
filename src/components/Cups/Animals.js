@@ -7,10 +7,10 @@ function Animals() {
     <div>
         {/* anchor these */}
         <Breadcrumb className="breadcrumb">
-            <Breadcrumb.Item href="/cups">Cups</Breadcrumb.Item>
-            <Breadcrumb.Item active>Animals</Breadcrumb.Item>
+            <Breadcrumb.Item className="breadcrumb-item" href="/cups">Cups</Breadcrumb.Item>
+            <Breadcrumb.Item className="breadcrumb-item" active>Animals</Breadcrumb.Item>
           </Breadcrumb>
-        <h1>Animals</h1>
+        {/* <h1>Animals</h1> */}
         <h2>Dogs</h2>
         <Carousel>
           <Carousel.Item>

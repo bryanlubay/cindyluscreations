@@ -130,3 +130,7 @@ p {
   font-family:"lucida handwriting", cursive;
   justify-content: center;
 }
+
+.breadcrumb-item {
+  font-size: 40px;
+}
