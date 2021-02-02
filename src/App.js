@@ -226,10 +226,9 @@ function App() {
 
 
       <Container className="footer" >
-        <Nav.Link className="nav-font" href="/about_me">About Me</Nav.Link><br></br>
-        <Nav.Link className="nav-font" href="/contact">Contact</Nav.Link><br></br>
-
         <Navbar className="footer" fixed="bottom"  bg="light" expand="lg">
+          <Nav.Link className="nav-font" href="/about_me">About Me</Nav.Link><br></br>
+          <Nav.Link className="nav-font" href="/contact">Contact</Nav.Link><br></br>
                 <Navbar.Brand className="footer"></Navbar.Brand>
                 <a href="https://www.instagram.com/cindylus_creations/" target="_blank"><img className="footer-image" src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/instagram_logo.png"></img></a>
         </Navbar>
