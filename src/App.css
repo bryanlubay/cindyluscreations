@@ -124,3 +124,9 @@ p {
   height: 25%;
   width: 50px;
 }
+
+.breadcrumb {
+  background-color: #89cff0;
+  font-family:"lucida handwriting", cursive;
+  justify-content: center;
+}

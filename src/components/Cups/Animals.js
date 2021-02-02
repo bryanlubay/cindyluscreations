@@ -6,11 +6,11 @@ function Animals() {
   return (
     <div>
         {/* anchor these */}
-        <h1>Animals</h1>
-          <Breadcrumb>
+        <Breadcrumb className="breadcrumb">
             <Breadcrumb.Item href="/cups">Cups</Breadcrumb.Item>
             <Breadcrumb.Item active>Animals</Breadcrumb.Item>
           </Breadcrumb>
+        <h1>Animals</h1>
         <h2>Dogs</h2>
         <Carousel>
           <Carousel.Item>
