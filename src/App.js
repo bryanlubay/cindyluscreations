@@ -227,7 +227,7 @@ function App() {
 
       <Container>
         <Navbar fixed="bottom" bg="light" expand="lg">
-
+                <Navbar.Brand>Footer</Navbar.Brand>
         </Navbar>
       </Container>
 
