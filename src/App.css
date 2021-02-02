@@ -113,3 +113,9 @@ p {
   border-top: 0 none;
   border-bottom: 0 none;
 }
+
+.footer {
+  font-family:"lucida handwriting", cursive;
+  text-align: center;
+  place-content: center;
+}

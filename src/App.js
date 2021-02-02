@@ -225,9 +225,9 @@ function App() {
       </Container>
 
 
-      <Container>
-        <Navbar fixed="bottom" bg="light" expand="lg">
-                <Navbar.Brand>Footer</Navbar.Brand>
+      <Container >
+        <Navbar fixed="bottom"  bg="light" expand="lg">
+                <Navbar.Brand className="footer">Footer</Navbar.Brand>
         </Navbar>
       </Container>
 
