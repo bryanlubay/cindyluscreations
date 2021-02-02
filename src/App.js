@@ -65,8 +65,8 @@ function App() {
             <Nav className="mr-auto">
 
               <Nav.Link className="nav-font" href="/">Home</Nav.Link>
-              {/* <Nav.Link className="nav-font" href="/about_me">About Me</Nav.Link>
-              <Nav.Link className="nav-font" href="/contact">Contact</Nav.Link> */}
+              <Nav.Link className="nav-font" href="/about_me">About Me</Nav.Link>
+              <Nav.Link className="nav-font" href="/contact">Contact</Nav.Link>
               <Nav.Link className="nav-font" href="/custom">Custom</Nav.Link>
 
               <NavDropdown className="nav-font" title="Cups" id="basic-nav-dropdown">
@@ -227,17 +227,6 @@ function App() {
 
       <Container className="footer" >
         <Navbar className="footer" fixed="bottom"  bg="light" expand="lg">
-          <Nav.Link className="nav-font" href="/about_me">About Me</Nav.Link><br></br>
-          <Nav.Link className="nav-font" href="/contact">Contact</Nav.Link><br></br>
-                {/* <Navbar.Brand className="footer"></Navbar.Brand>
-                <a href="https://www.instagram.com/cindylus_creations/" target="_blank"><img className="footer-image" src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/instagram_logo.png"></img></a> */}
-        </Navbar>
-      </Container>
-
-      <Container className="footer" >
-        <Navbar className="footer" fixed="bottom"  bg="light" expand="lg">
-          {/* <Nav.Link className="nav-font" href="/about_me">About Me</Nav.Link><br></br>
-          <Nav.Link className="nav-font" href="/contact">Contact</Nav.Link><br></br> */}
                 <Navbar.Brand className="footer"></Navbar.Brand>
                 <a href="https://www.instagram.com/cindylus_creations/" target="_blank"><img className="footer-image" src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/instagram_logo.png"></img></a>
         </Navbar>
