@@ -52,21 +52,21 @@ html, body, #app, #app>div {
 
 h1, p {
   font-size: 75px;
-  font-family:"lucida handwriting", cursive;
+  font-family:papyrus;
   text-align: center;
 
 }
 
 h2 {
   font-size: 60px;
-  font-family:"lucida handwriting", cursive;
+  font-family:papyrus;
   text-align: center;
 
 }
 
 p {
   font-size: 50px;
-  font-family:"lucida handwriting", cursive;
+  font-family:papyrus;
   text-align: center;
 
 }
@@ -106,7 +106,7 @@ p {
 }
 
 .li{
-  font-family:"lucida handwriting", cursive;
+  font-family:papyrus;
   text-align: center;
   border-top: 0 none;
   border-bottom: 0 none;
@@ -120,7 +120,7 @@ p {
 }
 
 .footer {
-  font-family:"lucida handwriting", cursive;
+  font-family:papyrus;
   text-align: center;
   place-content: center;
 }
@@ -132,7 +132,7 @@ p {
 
 .breadcrumb {
   background-color: #89cff0;
-  font-family:"lucida handwriting", cursive;
+  font-family:papyrus;
   justify-content: center;
 }
 
