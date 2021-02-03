@@ -5,7 +5,7 @@ function Contact() {
     <div>
       
         <h1>Contact</h1>
-        <p>Hello</p>
+        <p>Instagram: <a href="https://www.instagram.com/cindylus_creations/" target="_blank"></a>https://www.instagram.com/cindylus_creations/</p>
     </div>
   )
 }
