@@ -4,7 +4,7 @@ function about_me() {
   return (
     <div>
         <h1>About me</h1>
-        <p>Hello</p>
+        <p></p>
         <img src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/logo.jpg"></img>
     </div>
   )
