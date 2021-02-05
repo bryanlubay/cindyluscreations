@@ -81,7 +81,7 @@ function Landing_Page() {
       </Carousel>
 
 
-      <Table>
+      <Table className="table">
 				<tbody className="td">
 					<tr className="td">
             <td className="td">
