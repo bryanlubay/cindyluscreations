@@ -84,12 +84,12 @@ function Landing_Page() {
       <Table>
 				<tbody>
 					<tr>
-						<td><img className="carousel-image" src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/grogu1.jpg"></img></td>
-						<td><img className="carousel-image" src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/grogu1.jpg"></img></td>
+						<td><img className="carousel-image" src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/disney7.jpg"></img></td>
+						<td><img className="carousel-image" src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/laser/backpack1.jpg"></img></td>
           </tr>
 					<tr>
-						<td><img className="carousel-image" src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/grogu1.jpg"></img></td>
-						<td><img className="carousel-image" src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/grogu1.jpg"></img></td>
+						<td><img className="carousel-image" src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/vinyl/skull1.jpg"></img></td>
+						<td><img className="carousel-image" src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/vegas_teams1.jpg"></img></td>
           </tr>
         </tbody>
 			</Table>
