@@ -99,7 +99,9 @@ function Landing_Page() {
               <p><a href="/cups/sports">Sports</a></p>
               <img className="carousel-image" src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/vegas_teams1.jpg"></img></td>
           </tr>
+          <br></br>
         </tbody>
+        <br></br>
 			</Table>
 
       <br></br>
