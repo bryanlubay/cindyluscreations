@@ -146,8 +146,12 @@ p {
 
 Table {
   border: none;
+  width: 50%;
+  margin: auto;
 }
 
 .table {
   border: none;
+  width: 50%;
+  margin: auto;
 }
