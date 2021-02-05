@@ -11,18 +11,18 @@ function Contact() {
 
         <Form className="form">
         <Form.Group>
-            <Form.Label>Name</Form.Label>
+            <Form.Label><b>Name</b></Form.Label>
             <Form.Control type="textarea"/>
           </Form.Group>
 
           <Form.Group>
-            <Form.Label>Email address</Form.Label>
+            <Form.Label><b>Email address</b></Form.Label>
             <Form.Control type="email"/>
           </Form.Group>
 
 
           <Form.Group>
-            <Form.Label>Example textarea</Form.Label>
+            <Form.Label><b>Example textarea</b></Form.Label>
             <Form.Control as="textarea" rows={3} />
           </Form.Group>
 
