@@ -22,7 +22,7 @@ function Contact() {
 
 
           <Form.Group>
-            <Form.Label><b>Example textarea</b></Form.Label>
+            {/* <Form.Label><b>Example textarea</b></Form.Label> */}
             <Form.Control as="textarea" rows={3} />
           </Form.Group>
 
