@@ -9,7 +9,7 @@ function Contact() {
         <h1>Contact</h1>
         <p>Instagram: <a href="https://www.instagram.com/cindylus_creations/" target="_blank">instagram.com/cindylus_creations</a></p>
 
-        <Form>
+        <Form className="form">
         <Form.Group>
             <Form.Label>Name</Form.Label>
             <Form.Control type="textarea"/>
