@@ -1,5 +1,6 @@
 import React, {useState, useEffect, Component} from 'react';
 import Carousel from 'react-bootstrap/Carousel'
+import Table from 'react-bootstrap/Table'
 
 function Landing_Page() {
   return (
@@ -80,7 +81,7 @@ function Landing_Page() {
       </Carousel>
 
 
-      <table>
+      <Table>
 				<tbody>
 					<tr>
 						<td><img className="carousel-image" src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/grogu1.jpg"></img></td>
@@ -91,7 +92,7 @@ function Landing_Page() {
 						<td><img className="carousel-image" src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/grogu1.jpg"></img></td>
           </tr>
         </tbody>
-			</table>
+			</Table>
 
 
     </div>
