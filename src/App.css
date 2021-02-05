@@ -139,3 +139,7 @@ p {
 .breadcrumb-item {
   font-size: 40px;
 }
+
+td {
+  border: none;;
+}
