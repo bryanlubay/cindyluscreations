@@ -6,7 +6,7 @@ function Custom() {
     <div>
       
         <h1>Custom</h1>
-        <p>Send me your personal/custom designs and I can put it on cups, bags or anything else you want!</p>
+        <p>Send me your personal / custom designs and I can put it on cups, bags or anything else you want!</p>
         <Carousel>
         <Carousel.Item>
           <img
