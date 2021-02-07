@@ -98,6 +98,10 @@ p {
   max-width: -webkit-fill-available;
 }
 
+.category-p {
+  font-size: 25px;
+}
+
 .category-image {
   /* height: 25%; 
   width: 25%; */
