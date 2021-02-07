@@ -86,18 +86,18 @@ function Landing_Page() {
 					<tr className="td">
             <td className="td">
               <p><a href="/cups/disney">Disney</a></p>
-              <img className="carousel-image" src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/disney7.jpg"></img></td>
+              <img className="category-image" src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/disney7.jpg"></img></td>
 						<td className="td">
               <p><a href="/laser">Laser</a></p>
-              <img className="carousel-image" src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/laser/backpack1.jpg"></img></td>
+              <img className="category-image" src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/laser/backpack1.jpg"></img></td>
           </tr>
 					<tr>
 						<td className="td">
               <p><a href="/vinyl">Vinyl</a></p>
-              <img className="carousel-image" src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/vinyl/skull1.jpg"></img></td>
+              <img className="category-image" src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/vinyl/skull1.jpg"></img></td>
 						<td className="td">
               <p><a href="/cups/sports">Sports</a></p>
-              <img className="carousel-image" src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/vegas_teams1.jpg"></img></td>
+              <img className="category-image" src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/vegas_teams1.jpg"></img></td>
           </tr>
           <br></br>
         </tbody>
