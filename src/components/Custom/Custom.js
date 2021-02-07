@@ -57,7 +57,8 @@ function Custom() {
             alt="First slide"
           /><br></br>
         </Carousel.Item>
-        </Carousel><br></br>
+        </Carousel>
+        <p></p><br></br>
     </div>
   )
 }
