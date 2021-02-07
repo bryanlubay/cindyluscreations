@@ -86,18 +86,18 @@ function Landing_Page() {
 					<tr className="td">
             <td className="td">
               <p className="category-p"><a href="/cups/disney">Disney</a></p>
-              <img className="category-image" src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/disney7.jpg"></img></td>
+              <a href="/cups/disney"><img className="category-image" src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/disney7.jpg"></img></a></td>
 						<td className="td">
               <p className="category-p"><a href="/laser">Laser</a></p>
-              <img className="category-image" src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/laser/backpack1.jpg"></img></td>
+              <a href="/laser"><img className="category-image" src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/laser/backpack1.jpg"></img></a></td>
           </tr>
 					<tr>
 						<td className="td">
               <p className="category-p"><a href="/vinyl">Vinyl</a></p>
-              <img className="category-image" src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/vinyl/skull1.jpg"></img></td>
+              <a href="/vinyl"><img className="category-image" src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/vinyl/skull1.jpg"></img></a></td>
 						<td className="td">
               <p className="category-p"><a href="/cups/sports">Sports</a></p>
-              <img className="category-image" src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/vegas_teams1.jpg"></img></td>
+              <a href="/cups/sports"><img className="category-image" src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/vegas_teams1.jpg"></img></a></td>
           </tr>
           <br></br>
         </tbody>
