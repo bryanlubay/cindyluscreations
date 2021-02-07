@@ -51,14 +51,14 @@ html, body, #app, #app>div {
 }
 
 h1 {
-  font-size: calc(20px + 6 * ((100vw - 320px) / 680));
+  font-size: calc(24px + 6 * ((100vw - 320px) / 680));
   font-family:papyrus;
   text-align: center;
 
 }
 
 h2 {
-  font-size: 60px;
+  font-size: calc(20px + 6 * ((100vw - 320px) / 680));
   font-family:papyrus;
   text-align: center;
 
