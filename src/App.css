@@ -105,9 +105,9 @@ p {
 .category-image {
   /* height: 25%; 
   width: 25%; */
-  height: 400px;
-  max-height: 25vh;
-  width: 25vw;
+  /* height: 400px; */
+  max-height: 400px;
+  width: 35vw;
 }
 
 .body {
