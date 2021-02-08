@@ -14,12 +14,14 @@ function about_me() {
           <InputGroup.Prepend>
             <InputGroup.Checkbox aria-label="Checkbox for following text input"/>
             <InputGroup.Checkbox></InputGroup.Checkbox>
+            <InputGroup.Text>Text1</InputGroup.Text>
           </InputGroup.Prepend>
           {/* <FormControl aria-label="Text input with checkbox" /> */}
         </InputGroup>
         <InputGroup>
           <InputGroup.Prepend>
             <InputGroup.Radio aria-label="Radio button for following text input" />
+            <InputGroup.Text>Text2</InputGroup.Text>
             <InputGroup.Radio></InputGroup.Radio>
           </InputGroup.Prepend>
           {/* <FormControl aria-label="Text input with radio button" /> */}
