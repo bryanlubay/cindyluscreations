@@ -1,6 +1,7 @@
 import React, {useState, useEffect, Component} from 'react';
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
+import emailjs from 'emailjs-com';
 
 function Contact() {
   return (
