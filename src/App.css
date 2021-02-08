@@ -178,3 +178,7 @@ Form {
   width: 50%;
   font-family: papyrus;  
 }
+
+.caption {
+  color: black;
+}
