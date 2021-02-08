@@ -25,7 +25,7 @@ function Landing_Page() {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>#1</h3>
+            <p>#1<br></br>$60</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
