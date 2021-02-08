@@ -10,13 +10,16 @@ function Party_Decorations() {
         <Carousel.Item>
           <img
             className="carousel-image"
-            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/grogu1.jpg"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/party_decorations/micky2.jpg"
             alt="First slide"
           /><br></br>
-          <Carousel.Caption>
-            {/* <h3>First slide label</h3> */}
-            {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
-          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/party_decorations/bettyboop2.jpg"
+            alt="First slide"
+          /><br></br>
         </Carousel.Item>
         </Carousel><br></br> 
 
@@ -25,13 +28,16 @@ function Party_Decorations() {
         <Carousel.Item>
           <img
             className="carousel-image"
-            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/grogu1.jpg"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/party_decorations/mickey1.jpg"
             alt="First slide"
           /><br></br>
-          <Carousel.Caption>
-            {/* <h3>First slide label</h3> */}
-            {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
-          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/party_decorations/moana3.jpg"
+            alt="First slide"
+          /><br></br>
         </Carousel.Item>
         </Carousel><br></br> 
 
@@ -40,13 +46,23 @@ function Party_Decorations() {
         <Carousel.Item>
           <img
             className="carousel-image"
-            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/grogu1.jpg"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/party_decorations/birthday1.jpg"
             alt="First slide"
           /><br></br>
-          <Carousel.Caption>
-            {/* <h3>First slide label</h3> */}
-            {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
-          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/party_decorations/birthday2.jpg"
+            alt="First slide"
+          /><br></br>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/party_decorations/micky3.jpg"
+            alt="First slide"
+          /><br></br>
         </Carousel.Item>
         </Carousel><br></br> 
 
@@ -55,13 +71,30 @@ function Party_Decorations() {
         <Carousel.Item>
           <img
             className="carousel-image"
-            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/cups/grogu1.jpg"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/party_decorations/disney1.jpg"
             alt="First slide"
           /><br></br>
-          <Carousel.Caption>
-            {/* <h3>First slide label</h3> */}
-            {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
-          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/party_decorations/moana2.jpg"
+            alt="First slide"
+          /><br></br>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/party_decorations/mylittlepony1.jpg"
+            alt="First slide"
+          /><br></br>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="carousel-image"
+            src="https://cindyluscreations.s3-us-west-1.amazonaws.com/images/party_decorations/bettyboop1.jpg"
+            alt="First slide"
+          /><br></br>
         </Carousel.Item>
         </Carousel><br></br> 
     </div>
