@@ -182,3 +182,8 @@ Form {
 .caption {
   color: black;
 }
+
+.radio {
+  margin: auto;
+  border: none;
+}

@@ -11,18 +11,16 @@ function about_me() {
         <br></br>
         <p></p>
         <InputGroup className="mb-3">
-          <InputGroup.Prepend>
-            <InputGroup.Checkbox aria-label="Checkbox for following text input"/>
-            <InputGroup.Checkbox></InputGroup.Checkbox>
-            <InputGroup.Text>Text1</InputGroup.Text>
+          <InputGroup.Prepend className="radio">
+            <InputGroup.Checkbox className="radio"></InputGroup.Checkbox>
+            <InputGroup.Text className="radio">Text1</InputGroup.Text>
           </InputGroup.Prepend>
           {/* <FormControl aria-label="Text input with checkbox" /> */}
         </InputGroup>
         <InputGroup>
-          <InputGroup.Prepend>
-            <InputGroup.Radio aria-label="Radio button for following text input" />
-            <InputGroup.Text>Text2</InputGroup.Text>
-            <InputGroup.Radio></InputGroup.Radio>
+          <InputGroup.Prepend className="radio">
+            <InputGroup.Radio className="radio"></InputGroup.Radio>
+            <InputGroup.Text className="radio">Text2</InputGroup.Text>
           </InputGroup.Prepend>
           {/* <FormControl aria-label="Text input with radio button" /> */}
         </InputGroup>
