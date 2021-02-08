@@ -25,8 +25,7 @@ function Landing_Page() {
             alt="First slide"
           />
           <Carousel.Caption>
-            {/* <h3>First slide label</h3> */}
-            {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
+            <h3>#1</h3>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
