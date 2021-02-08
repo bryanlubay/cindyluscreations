@@ -12,15 +12,15 @@ function about_me() {
         <p></p>
         <InputGroup className="mb-3">
           <InputGroup.Prepend>
-            {/* <InputGroup.Checkbox aria-label="Checkbox for following text input"/> */}
-            <InputGroup.Checkbox>Helllooo</InputGroup.Checkbox>
+            <InputGroup.Checkbox aria-label="Checkbox for following text input"/>
+            <InputGroup.Checkbox></InputGroup.Checkbox>
           </InputGroup.Prepend>
           {/* <FormControl aria-label="Text input with checkbox" /> */}
         </InputGroup>
         <InputGroup>
           <InputGroup.Prepend>
             <InputGroup.Radio aria-label="Radio button for following text input" />
-            <InputGroup.Radio>Raddioooo</InputGroup.Radio>
+            <InputGroup.Radio></InputGroup.Radio>
           </InputGroup.Prepend>
           {/* <FormControl aria-label="Text input with radio button" /> */}
         </InputGroup>
