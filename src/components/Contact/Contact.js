@@ -62,9 +62,7 @@ function Contact() {
             <textarea name="message" />
             <br></br>            
 
-            <input type="submit" value="Send"></input>
-      </form>
-      <OverlayTrigger trigger='click' placement='right'
+        <OverlayTrigger trigger='click' placement='right'
               overlay={
                 <Popover>
                   {/* <Popover.Title as="h3">Contact form submitted!</Popover.Title> */}
@@ -73,10 +71,12 @@ function Contact() {
 
                   </Popover.Content>
             </Popover>}>
+            <input type="submit" value="Send"></input>
             </OverlayTrigger>
 
           
 
+            </form>
 
 
 
