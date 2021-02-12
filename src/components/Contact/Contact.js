@@ -62,12 +62,12 @@ function Contact() {
           <textarea name="message" />
           <br></br>
 
-          <OverlayTrigger trigger='hover' placement='right'
+          <OverlayTrigger trigger='click' placement='right'
                   overlay={
                     <Popover>
                       <Popover.Title as="h3">Contact form submitted!</Popover.Title>
                       <Popover.Content>
-                      <p>Thank you for your order! I will reply back to you soon!</p>
+                      Thank you for your order! I will reply back to you soon!
 
                       </Popover.Content>
                     </Popover>}>
