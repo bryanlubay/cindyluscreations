@@ -46,8 +46,8 @@ function Contact() {
     
         </Form> */}
 
-        {/* <form className="contact-form" onSubmit={sendEmail}> */}
-        <form className="contact-form">
+        <form className="contact-form" onSubmit={sendEmail}>
+        {/* <form className="contact-form"> */}
             <input type="hidden" name="contact_number" />
             <label>Name</label>
             <br></br>
