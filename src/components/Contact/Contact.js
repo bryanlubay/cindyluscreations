@@ -1,7 +1,8 @@
 import React, {useState, useEffect, Component} from 'react';
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
-import emailjs from 'emailjs-com';
+import emailjs, { init } from 'emailjs-com';
+init("user_MtgUQNqrhATMY50aphkcR");
 
 function sendEmail(e) {
   e.preventDefault();
@@ -45,11 +46,17 @@ function Contact() {
         <form className="contact-form" onSubmit={sendEmail}>
           <input type="hidden" name="contact_number" />
           <label>Name</label>
+          <br></br>
           <input type="text" name="user_name" />
+          <br></br>
           <label>Email</label>
+          <br></br>
           <input type="email" name="user_email" />
+          <br></br>
           <label>Message</label>
+          <br></br>
           <textarea name="message" />
+          <br></br>
           <input type="submit" value="Send" />
         </form>
     </div>
