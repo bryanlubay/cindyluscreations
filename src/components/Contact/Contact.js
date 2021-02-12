@@ -47,32 +47,33 @@ function Contact() {
         </Form> */}
 
         {/* <form className="contact-form" onSubmit={sendEmail}> */}
+        <form className="contact-form">
+            <input type="hidden" name="contact_number" />
+            <label>Name</label>
+            <br></br>
+            <input type="text" name="user_name" />
+            <br></br>
+            <label>Email</label>
+            <br></br>
+            <input type="email" name="user_email" />
+            <br></br>
+            <label>Message</label>
+            <br></br>
+            <textarea name="message" />
+            <br></br>            
             <OverlayTrigger trigger='click' placement='right'
               overlay={
                 <Popover>
-                  <Popover.Title as="h3">Contact form submitted!</Popover.Title>
+                  {/* <Popover.Title as="h3">Contact form submitted!</Popover.Title> */}
                   <Popover.Content>
                   Thank you for your order! I will reply back to you soon!
 
                   </Popover.Content>
-                </Popover>}>
-                <form className="contact-form">
-                  <input type="hidden" name="contact_number" />
-                  <label>Name</label>
-                  <br></br>
-                  <input type="text" name="user_name" />
-                  <br></br>
-                  <label>Email</label>
-                  <br></br>
-                  <input type="email" name="user_email" />
-                  <br></br>
-                  <label>Message</label>
-                  <br></br>
-                  <textarea name="message" />
-                  <br></br>
-                  <input type="submit" value="Send"></input>
-                </form>
-            </OverlayTrigger>
+            </Popover>}>
+
+            <input type="submit" value="Send"></input>
+      </OverlayTrigger>
+      </form>
 
           
 
