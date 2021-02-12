@@ -72,7 +72,6 @@ function Contact() {
 
                       </Popover.Content>
                     </Popover>}>
-                  <NavDropdown.Item className="nav-font" href="/cups/animals">Animals</NavDropdown.Item>
                 </OverlayTrigger>
 
 
