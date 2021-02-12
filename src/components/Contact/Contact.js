@@ -2,6 +2,9 @@ import React, {useState, useEffect, Component} from 'react';
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 import emailjs, { init } from 'emailjs-com';
+import Overlay from 'react-bootstrap/Overlay'
+import { OverlayTrigger } from 'react-bootstrap';
+import { Popover } from 'bootstrap';
 init("user_MtgUQNqrhATMY50aphkcR");
 
 function sendEmail(e) {
@@ -43,7 +46,8 @@ function Contact() {
     
         </Form> */}
 
-        <form className="contact-form" onSubmit={sendEmail}>
+        {/* <form className="contact-form" onSubmit={sendEmail}> */}
+        <form className="contact-form">
           <input type="hidden" name="contact_number" />
           <label>Name</label>
           <br></br>
@@ -57,7 +61,16 @@ function Contact() {
           <br></br>
           <textarea name="message" />
           <br></br>
+          <OverlayTrigger trigger="click" placement="right" >
           <input type="submit" value="Send" />
+          <Popover>
+            <Popover.Title as="h3">Contact form submitted!</Popover.Title>
+          <Popover.Content>
+            <p>Thank you for your order! I will reply back to you soon!</p>
+          </Popover.Content>
+          </Popover>
+
+        </OverlayTrigger>
         </form>
     </div>
   )
