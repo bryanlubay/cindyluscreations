@@ -67,11 +67,11 @@ function Contact() {
                     <Popover>
                       <Popover.Title as="h3">Contact form submitted!</Popover.Title>
                       <Popover.Content>
-                      <input type="submit" value="Send" />
                       <p>Thank you for your order! I will reply back to you soon!</p>
 
                       </Popover.Content>
                     </Popover>}>
+                    <input type="submit" value="Send" />
                 </OverlayTrigger>
 
 
