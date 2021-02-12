@@ -46,21 +46,7 @@ function Contact() {
     
         </Form> */}
 
-        <form className="contact-form" onSubmit={sendEmail}>
-        {/* <form className="contact-form"> */}
-          <input type="hidden" name="contact_number" />
-          <label>Name</label>
-          <br></br>
-          <input type="text" name="user_name" />
-          <br></br>
-          <label>Email</label>
-          <br></br>
-          <input type="email" name="user_email" />
-          <br></br>
-          <label>Message</label>
-          <br></br>
-          <textarea name="message" />
-          <br></br>
+        {/* <form className="contact-form" onSubmit={sendEmail}> */}
             <OverlayTrigger trigger='click' placement='right'
               overlay={
                 <Popover>
@@ -70,13 +56,27 @@ function Contact() {
 
                   </Popover.Content>
                 </Popover>}>
-                <input type="submit" value="Send"></input>
+                <form className="contact-form">
+                  <input type="hidden" name="contact_number" />
+                  <label>Name</label>
+                  <br></br>
+                  <input type="text" name="user_name" />
+                  <br></br>
+                  <label>Email</label>
+                  <br></br>
+                  <input type="email" name="user_email" />
+                  <br></br>
+                  <label>Message</label>
+                  <br></br>
+                  <textarea name="message" />
+                  <br></br>
+                  <input type="submit" value="Send"></input>
+                </form>
             </OverlayTrigger>
 
           
 
 
-        </form>
 
 
 
