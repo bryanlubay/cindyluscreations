@@ -18,6 +18,7 @@ function sendEmail(e) {
         console.log(error.text);
     });
     document.getElementById("contact-submit").hidden = true;
+    document.getElementById("contact-message").hidden = false;
 }
 
 function Contact() {
@@ -75,7 +76,7 @@ function Contact() {
             </Popover>}>
             </OverlayTrigger> */}
             <input id="contact-submit" type="submit" value="Send"></input>
-            <p>Your message has been sent!</p>
+            <p id="contact-message" hidden="true">Your message has been sent!</p>
 
           
 
