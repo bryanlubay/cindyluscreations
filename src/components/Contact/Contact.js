@@ -5,6 +5,7 @@ import emailjs, { init } from 'emailjs-com';
 import Overlay from 'react-bootstrap/Overlay'
 import { OverlayTrigger } from 'react-bootstrap';
 import { Popover } from 'bootstrap';
+import Toast from 'react-bootstrap/Toast'
 init("user_MtgUQNqrhATMY50aphkcR");
 
 function sendEmail(e) {
@@ -74,7 +75,7 @@ function Contact() {
             </Popover>}>
             </OverlayTrigger> */}
             <input id="contact-submit" type="submit" value="Send"></input>
-          
+            <p>Your message has been sent!</p>
 
           
 
