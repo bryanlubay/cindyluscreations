@@ -16,6 +16,7 @@ function sendEmail(e) {
     }, (error) => {
         console.log(error.text);
     });
+    document.getElementById("contact-submit").hidden = true;
 }
 
 function Contact() {
@@ -72,7 +73,8 @@ function Contact() {
                   </Popover.Content>
             </Popover>}>
             </OverlayTrigger> */}
-            <input type="submit" value="Send"></input>
+            <input id="contact-submit" type="submit" value="Send"></input>
+          
 
           
 
