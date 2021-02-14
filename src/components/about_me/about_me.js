@@ -11,11 +11,11 @@ function about_me() {
         <br></br>
         <p></p>
 
-        <InputGroup>
-          <InputGroup.Prepend>
+        <InputGroup className="radio">
+          <InputGroup.Prepend className="radio">
             {/* <InputGroup.Checkbox></InputGroup.Checkbox> */}
-            <InputGroup.Radio></InputGroup.Radio>
-            <InputGroup.Text>Backpack</InputGroup.Text>
+            <InputGroup.Radio className="radio"></InputGroup.Radio>
+            <InputGroup.Text className="radio">Backpack</InputGroup.Text>
           </InputGroup.Prepend>
         </InputGroup>
 
