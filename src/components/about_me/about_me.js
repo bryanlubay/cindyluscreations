@@ -13,7 +13,7 @@ function about_me() {
 
         <InputGroup>
           <InputGroup.Prepend className="radio">
-            <InputGroup.Checkbox className="radio"></InputGroup.Checkbox>
+            {/* <InputGroup.Checkbox className="radio"></InputGroup.Checkbox> */}
             <InputGroup.Text className="radio">
               <InputGroup.Checkbox className="radio"></InputGroup.Checkbox>Text4
             </InputGroup.Text>
