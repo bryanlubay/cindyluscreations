@@ -19,14 +19,21 @@ function about_me() {
           </InputGroup.Prepend>
         </InputGroup>
 
-        {/* <InputGroup>
+        <InputGroup className="radio">
           <InputGroup.Prepend className="radio">
+            {/* <InputGroup.Checkbox></InputGroup.Checkbox> */}
             <InputGroup.Radio className="radio"></InputGroup.Radio>
-            <InputGroup.Text className="radio">Text2</InputGroup.Text>
-            <InputGroup.Radio className="radio"><InputGroup.Checkbox className="radio"></InputGroup.Checkbox>Text4</InputGroup.Radio>
+            <InputGroup.Text className="radio">Cup</InputGroup.Text>
           </InputGroup.Prepend>
-          <FormControl aria-label="Text input with radio button" />
-        </InputGroup> */}
+        </InputGroup>
+
+        <InputGroup className="radio">
+          <InputGroup.Prepend className="radio">
+            {/* <InputGroup.Checkbox></InputGroup.Checkbox> */}
+            <InputGroup.Radio className="radio"></InputGroup.Radio>
+            <InputGroup.Text className="radio">Hats</InputGroup.Text>
+          </InputGroup.Prepend>
+        </InputGroup>
 
     </div>
   )
