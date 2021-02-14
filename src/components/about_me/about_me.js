@@ -14,9 +14,8 @@ function about_me() {
         <InputGroup className="radio">
           <InputGroup.Prepend className="radio">
             {/* <InputGroup.Checkbox className="radio"></InputGroup.Checkbox> */}
-            <InputGroup.Text className="radio">
-              <InputGroup.Checkbox className="radio"></InputGroup.Checkbox>Text4
-            </InputGroup.Text>
+            <InputGroup.Radio className="radio"></InputGroup.Radio>
+            <InputGroup.Text className="radio">Backpack</InputGroup.Text>
           </InputGroup.Prepend>
         </InputGroup>
 
