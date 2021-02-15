@@ -12,19 +12,19 @@ function about_me() {
         <p></p>
 
         <InputGroup className="radio">
-          <InputGroup.Prepend>
+          <InputGroup.Prepend className="radio">
             {/* <InputGroup.Checkbox></InputGroup.Checkbox> */}
             <InputGroup.Radio></InputGroup.Radio>
             <InputGroup.Text>Backpack</InputGroup.Text>
           </InputGroup.Prepend>
 
-          <InputGroup.Prepend>
+          <InputGroup.Prepend className="radio">
             {/* <InputGroup.Checkbox></InputGroup.Checkbox> */}
             <InputGroup.Radio></InputGroup.Radio>
             <InputGroup.Text>Cup</InputGroup.Text>
           </InputGroup.Prepend>
 
-          <InputGroup.Prepend>
+          <InputGroup.Prepend className="radio">
             {/* <InputGroup.Checkbox></InputGroup.Checkbox> */}
             <InputGroup.Radio></InputGroup.Radio>
             <InputGroup.Text>Hats</InputGroup.Text>
