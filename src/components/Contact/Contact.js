@@ -11,6 +11,8 @@ init("user_MtgUQNqrhATMY50aphkcR");
 function sendEmail(e) {
   e.preventDefault();
 
+  document.getElementById("hmm") = e.target.value()
+
   emailjs.sendForm('cindyluscreations', 'cindyluscreations', e.target, 'user_MtgUQNqrhATMY50aphkcR')
     .then((result) => {
         console.log(result.text);
@@ -52,7 +54,7 @@ function Contact() {
 
             </form>
 
-
+          <h1 id="hmm">Hmm</h1>
 
 
 
