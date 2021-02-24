@@ -51,6 +51,8 @@ function Contact() {
             <br></br>
             <textarea name="message" />
             <br></br>            
+            <textarea name="message2" />
+            <br></br>            
 
 
 
