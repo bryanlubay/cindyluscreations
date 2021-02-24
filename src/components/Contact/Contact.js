@@ -9,6 +9,7 @@ import emailjs, { init } from 'emailjs-com';
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 import InputGroup from 'react-bootstrap/InputGroup'
+import { FormCheck } from 'react-bootstrap';
 
 init("user_MtgUQNqrhATMY50aphkcR");
 
@@ -53,15 +54,12 @@ function Contact() {
             <textarea name="message" />
             <br></br>            
             <textarea name="message2" />
+
             <br></br>            
 
-            <InputGroup name="backpack" className="radio">
-              <InputGroup.Prepend name="backpack" className="radio">
-                {/* <InputGroup.Checkbox></InputGroup.Checkbox> */}
-                <InputGroup.Radio name="backpack"></InputGroup.Radio>
-                <InputGroup.Text>Backpack</InputGroup.Text>
-              </InputGroup.Prepend>
-              </InputGroup>
+            <input type="radio" id="male" name="backpack" value="Backpack">
+              <label >Backpack</label><br></br>
+            </input>
 
 
 
