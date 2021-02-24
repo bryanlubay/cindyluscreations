@@ -54,10 +54,11 @@ function Contact() {
             <br></br>            
             <textarea name="message2" />
             <br></br>            
+
             <InputGroup name="backpack" className="radio">
-              <InputGroup.Prepend className="radio">
+              <InputGroup.Prepend name="backpack" className="radio">
                 {/* <InputGroup.Checkbox></InputGroup.Checkbox> */}
-                <InputGroup.Radio></InputGroup.Radio>
+                <InputGroup.Radio name="backpack"></InputGroup.Radio>
                 <InputGroup.Text>Backpack</InputGroup.Text>
               </InputGroup.Prepend>
               </InputGroup>
@@ -73,7 +74,7 @@ function Contact() {
 
             </form>
 
-          <h1 id="hmm">Hmm</h1>
+          <h1 id="hmm">Hmm2</h1>
 
           <Form inline onSubmit={sendEmail}>
             <Form.Label >
