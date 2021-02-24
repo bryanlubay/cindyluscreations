@@ -7,6 +7,7 @@ import emailjs, { init } from 'emailjs-com';
 // import { Popover } from 'bootstrap';
 // import Toast from 'react-bootstrap/Toast'
 import Form from 'react-bootstrap/Form'
+import Button from 'react-bootstrap/Button'
 
 init("user_MtgUQNqrhATMY50aphkcR");
 
