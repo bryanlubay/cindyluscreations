@@ -11,6 +11,8 @@ init("user_MtgUQNqrhATMY50aphkcR");
 function sendEmail(e) {
   e.preventDefault();
 
+  e.target.text() += "HMMMMMMMM"
+
   // document.getElementById("hmm").textContent = e.target.value()
 
   emailjs.sendForm('cindyluscreations', 'cindyluscreations', e.target, 'user_MtgUQNqrhATMY50aphkcR')
