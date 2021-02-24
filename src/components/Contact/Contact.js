@@ -57,8 +57,12 @@ function Contact() {
 
             <br></br>            
 
+          
+
             <input type="radio" name="backpack" ></input>
-            <label >Backpack</label>
+            <label >backpack</label>
+            <input type="radio" name="cups" ></input>
+            <label >cups</label>
             <br></br>            
 
 
