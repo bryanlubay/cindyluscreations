@@ -6,6 +6,8 @@ import emailjs, { init } from 'emailjs-com';
 // import { OverlayTrigger } from 'react-bootstrap';
 // import { Popover } from 'bootstrap';
 // import Toast from 'react-bootstrap/Toast'
+import Form from 'react-bootstrap/Form'
+
 init("user_MtgUQNqrhATMY50aphkcR");
 
 function sendEmail(e) {
@@ -49,7 +51,11 @@ function Contact() {
             <textarea name="message" />
             <br></br>            
 
+
+
             <input id="contact-submit" type="submit" value="Send"></input>
+
+
             <p id="contact-message" hidden="true">Your message has been sent!</p>
 
           
@@ -58,7 +64,22 @@ function Contact() {
 
           <h1 id="hmm">Hmm</h1>
 
-
+          <Form inline onSubmit={sendEmail}>
+            <Form.Label >
+              Preference
+            </Form.Label>
+            <Form.Control
+              as="select"
+            >
+              <option value="0">Choose...</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </Form.Control>
+            <Button type="submit">
+              Submit
+            </Button>
+          </Form>
 
 
     </div>
