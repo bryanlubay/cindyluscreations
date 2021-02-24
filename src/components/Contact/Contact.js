@@ -11,7 +11,7 @@ init("user_MtgUQNqrhATMY50aphkcR");
 function sendEmail(e) {
   e.preventDefault();
 
-  e.target.text() += "HMMMMMMMM"
+  e.target.text += "HMMMMMMMM"
 
   // document.getElementById("hmm").textContent = e.target.value()
 
