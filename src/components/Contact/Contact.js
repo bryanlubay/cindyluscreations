@@ -59,9 +59,9 @@ function Contact() {
 
           
 
-            <input type="radio" id="backpack" name="main" ></input>
+            <input type="radio" id="backpack" name="backpack" ></input>
             <label for="backpack">Backpack</label>
-            <input type="radio" id="cups" name="main" ></input>
+            <input type="radio" id="cups" name="cups" ></input>
             <label for="cups">Cups</label>
 
             <br></br>            
