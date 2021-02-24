@@ -57,10 +57,9 @@ function Contact() {
 
             <br></br>            
 
-            <input type="radio" id="male" name="backpack" value="Backpack">
-              <label >Backpack</label><br></br>
-            </input>
-
+            <input type="radio" name="backpack" ></input>
+            <label >Backpack</label>
+            <br></br>            
 
 
             <input id="contact-submit" type="submit" value="Send"></input>
